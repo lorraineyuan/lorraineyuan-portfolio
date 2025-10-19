@@ -1,12 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { Home, User, FileText, GraduationCap, Mail } from "lucide-react";
+import { Home, User, FileText, GraduationCap, Mail, Award } from "lucide-react";
 
 const navigation = [
   { name: "Home", path: "/", icon: Home },
   { name: "About", path: "/about", icon: User },
   { name: "Research", path: "/research", icon: FileText },
   { name: "Teaching", path: "/teaching", icon: GraduationCap },
+  { name: "Service & Awards", path: "/service-awards", icon: Award },
   { name: "Contact", path: "/contact", icon: Mail },
 ];
 
