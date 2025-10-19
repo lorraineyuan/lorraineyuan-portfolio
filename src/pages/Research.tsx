@@ -28,19 +28,10 @@ export default function Research() {
                 <h2 className="text-xl font-bold mb-2">
                   Privacy-preserving Data-driven Inventory Management
                 </h2>
-                <a 
-                  href="https://ssrn.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-muted-foreground hover:text-sidebar-accent transition-colors text-sm mb-3"
-                >
-                  <ExternalLink className="w-3 h-3" />
-                  <span>SSRN</span>
-                </a>
                 <p className="text-muted-foreground mb-3 text-sm">
                   with Elena Belavina
                 </p>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 mb-2">
                   <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-xs font-medium">
                     Major Revision at Management Science
                   </span>
@@ -51,6 +42,15 @@ export default function Research() {
                     Accepted to NYC Privacy Day at Google
                   </span>
                 </div>
+                <a 
+                  href="https://ssrn.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-muted-foreground hover:text-sidebar-accent transition-colors text-sm"
+                >
+                  <ExternalLink className="w-3 h-3" />
+                  <span>SSRN</span>
+                </a>
               </div>
             </div>
             
