@@ -20,20 +20,20 @@ export default function Research() {
                 className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
               />
               <div className="flex-1">
-                <h2 className="text-2xl font-bold mb-3">
+                <h2 className="text-xl font-bold mb-2">
                   Privacy-preserving Data-driven Inventory Management
                 </h2>
-                <p className="text-muted-foreground mb-4">
+                <p className="text-muted-foreground mb-3 text-sm">
                   with Elena Belavina
                 </p>
                 <div className="flex flex-wrap gap-2">
-                  <span className="inline-block bg-primary text-primary-foreground px-4 py-1.5 rounded text-sm font-medium">
+                  <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-xs font-medium">
                     Major Revision at Management Science
                   </span>
-                  <span className="inline-block bg-background border-2 border-primary text-foreground px-4 py-1.5 rounded text-sm font-medium">
+                  <span className="inline-block bg-background border-2 border-primary text-foreground px-3 py-1 rounded text-xs font-medium">
                     Job Market Paper
                   </span>
-                  <span className="inline-block bg-background border border-border text-foreground px-4 py-1.5 rounded text-sm">
+                  <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
                     Accepted to NYC Privacy Day at Google
                   </span>
                 </div>
@@ -69,14 +69,14 @@ export default function Research() {
                   className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
-                  <h2 className="text-2xl font-bold mb-3">
+                  <h2 className="text-xl font-bold mb-2">
                     Mechanism Design for Generative AI Copilot in a Sequential Production Process
                   </h2>
-                  <p className="text-muted-foreground mb-4">
+                  <p className="text-muted-foreground mb-3 text-sm">
                     with Karan Girotra and Elena Belavina
                   </p>
                   <div>
-                    <span className="inline-block bg-background border border-border text-foreground px-4 py-1.5 rounded text-sm">
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
                       Working Paper
                     </span>
                   </div>
@@ -97,14 +97,14 @@ export default function Research() {
                   className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
-                  <h2 className="text-2xl font-bold mb-3">
+                  <h2 className="text-xl font-bold mb-2">
                     Data-driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
                   </h2>
-                  <p className="text-muted-foreground mb-4">
+                  <p className="text-muted-foreground mb-3 text-sm">
                     with Xiaoyue Yan, Karan Girotra and Elena Belavina
                   </p>
                   <div>
-                    <span className="inline-block bg-background border border-border text-foreground px-4 py-1.5 rounded text-sm">
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
                       Working Paper
                     </span>
                   </div>
@@ -125,14 +125,14 @@ export default function Research() {
                   className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
-                  <h2 className="text-2xl font-bold mb-3">
+                  <h2 className="text-xl font-bold mb-2">
                     Privacy-preserving Collaborative Learning
                   </h2>
-                  <p className="text-muted-foreground mb-4">
+                  <p className="text-muted-foreground mb-3 text-sm">
                     with Karan Girotra and Elena Belavina
                   </p>
                   <div>
-                    <span className="inline-block bg-background border border-border text-foreground px-4 py-1.5 rounded text-sm">
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
                       Work In Progress
                     </span>
                   </div>
