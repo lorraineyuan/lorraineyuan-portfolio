@@ -10,7 +10,7 @@ export default function Research() {
       <div className="max-w-6xl mx-auto">
         {/* Publications Section */}
         <section className="mb-20">
-          <h1 className="text-4xl font-bold mb-12">Publications</h1>
+          <h1 className="text-4xl font-bold mb-12">Papers Under-Review</h1>
 
           <div>
             <div className="flex gap-8 items-start mb-4">
