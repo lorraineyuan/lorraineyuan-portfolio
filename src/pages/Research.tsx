@@ -16,7 +16,7 @@ export default function Research() {
             <img 
               src={paper1} 
               alt="Privacy-preserving Data-driven Inventory Management" 
-              className="w-72 h-56 object-cover rounded-lg shadow-md flex-shrink-0"
+              className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
             />
             <div className="flex-1">
               <h2 className="text-2xl font-bold mb-3">
@@ -63,7 +63,7 @@ export default function Research() {
               <img 
                 src={paper2} 
                 alt="Mechanism Design for Generative AI Copilot" 
-                className="w-72 h-56 object-cover rounded-lg shadow-md flex-shrink-0"
+                className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
               />
               <div className="flex-1">
                 <h2 className="text-2xl font-bold mb-3">
@@ -89,7 +89,7 @@ export default function Research() {
               <img 
                 src={paper3} 
                 alt="Data-driven Decisions in Supply Chains" 
-                className="w-72 h-56 object-cover rounded-lg shadow-md flex-shrink-0"
+                className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
               />
               <div className="flex-1">
                 <h2 className="text-2xl font-bold mb-3">
@@ -115,7 +115,7 @@ export default function Research() {
               <img 
                 src={paper4} 
                 alt="Privacy-preserving Collaborative Learning" 
-                className="w-72 h-56 object-cover rounded-lg shadow-md flex-shrink-0"
+                className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
               />
               <div className="flex-1">
                 <h2 className="text-2xl font-bold mb-3">
