@@ -41,15 +41,13 @@ export default function ServiceAwards() {
           <div className="space-y-4">
             <div className="flex justify-between items-start">
               <div>
-                <h3 className="font-bold">Byron E. Grote Johnson Professional Scholarship</h3>
-                <p className="text-muted-foreground">Cornell University</p>
+                <h3 className="font-bold">Byron E. Grote Johnson Professional Scholarship, Cornell University</h3>
               </div>
               <span className="text-muted-foreground">2021, 2024</span>
             </div>
             <div className="flex justify-between items-start">
               <div>
-                <h3 className="font-bold">Digital Life Initiative Doctoral Fellowship</h3>
-                <p className="text-muted-foreground">Cornell University</p>
+                <h3 className="font-bold">Digital Life Initiative Doctoral Fellowship, Cornell University</h3>
               </div>
               <span className="text-muted-foreground">2024</span>
             </div>
@@ -61,22 +59,19 @@ export default function ServiceAwards() {
             </div>
             <div className="flex justify-between items-start">
               <div>
-                <h3 className="font-bold">Noel Croucher Graduate Fellowship</h3>
-                <p className="text-muted-foreground">Cornell University ($20,000)</p>
+                <h3 className="font-bold">Noel Croucher Graduate Fellowship ($20000), Cornell University</h3>
               </div>
               <span className="text-muted-foreground">2019</span>
             </div>
             <div className="flex justify-between items-start">
               <div>
-                <h3 className="font-bold">Lester B. Knight Scholarship</h3>
-                <p className="text-muted-foreground">Cornell University ($40,000)</p>
+                <h3 className="font-bold">Lester B. Knight Scholarship ($40000), Cornell University</h3>
               </div>
               <span className="text-muted-foreground">2019</span>
             </div>
             <div className="flex justify-between items-start">
               <div>
-                <h3 className="font-bold">First Class Study Scholarship</h3>
-                <p className="text-muted-foreground">Renmin University of China</p>
+                <h3 className="font-bold">First Class Study Scholarship, Renmin University of China</h3>
               </div>
               <span className="text-muted-foreground">2018</span>
             </div>
