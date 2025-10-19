@@ -1,12 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
+import { Home, User, FileText, GraduationCap, Mail } from "lucide-react";
 
 const navigation = [
-  { name: "Home", path: "/" },
-  { name: "About", path: "/about" },
-  { name: "Research", path: "/research" },
-  { name: "Teaching", path: "/teaching" },
-  { name: "Contact", path: "/contact" },
+  { name: "Home", path: "/", icon: Home },
+  { name: "About", path: "/about", icon: User },
+  { name: "Research", path: "/research", icon: FileText },
+  { name: "Teaching", path: "/teaching", icon: GraduationCap },
+  { name: "Contact", path: "/contact", icon: Mail },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -24,18 +25,20 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <nav className="flex flex-col gap-2">
           {navigation.map((item) => {
             const isActive = location.pathname === item.path;
+            const Icon = item.icon;
             return (
               <Link
                 key={item.path}
                 to={item.path}
                 className={cn(
-                  "text-lg py-2 transition-colors relative",
+                  "flex items-center gap-3 text-base py-2 transition-colors relative",
                   isActive 
                     ? "text-sidebar-text" 
                     : "text-sidebar-text/60 hover:text-sidebar-text"
                 )}
               >
-                {item.name}
+                <Icon className="w-5 h-5" />
+                <span>{item.name}</span>
                 {isActive && (
                   <span className="absolute left-0 bottom-0 w-12 h-0.5 bg-sidebar-accent" />
                 )}
