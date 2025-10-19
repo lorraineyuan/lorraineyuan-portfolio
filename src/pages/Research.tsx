@@ -111,9 +111,12 @@ export default function Research() {
                   <p className="text-muted-foreground mb-3 text-sm">
                     with Karan Girotra and Elena Belavina
                   </p>
-                  <div>
+                  <div className="flex flex-wrap gap-2">
                     <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
                       Working Paper
+                    </span>
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                      Draft upon request
                     </span>
                   </div>
                 </div>
@@ -139,9 +142,12 @@ export default function Research() {
                   <p className="text-muted-foreground mb-3 text-sm">
                     with Xiaoyue Yan, Karan Girotra and Elena Belavina
                   </p>
-                  <div>
+                  <div className="flex flex-wrap gap-2">
                     <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
                       Working Paper
+                    </span>
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                      Draft upon request
                     </span>
                   </div>
                 </div>
