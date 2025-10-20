@@ -158,20 +158,19 @@ export default function Index() {
                     <span className="inline-block bg-background border-2 border-primary text-foreground px-3 py-1 rounded text-xs font-medium">
                       Job Market Paper
                     </span>
+                    <a
+                      href="https://ssrn.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs hover:bg-muted transition-colors"
+                    >
+                      SSRN
+                    </a>
                   </div>
                   <ul className="list-disc list-inside text-sm text-foreground mb-2 space-y-1">
                     <li>Accepted to NYC Privacy Day at Google</li>
                     <li>Third Place in YinzOR Conference Flash Talk Competition</li>
                   </ul>
-                  <a
-                    href="https://ssrn.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-muted-foreground hover:text-sidebar-accent transition-colors text-sm"
-                  >
-                    <ExternalLink className="w-3 h-3" />
-                    <span>SSRN</span>
-                  </a>
                 </div>
               </div>
 
