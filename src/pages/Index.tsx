@@ -155,7 +155,7 @@ export default function Index() {
         <div className="max-w-6xl mx-auto">
           {/* Publications Section */}
           <div className="mb-12 md:mb-20">
-            <h1 className="text-3xl sm:text-4xl font-bold mb-8 md:mb-12">Papers Under-Review</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold mb-8 md:mb-12">Job Market Paper</h1>
 
             <div>
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
