@@ -1,19 +1,29 @@
-import { Link, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { Home, User, FileText, GraduationCap, Mail, Award, FileDown } from "lucide-react";
 
 const navigation = [
-  { name: "Home", path: "/", icon: Home },
-  { name: "About", path: "/about", icon: User },
-  { name: "Research", path: "/research", icon: FileText },
-  { name: "Teaching", path: "/teaching", icon: GraduationCap },
-  { name: "Service & Awards", path: "/service-awards", icon: Award },
-  { name: "Contact", path: "/contact", icon: Mail },
+  { name: "Home", hash: "#home", icon: Home },
+  { name: "About", hash: "#about", icon: User },
+  { name: "Research", hash: "#research", icon: FileText },
+  { name: "Teaching", hash: "#teaching", icon: GraduationCap },
+  { name: "Service & Awards", hash: "#service-awards", icon: Award },
+  { name: "Contact", hash: "#contact", icon: Mail },
   { name: "Curriculum Vitae", path: "https://drive.google.com/file/d/1S8dvQgZZpCzePSpl0dXdSP8ks743VuQ5/view?usp=share_link", icon: FileDown, external: true },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   const location = useLocation();
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, hash: string) => {
+    e.preventDefault();
+    const element = document.querySelector(hash);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      // Update URL hash without jumping
+      window.history.pushState(null, '', hash);
+    }
+  };
 
   return (
     <div className="flex min-h-screen">
@@ -26,7 +36,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         
         <nav className="flex flex-col gap-2">
           {navigation.map((item) => {
-            const isActive = location.pathname === item.path;
             const Icon = item.icon;
             
             if (item.external) {
@@ -44,10 +53,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               );
             }
             
+            const isActive = location.hash === item.hash || (item.hash === '#home' && !location.hash);
+            
             return (
-              <Link
-                key={item.path}
-                to={item.path}
+              <a
+                key={item.hash}
+                href={item.hash}
+                onClick={(e) => handleNavClick(e, item.hash!)}
                 className={cn(
                   "flex items-center gap-3 text-base py-2 transition-colors relative",
                   isActive 
@@ -60,7 +72,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 {isActive && (
                   <span className="absolute left-0 bottom-0 w-12 h-0.5 bg-sidebar-accent" />
                 )}
-              </Link>
+              </a>
             );
           })}
         </nav>
