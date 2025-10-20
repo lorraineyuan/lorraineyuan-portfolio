@@ -138,14 +138,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                       hy557@cornell.edu
                     </a>
                   </div>
-                  <div className="flex items-start gap-2">
-                    <MapPin className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
-                    <p className="text-sidebar-text/60">
-                      Cornell Tech<br />
-                      2 West Loop Road<br />
-                      New York, NY 10044
-                    </p>
-                  </div>
                   <div className="flex items-center gap-2">
                     <a 
                       href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell" 
@@ -156,6 +148,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                       <Linkedin className="w-4 h-4 flex-shrink-0" />
                       <span>LinkedIn</span>
                     </a>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <MapPin className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                    <p className="text-sidebar-text/60">
+                      Cornell Tech<br />
+                      2 West Loop Road<br />
+                      New York, NY 10044
+                    </p>
                   </div>
                 </div>
               </div>
@@ -195,14 +195,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   hy557@cornell.edu
                 </a>
               </div>
-              <div className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
-                <p className="text-sidebar-text/60">
-                  Cornell Tech<br />
-                  2 West Loop Road<br />
-                  New York, NY 10044
-                </p>
-              </div>
               <div className="flex items-center gap-2">
                 <a 
                   href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell" 
@@ -213,6 +205,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   <Linkedin className="w-4 h-4 flex-shrink-0" />
                   <span>LinkedIn</span>
                 </a>
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                <p className="text-sidebar-text/60">
+                  Cornell Tech<br />
+                  2 West Loop Road<br />
+                  New York, NY 10044
+                </p>
               </div>
             </div>
           )}
