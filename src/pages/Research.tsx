@@ -1,5 +1,5 @@
 import paper1 from "@/assets/paper1.jpg";
-import paper2 from "@/assets/paper2b.png";
+import paper2 from "@/assets/paper2c.png";
 import paper3 from "@/assets/paper3.jpg";
 import paper4 from "@/assets/paper4.jpg";
 import { ExternalLink, ChevronDown } from "lucide-react";
