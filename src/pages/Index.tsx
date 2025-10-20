@@ -42,7 +42,7 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <p className="text-lg font-semibold text-foreground text-center">I will be on the 2025-2026 job market.</p>
+          <p className="text-lg font-semibold text-foreground text-center">I'm on the 2025-2026 job market.</p>
         </div>
       </section>
 
@@ -106,8 +106,7 @@ export default function Index() {
             </p>
             <p>
               My research interests center on <strong>responsible AI adoption</strong>, with a particular emphasis on{" "}
-              <strong>privacy in data-driven decision making</strong> and the broader impact of
-              <strong>AI adoption at scale</strong>.
+              <strong>privacy in data-driven decision making</strong> and the broader impact of <strong>AI adoption at scale</strong>.
             </p>
             <p>
               I develop privacy-preserving data-driven algorithms and explore their impact for adoption at scale in
