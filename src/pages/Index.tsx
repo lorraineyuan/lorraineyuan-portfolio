@@ -169,7 +169,7 @@ export default function Index() {
                   <h2 className="text-2xl sm:text-3xl font-bold mb-2">
                     Privacy-preserving Data-driven Inventory Management
                   </h2>
-                  <p className="text-muted-foreground mb-3 text-sm">with Elena Belavina</p>
+                  <p className="text-muted-foreground mb-3 text-base">with Elena Belavina</p>
                   <div className="flex flex-wrap gap-2 mb-2">
                     <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium">
                       Major Revision at Management Science
@@ -265,7 +265,7 @@ export default function Index() {
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
                       Mechanism Design for Generative AI Copilot in a Sequential Production Process
                     </h2>
-                    <p className="text-muted-foreground mb-3 text-sm">with Karan Girotra and Elena Belavina</p>
+                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra and Elena Belavina</p>
                     <div className="flex flex-wrap gap-2">
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Working Paper
@@ -294,7 +294,7 @@ export default function Index() {
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
                       Data-driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
                     </h2>
-                    <p className="text-muted-foreground mb-3 text-sm">
+                    <p className="text-muted-foreground mb-3 text-base">
                       with Xiaoyue Yan, Karan Girotra and Elena Belavina
                     </p>
                     <div className="flex flex-wrap gap-2">
@@ -323,7 +323,7 @@ export default function Index() {
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">Privacy-preserving Collaborative Learning</h2>
-                    <p className="text-muted-foreground mb-3 text-sm">with Karan Girotra and Elena Belavina</p>
+                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra and Elena Belavina</p>
                     <div>
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Work In Progress
