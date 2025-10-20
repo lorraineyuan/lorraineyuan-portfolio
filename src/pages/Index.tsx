@@ -174,9 +174,6 @@ export default function Index() {
                       <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium">
                         Major Revision at Management Science
                       </span>
-                      <span className="inline-block bg-background border-2 border-primary text-foreground px-3 py-1 rounded text-sm font-medium">
-                        Job Market Paper
-                      </span>
                       <a
                         href="https://ssrn.com"
                         target="_blank"
@@ -272,7 +269,7 @@ export default function Index() {
                         Working Paper
                       </span>
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Draft upon request
+                        Draft Available Upon Request
                       </span>
                     </div>
                   </div>
@@ -303,7 +300,7 @@ export default function Index() {
                         Working Paper
                       </span>
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Draft upon request
+                        Draft Available Upon Request
                       </span>
                     </div>
                   </div>
