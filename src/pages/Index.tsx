@@ -28,10 +28,10 @@ export default function Index() {
           </div>
           <div className="flex-1 pt-8">
             <h1 className="text-5xl font-bold mb-4">Lorraine Yuan</h1>
-            <h2 className="text-2xl text-muted-foreground mb-6">
+            <h2 className="text-xl text-muted-foreground mb-4">
               PhD Candidate in Operations, Technology, and Information Management
             </h2>
-            <p className="text-xl text-muted-foreground">
+            <p className="text-lg text-muted-foreground">
               SC Johnson College of Business, Cornell Tech
             </p>
           </div>
