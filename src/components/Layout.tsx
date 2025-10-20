@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
 import { Home, User, FileText, GraduationCap, Mail, Award, FileDown, ChevronLeft, ChevronRight } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const navigation = [
   { name: "Home", hash: "#home", icon: Home },
@@ -16,6 +16,30 @@ const navigation = [
 export default function Layout({ children }: { children: React.ReactNode }) {
   const location = useLocation();
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const [activeSection, setActiveSection] = useState('#home');
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ['#home', '#about', '#research', '#teaching', '#service-awards', '#contact'];
+      const scrollPosition = window.scrollY + 100; // offset for better detection
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const section = document.querySelector(sections[i]);
+        if (section) {
+          const sectionTop = (section as HTMLElement).offsetTop;
+          if (scrollPosition >= sectionTop) {
+            setActiveSection(sections[i]);
+            break;
+          }
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Initial check
+    
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, hash: string) => {
     e.preventDefault();
@@ -24,6 +48,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
       // Update URL hash without jumping
       window.history.pushState(null, '', hash);
+      setActiveSection(hash);
     }
   };
 
@@ -69,7 +94,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               );
             }
             
-            const isActive = location.hash === item.hash || (item.hash === '#home' && !location.hash);
+            const isActive = activeSection === item.hash;
             
             return (
               <a
