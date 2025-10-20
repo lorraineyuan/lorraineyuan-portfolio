@@ -171,17 +171,17 @@ export default function Index() {
                   </h2>
                   <p className="text-muted-foreground mb-3 text-sm">with Elena Belavina</p>
                   <div className="flex flex-wrap gap-2 mb-2">
-                    <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-xs font-medium">
+                    <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium">
                       Major Revision at Management Science
                     </span>
-                    <span className="inline-block bg-background border-2 border-primary text-foreground px-3 py-1 rounded text-xs font-medium">
+                    <span className="inline-block bg-background border-2 border-primary text-foreground px-3 py-1 rounded text-sm font-medium">
                       Job Market Paper
                     </span>
                     <a
                       href="https://ssrn.com"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs hover:bg-muted transition-colors"
+                      className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm hover:bg-muted transition-colors"
                     >
                       SSRN
                     </a>
@@ -267,10 +267,10 @@ export default function Index() {
                     </h2>
                     <p className="text-muted-foreground mb-3 text-sm">with Karan Girotra and Elena Belavina</p>
                     <div className="flex flex-wrap gap-2">
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Working Paper
                       </span>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Draft upon request
                       </span>
                     </div>
@@ -298,10 +298,10 @@ export default function Index() {
                       with Xiaoyue Yan, Karan Girotra and Elena Belavina
                     </p>
                     <div className="flex flex-wrap gap-2">
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Working Paper
                       </span>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Draft upon request
                       </span>
                     </div>
@@ -325,7 +325,7 @@ export default function Index() {
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">Privacy-preserving Collaborative Learning</h2>
                     <p className="text-muted-foreground mb-3 text-sm">with Karan Girotra and Elena Belavina</p>
                     <div>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Work In Progress
                       </span>
                     </div>
