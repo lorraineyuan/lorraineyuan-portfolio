@@ -180,7 +180,8 @@ export default function Index() {
                         href="https://ssrn.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-accent text-accent-foreground px-3 py-1 rounded text-sm hover:bg-accent/80 transition-colors font-medium"
+                        className="inline-block px-3 py-1 rounded text-sm font-medium text-white transition-transform hover:scale-105"
+                        style={{ background: 'var(--gradient-rainbow)' }}
                       >
                         SSRN
                       </a>

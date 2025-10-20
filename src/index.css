@@ -46,6 +46,9 @@ All colors MUST be HSL.
     /* Decorative elements */
     --circle-gray-1: 0 0% 85%;
     --circle-gray-2: 0 0% 75%;
+
+    /* Rainbow gradient */
+    --gradient-rainbow: linear-gradient(135deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
   }
 }
 
