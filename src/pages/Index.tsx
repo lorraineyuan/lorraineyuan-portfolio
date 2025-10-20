@@ -210,7 +210,8 @@ export default function Index() {
               </div>
 
               <p className="text-foreground leading-relaxed mb-4">
-                Examines how different ways of using data to make decisions lead to fundamentally different outcomes for difficulty for privacy protection, firm's profit, and customer welfare.
+                Examines how different ways of using data to make decisions lead to fundamentally different outcomes in
+                difficulty for privacy protection, firm's profit, and customer welfare.
               </p>
 
               <div className="space-y-3">
@@ -221,7 +222,31 @@ export default function Index() {
                   </CollapsibleTrigger>
                   <CollapsibleContent className="pt-2">
                     <p className="text-foreground leading-relaxed">
-                      Firms today have access to increasing amounts of customer data that can facilitate better demand prediction and inventory management. However, security researchers have long demonstrated that attackers can exploit these decision pipelines to recover sensitive data by combining data-driven decisions with background information—a fear realized in recent attacks and one that is a deterrent to broader adoption of data-driven decision-making. This study develops and compares privacy-preserving approaches for data-driven inventory management that are robust to such attacks. We propose differential privacy-based adaptations of two leading data-driven inventory management methods—the traditional two-step estimate-then-optimize, and a more contemporary one-step joint estimate-optimize paradigm—and establish theoretical guarantees on their performance. Our analysis characterizes a firm's tradeoff between privacy protection and profitability and compares the three algorithms in terms of the difficulty of privacy preservation, profit losses from privacy, optimal privacy protection levels, and the ensuing customer surplus. Our analysis shows that the one-step paradigm dominates the two-step paradigm by enabling lower-cost privatization of customer data through more targeted noise injection, achieving lower privacy exposure risk, higher profitability, and greater customer surplus. This finding reshapes our understanding of privacy protection—the costs and benefits of privacy preservation are not only driven by the privacy algorithms used but are also fundamentally shaped by the underlying data-driven decision-making paradigm. We also show that a firm that uses our methods and chooses an optimal privacy level will, in fact, increase its demand, profit, and customer surplus (under most conditions)—challenging the notion that privacy protection comes necessarily at a cost. Our numerical analysis reveals that one-step algorithms offer 3 to 6 times stronger privacy protection and around 30% higher profits than the two-step counterpart. Even with high customer preference for privacy, one-step algorithms can boost profits by as much as 40% while maintaining strong privacy protection—an achievement unattainable with the two-step algorithm.
+                      Firms today have access to increasing amounts of customer data that can facilitate better demand
+                      prediction and inventory management. However, security researchers have long demonstrated that
+                      attackers can exploit these decision pipelines to recover sensitive data by combining data-driven
+                      decisions with background information—a fear realized in recent attacks and one that is a
+                      deterrent to broader adoption of data-driven decision-making. This study develops and compares
+                      privacy-preserving approaches for data-driven inventory management that are robust to such
+                      attacks. We propose differential privacy-based adaptations of two leading data-driven inventory
+                      management methods—the traditional two-step estimate-then-optimize, and a more contemporary
+                      one-step joint estimate-optimize paradigm—and establish theoretical guarantees on their
+                      performance. Our analysis characterizes a firm's tradeoff between privacy protection and
+                      profitability and compares the three algorithms in terms of the difficulty of privacy
+                      preservation, profit losses from privacy, optimal privacy protection levels, and the ensuing
+                      customer surplus. Our analysis shows that the one-step paradigm dominates the two-step paradigm by
+                      enabling lower-cost privatization of customer data through more targeted noise injection,
+                      achieving lower privacy exposure risk, higher profitability, and greater customer surplus. This
+                      finding reshapes our understanding of privacy protection—the costs and benefits of privacy
+                      preservation are not only driven by the privacy algorithms used but are also fundamentally shaped
+                      by the underlying data-driven decision-making paradigm. We also show that a firm that uses our
+                      methods and chooses an optimal privacy level will, in fact, increase its demand, profit, and
+                      customer surplus (under most conditions)—challenging the notion that privacy protection comes
+                      necessarily at a cost. Our numerical analysis reveals that one-step algorithms offer 3 to 6 times
+                      stronger privacy protection and around 30% higher profits than the two-step counterpart. Even with
+                      high customer preference for privacy, one-step algorithms can boost profits by as much as 40%
+                      while maintaining strong privacy protection—an achievement unattainable with the two-step
+                      algorithm.
                     </p>
                   </CollapsibleContent>
                 </Collapsible>
