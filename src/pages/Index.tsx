@@ -120,20 +120,6 @@ export default function Index() {
           </div>
 
           <div className="mb-12 md:mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Recent News</h2>
-            <div className="space-y-4 text-base sm:text-lg text-foreground">
-              <p>
-                I will present my job market paper "Privacy-preserving Data-driven Inventory Management" at INFORMS Annual Meeting, Atlanta, GA.
-              </p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>INFORMS Workshop on Data Science — October 25, 1:00 PM - 2:00 PM, Bldg B Lvl 3 B305</li>
-                <li>INFORMS Annual Meeting Job Market Showcase Cluster — October 26, 11:00 AM - 12:15 PM, Bldg A Lvl 3 A311</li>
-                <li>INFORMS Annual Meeting MSOM Service Operations Cluster— October 26, 2:45 PM - 4:00 PM, Bldg B Lvl 3 B310</li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Research Interests</h2>
             <div className="space-y-4 text-base sm:text-lg">
               <div>
@@ -146,6 +132,20 @@ export default function Index() {
                 <h3 className="font-semibold mb-2">Methodologies</h3>
                 <p className="text-foreground">Data-driven Optimization, Economics Modelling, Differential Privacy</p>
               </div>
+            </div>
+          </div>
+
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Recent News</h2>
+            <div className="space-y-4 text-base sm:text-lg text-foreground">
+              <p>
+                I will present my job market paper "Privacy-preserving Data-driven Inventory Management" at INFORMS Annual Meeting, Atlanta, GA.
+              </p>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>INFORMS Workshop on Data Science — October 25, 1:00 PM - 2:00 PM, Bldg B Lvl 3 B305</li>
+                <li>INFORMS Annual Meeting Job Market Showcase Cluster — October 26, 11:00 AM - 12:15 PM, Bldg A Lvl 3 A311</li>
+                <li>INFORMS Annual Meeting MSOM Service Operations Cluster— October 26, 2:45 PM - 4:00 PM, Bldg B Lvl 3 B310</li>
+              </ul>
             </div>
           </div>
         </div>
