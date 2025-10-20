@@ -163,7 +163,7 @@ export default function Index() {
                 <img
                   src={paper1}
                   alt="Privacy-preserving Data-driven Inventory Management"
-                  className="w-full sm:w-56 h-48 sm:h-40 object-cover rounded-lg shadow-md flex-shrink-0"
+                  className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
                   <h2 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -259,7 +259,7 @@ export default function Index() {
                   <img
                     src={paper2}
                     alt="Mechanism Design for Generative AI Copilot"
-                    className="w-full sm:w-56 h-48 sm:h-40 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -288,7 +288,7 @@ export default function Index() {
                   <img
                     src={paper3}
                     alt="Data-driven Decisions in Supply Chains"
-                    className="w-full sm:w-56 h-48 sm:h-40 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -319,7 +319,7 @@ export default function Index() {
                   <img
                     src={paper4}
                     alt="Privacy-preserving Collaborative Learning"
-                    className="w-full sm:w-56 h-48 sm:h-40 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">Privacy-preserving Collaborative Learning</h2>
