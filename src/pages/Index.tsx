@@ -165,28 +165,30 @@ export default function Index() {
                   alt="Privacy-preserving Data-driven Inventory Management"
                   className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
-                <div className="flex-1">
-                  <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-                    Privacy-preserving Data-driven Inventory Management
-                  </h2>
-                  <p className="text-muted-foreground mb-3 text-base">with Elena Belavina</p>
-                  <div className="flex flex-wrap gap-2 mb-2">
-                    <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium">
-                      Major Revision at Management Science
-                    </span>
-                    <span className="inline-block bg-background border-2 border-primary text-foreground px-3 py-1 rounded text-sm font-medium">
-                      Job Market Paper
-                    </span>
-                    <a
-                      href="https://ssrn.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm hover:bg-muted transition-colors"
-                    >
-                      SSRN
-                    </a>
+                <div className="flex-1 flex flex-col justify-between h-full">
+                  <div>
+                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">
+                      Privacy-preserving Data-driven Inventory Management
+                    </h2>
+                    <p className="text-muted-foreground mb-3 text-base">with Elena Belavina</p>
+                    <div className="flex flex-wrap gap-2 mb-2">
+                      <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium">
+                        Major Revision at Management Science
+                      </span>
+                      <span className="inline-block bg-background border-2 border-primary text-foreground px-3 py-1 rounded text-sm font-medium">
+                        Job Market Paper
+                      </span>
+                      <a
+                        href="https://ssrn.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm hover:bg-muted transition-colors"
+                      >
+                        SSRN
+                      </a>
+                    </div>
                   </div>
-                  <ul className="list-disc list-inside text-sm text-foreground mb-2 space-y-1">
+                  <ul className="list-disc list-inside text-base text-foreground space-y-1">
                     <li>Accepted to NYC Privacy Day at Google</li>
                     <li>Third Place in YinzOR Conference Flash Talk Competition</li>
                   </ul>
