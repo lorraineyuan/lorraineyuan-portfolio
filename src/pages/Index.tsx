@@ -478,7 +478,16 @@ export default function Index() {
 
             <div className="flex items-start gap-4">
               <FileText className="w-6 h-6 mt-1 text-sidebar-accent flex-shrink-0" />
+              <div>
+                <h3 className="font-semibold mb-1">Curriculum Vitae</h3>
+                <p className="text-muted-foreground">Available upon request</p>
+              </div>
             </div>
+          </div>
+
+          <div className="mt-16 pt-8 border-t border-border">
+            <h2 className="text-2xl font-bold mb-6">Office Hours</h2>
+            <p className="text-lg text-foreground">Available by appointment. Please email to schedule a meeting.</p>
           </div>
         </div>
       </section>
