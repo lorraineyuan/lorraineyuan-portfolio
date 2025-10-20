@@ -35,7 +35,7 @@ export default function Index() {
                   PhD Candidate in Operations, Technology, and Information Management
                 </h2>
                 <p className="text-lg text-muted-foreground">
-                  Johnson College of Business,
+                  Johnson College of Business
                   <br />
                   Cornell Tech, Cornell University
                 </p>
@@ -208,7 +208,7 @@ export default function Index() {
                 <Collapsible open={isFlashTalkOpen} onOpenChange={setIsFlashTalkOpen}>
                   <CollapsibleTrigger className="flex items-center gap-2 text-lg font-semibold hover:text-sidebar-accent transition-colors">
                     <ChevronDown className={`w-5 h-5 transition-transform ${isFlashTalkOpen ? "rotate-180" : ""}`} />
-                    10 Min Flash Talk
+                    10-min Flash Talk
                   </CollapsibleTrigger>
                   <CollapsibleContent className="pt-2">
                     <div className="aspect-video w-full max-w-3xl">
