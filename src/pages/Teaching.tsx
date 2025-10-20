@@ -11,7 +11,7 @@ export default function Teaching() {
             <div className="bg-card p-6 rounded-lg border border-border">
               <h3 className="text-xl font-bold mb-2">Managing Operations</h3>
               <p className="text-muted-foreground mb-4">MBA Core, weekly review sessions</p>
-              <div className="space-y-3">
+              <div className="space-y-3 text-foreground">
                 <div>Spring 2023 (Rating: 4.85/5, Number of respondents: 26)</div>
                 <div>Fall 2022 (Rating: 4.95/5, Number of respondents: 20)</div>
               </div>
