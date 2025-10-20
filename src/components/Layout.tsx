@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { Home, User, FileText, GraduationCap, Mail, Award, FileDown, ChevronLeft, ChevronRight, Menu } from "lucide-react";
+import { Home, User, FileText, GraduationCap, Award, FileDown, ChevronLeft, ChevronRight, Menu } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -11,7 +11,6 @@ const navigation = [
   { name: "Research", hash: "#research", icon: FileText },
   { name: "Teaching", hash: "#teaching", icon: GraduationCap },
   { name: "Service & Awards", hash: "#service-awards", icon: Award },
-  { name: "Contact", hash: "#contact", icon: Mail },
   { name: "Curriculum Vitae", path: "https://drive.google.com/file/d/1S8dvQgZZpCzePSpl0dXdSP8ks743VuQ5/view?usp=share_link", icon: FileDown, external: true },
 ];
 
@@ -24,7 +23,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['#home', '#about', '#research', '#teaching', '#service-awards', '#contact'];
+      const sections = ['#home', '#about', '#research', '#teaching', '#service-awards'];
       const scrollPosition = window.scrollY + 100; // offset for better detection
 
       for (let i = sections.length - 1; i >= 0; i--) {
