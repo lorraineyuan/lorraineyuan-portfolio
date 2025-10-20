@@ -15,24 +15,24 @@ export default function Index() {
     <div>
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-16">
-        <div className="max-w-5xl mx-auto flex gap-16 items-center">
+        <div className="max-w-5xl mx-auto flex gap-16 items-start">
           <div className="w-96 flex-shrink-0">
             <img 
               src={headshot} 
               alt="Lorraine Yuan"
-              className="w-full rounded-lg shadow-lg"
+              className="w-full rounded-lg shadow-lg mb-6"
             />
+            <p className="text-lg font-semibold text-foreground text-center">
+              I will be on the 2025-2026 job market.
+            </p>
           </div>
-          <div className="flex-1">
-            <h1 className="text-4xl font-bold mb-3">Lorraine Yuan</h1>
-            <h2 className="text-xl text-muted-foreground mb-4">
+          <div className="flex-1 pt-8">
+            <h1 className="text-5xl font-bold mb-4">Lorraine Yuan</h1>
+            <h2 className="text-2xl text-muted-foreground mb-6">
               PhD Candidate in Operations, Technology, and Information Management
             </h2>
-            <p className="text-lg mb-6">
+            <p className="text-xl text-muted-foreground">
               SC Johnson College of Business, Cornell Tech
-            </p>
-            <p className="text-base font-semibold text-foreground">
-              I will be on the 2025-2026 job market.
             </p>
           </div>
         </div>
