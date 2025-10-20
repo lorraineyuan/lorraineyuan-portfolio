@@ -1,4 +1,4 @@
-import { Mail, MapPin, Linkedin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -29,20 +29,6 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="flex items-start gap-4">
-            <Linkedin className="w-6 h-6 mt-1 text-sidebar-accent flex-shrink-0" />
-            <div>
-              <h3 className="font-semibold mb-1">LinkedIn</h3>
-              <a 
-                href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-sidebar-accent hover:underline"
-              >
-                View LinkedIn Profile
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
