@@ -176,15 +176,21 @@ export default function Index() {
                       <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium">
                         Major Revision at Management Science
                       </span>
-                      <a
-                        href="https://ssrn.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block px-3 py-1 rounded text-sm font-medium text-white transition-transform hover:scale-105"
-                        style={{ background: 'var(--gradient-rainbow)' }}
+                      <span
+                        className="inline-block p-[3px] rounded"
+                        style={{ 
+                          background: 'var(--gradient-rainbow)',
+                        }}
                       >
-                        SSRN
-                      </a>
+                        <a
+                          href="https://ssrn.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block px-3 py-1 rounded text-sm font-medium text-foreground bg-white transition-transform hover:scale-105"
+                        >
+                          SSRN
+                        </a>
+                      </span>
                     </div>
                   </div>
                   <ul className="list-disc list-inside text-base text-foreground space-y-1">
