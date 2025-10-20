@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { Home, User, FileText, GraduationCap, Mail, Award } from "lucide-react";
+import { Home, User, FileText, GraduationCap, Mail, Award, FileDown } from "lucide-react";
 
 const navigation = [
   { name: "Home", path: "/", icon: Home },
@@ -9,6 +9,7 @@ const navigation = [
   { name: "Teaching", path: "/teaching", icon: GraduationCap },
   { name: "Service & Awards", path: "/service-awards", icon: Award },
   { name: "Contact", path: "/contact", icon: Mail },
+  { name: "Curriculum Vitae", path: "https://drive.google.com/file/d/1S8dvQgZZpCzePSpl0dXdSP8ks743VuQ5/view?usp=share_link", icon: FileDown, external: true },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -27,6 +28,22 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {navigation.map((item) => {
             const isActive = location.pathname === item.path;
             const Icon = item.icon;
+            
+            if (item.external) {
+              return (
+                <a
+                  key={item.path}
+                  href={item.path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-base py-2 transition-colors text-sidebar-text/60 hover:text-sidebar-text"
+                >
+                  <Icon className="w-5 h-5" />
+                  <span>{item.name}</span>
+                </a>
+              );
+            }
+            
             return (
               <Link
                 key={item.path}
