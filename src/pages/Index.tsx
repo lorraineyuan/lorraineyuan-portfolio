@@ -152,10 +152,12 @@ export default function Index() {
 
       {/* Research Section */}
       <section id="research" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-5xl mx-auto">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Research</h1>
+          
           {/* Publications Section */}
           <div className="mb-12 md:mb-20">
-            <h1 className="text-3xl sm:text-4xl font-bold mb-8 md:mb-12">Job Market Paper</h1>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Job Market Paper</h2>
 
             <div>
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
@@ -248,7 +250,7 @@ export default function Index() {
 
           {/* Working Papers Section */}
           <div>
-            <h1 className="text-3xl sm:text-4xl font-bold mb-8 md:mb-12">Working Papers</h1>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Working Papers</h2>
 
             <div className="space-y-12 md:space-y-16">
               {/* Paper 2 */}
