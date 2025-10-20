@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { Home, User, FileText, GraduationCap, Award, FileDown, ChevronLeft, ChevronRight, Menu } from "lucide-react";
+import { Home, User, FileText, GraduationCap, Award, FileDown, ChevronLeft, ChevronRight, Menu, Mail, MapPin, Linkedin } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -125,8 +125,39 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </button>
             </SheetTrigger>
             <SheetContent side="right" className="bg-sidebar-dark text-sidebar-text border-sidebar-text/10 w-64">
-              <div className="flex flex-col gap-2 mt-8">
-                {renderNavItems()}
+              <div className="flex flex-col gap-2 mt-8 h-full">
+                <div className="flex-1">
+                  {renderNavItems()}
+                </div>
+                
+                {/* Contact Information for Mobile */}
+                <div className="border-t border-sidebar-text/10 pt-4 space-y-3 text-sm">
+                  <div className="flex items-start gap-2">
+                    <Mail className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                    <a href="mailto:hy557@cornell.edu" className="text-sidebar-text/60 hover:text-sidebar-text transition-colors break-all">
+                      hy557@cornell.edu
+                    </a>
+                  </div>
+                  <div className="flex items-start gap-2">
+                    <MapPin className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                    <p className="text-sidebar-text/60">
+                      Cornell Tech<br />
+                      2 West Loop Road<br />
+                      New York, NY 10044
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <a 
+                      href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-sidebar-text/60 hover:text-sidebar-text transition-colors"
+                    >
+                      <Linkedin className="w-4 h-4 flex-shrink-0" />
+                      <span>LinkedIn</span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </SheetContent>
           </Sheet>
@@ -154,6 +185,57 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           <nav className="flex flex-col gap-2 flex-1">
             {renderNavItems()}
           </nav>
+
+          {/* Contact Information */}
+          {!isCollapsed && (
+            <div className="border-t border-sidebar-text/10 pt-4 mb-4 space-y-3 text-sm">
+              <div className="flex items-start gap-2">
+                <Mail className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                <a href="mailto:hy557@cornell.edu" className="text-sidebar-text/60 hover:text-sidebar-text transition-colors break-all">
+                  hy557@cornell.edu
+                </a>
+              </div>
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                <p className="text-sidebar-text/60">
+                  Cornell Tech<br />
+                  2 West Loop Road<br />
+                  New York, NY 10044
+                </p>
+              </div>
+              <div className="flex items-center gap-2">
+                <a 
+                  href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sidebar-text/60 hover:text-sidebar-text transition-colors"
+                >
+                  <Linkedin className="w-4 h-4 flex-shrink-0" />
+                  <span>LinkedIn</span>
+                </a>
+              </div>
+            </div>
+          )}
+          {isCollapsed && (
+            <div className="border-t border-sidebar-text/10 pt-4 mb-4 flex flex-col items-center gap-3">
+              <a 
+                href="mailto:hy557@cornell.edu" 
+                title="Email"
+                className="text-sidebar-text/60 hover:text-sidebar-text transition-colors"
+              >
+                <Mail className="w-4 h-4" />
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                title="LinkedIn"
+                className="text-sidebar-text/60 hover:text-sidebar-text transition-colors"
+              >
+                <Linkedin className="w-4 h-4" />
+              </a>
+            </div>
+          )}
 
           {/* Toggle button */}
           <button
