@@ -20,11 +20,8 @@ export default function Index() {
             <img 
               src={headshot} 
               alt="Lorraine Yuan"
-              className="w-full rounded-lg shadow-lg mb-6"
+              className="w-full rounded-lg shadow-lg"
             />
-            <p className="text-lg font-semibold text-foreground text-center">
-              I will be on the 2025-2026 job market.
-            </p>
           </div>
           <div className="flex-1 flex flex-col justify-between" style={{ minHeight: '384px' }}>
             <div>
