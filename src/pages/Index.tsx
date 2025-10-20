@@ -16,25 +16,25 @@ export default function Index() {
   return (
     <Layout>
       {/* Home Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center px-16">
-        <div className="max-w-5xl mx-auto">
-          <div className="flex gap-16 items-start mb-8">
-            <div className="w-96 flex-shrink-0">
+      <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-8 md:px-16">
+        <div className="max-w-5xl mx-auto w-full">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
+            <div className="w-64 sm:w-80 md:w-96 flex-shrink-0">
               <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg" />
             </div>
-            <div className="flex-1 flex flex-col justify-between" style={{ minHeight: "384px" }}>
+            <div className="flex-1 flex flex-col justify-between text-center md:text-left" style={{ minHeight: "auto" }}>
               <div>
-                <h1 className="text-5xl font-bold mb-8">
+                <h1 className="text-4xl sm:text-5xl font-bold mb-4 md:mb-8">
                   <div>Lorraine</div>
                   <div>Yuan</div>
                 </h1>
-                <p className="text-base text-gray-400 -mt-4">She/Her/Hers</p>
+                <p className="text-base text-gray-400 -mt-2 md:-mt-4">She/Her/Hers</p>
               </div>
-              <div>
-                <h2 className="text-lg text-muted-foreground mb-4">
+              <div className="mt-8 md:mt-0">
+                <h2 className="text-base sm:text-lg text-muted-foreground mb-4">
                   PhD Candidate in Operations, Technology, and Information Management
                 </h2>
-                <p className="text-lg text-muted-foreground">
+                <p className="text-base sm:text-lg text-muted-foreground">
                   Johnson College of Business
                   <br />
                   Cornell Tech, Cornell University
@@ -42,16 +42,16 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <p className="text-lg font-semibold text-foreground text-center">I'm on the 2025-2026 job market.</p>
+          <p className="text-base sm:text-lg font-semibold text-foreground text-center">I'm on the 2025-2026 job market.</p>
         </div>
       </section>
 
       {/* About Section */}
-      <section id="about" className="min-h-screen py-16 px-16">
+      <section id="about" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-5xl font-bold mb-12">About Me</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">About Me</h1>
 
-          <div className="space-y-6 text-lg leading-relaxed text-foreground mb-16">
+          <div className="space-y-6 text-base sm:text-lg leading-relaxed text-foreground mb-12 md:mb-16">
             <p>
               I am Lorraine Yuan, a final year PhD candidate in the{" "}
               <a
@@ -116,9 +116,9 @@ export default function Index() {
             </p>
           </div>
 
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold mb-8">Research Interests</h2>
-            <div className="space-y-4 text-lg">
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Research Interests</h2>
+            <div className="space-y-4 text-base sm:text-lg">
               <div>
                 <h3 className="font-semibold mb-2">Topics</h3>
                 <p className="text-foreground">
@@ -135,21 +135,21 @@ export default function Index() {
       </section>
 
       {/* Research Section */}
-      <section id="research" className="min-h-screen py-16 px-16">
+      <section id="research" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
         <div className="max-w-6xl mx-auto">
           {/* Publications Section */}
-          <div className="mb-20">
-            <h1 className="text-4xl font-bold mb-12">Papers Under-Review</h1>
+          <div className="mb-12 md:mb-20">
+            <h1 className="text-3xl sm:text-4xl font-bold mb-8 md:mb-12">Papers Under-Review</h1>
 
             <div>
-              <div className="flex gap-8 items-start mb-4">
+              <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                 <img
                   src={paper1}
                   alt="Privacy-preserving Data-driven Inventory Management"
-                  className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
+                  className="w-full sm:w-56 h-48 sm:h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
-                  <h2 className="text-xl font-bold mb-2">Privacy-preserving Data-driven Inventory Management</h2>
+                  <h2 className="text-lg sm:text-xl font-bold mb-2">Privacy-preserving Data-driven Inventory Management</h2>
                   <p className="text-muted-foreground mb-3 text-sm">with Elena Belavina</p>
                   <div className="flex flex-wrap gap-2 mb-2">
                     <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-xs font-medium">
@@ -231,19 +231,19 @@ export default function Index() {
 
           {/* Working Papers Section */}
           <div>
-            <h1 className="text-4xl font-bold mb-12">Working Papers</h1>
+            <h1 className="text-3xl sm:text-4xl font-bold mb-8 md:mb-12">Working Papers</h1>
 
-            <div className="space-y-16">
+            <div className="space-y-12 md:space-y-16">
               {/* Paper 2 */}
               <div>
-                <div className="flex gap-8 items-start mb-4">
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                   <img
                     src={paper2}
                     alt="Mechanism Design for Generative AI Copilot"
-                    className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-56 h-48 sm:h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
-                    <h2 className="text-xl font-bold mb-2">
+                    <h2 className="text-lg sm:text-xl font-bold mb-2">
                       Mechanism Design for Generative AI Copilot in a Sequential Production Process
                     </h2>
                     <p className="text-muted-foreground mb-3 text-sm">with Karan Girotra and Elena Belavina</p>
@@ -265,14 +265,14 @@ export default function Index() {
 
               {/* Paper 3 */}
               <div>
-                <div className="flex gap-8 items-start mb-4">
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                   <img
                     src={paper3}
                     alt="Data-driven Decisions in Supply Chains"
-                    className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-56 h-48 sm:h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
-                    <h2 className="text-xl font-bold mb-2">
+                    <h2 className="text-lg sm:text-xl font-bold mb-2">
                       Data-driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
                     </h2>
                     <p className="text-muted-foreground mb-3 text-sm">
@@ -296,14 +296,14 @@ export default function Index() {
 
               {/* Paper 4 */}
               <div>
-                <div className="flex gap-8 items-start mb-4">
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                   <img
                     src={paper4}
                     alt="Privacy-preserving Collaborative Learning"
-                    className="w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-56 h-48 sm:h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
-                    <h2 className="text-xl font-bold mb-2">Privacy-preserving Collaborative Learning</h2>
+                    <h2 className="text-lg sm:text-xl font-bold mb-2">Privacy-preserving Collaborative Learning</h2>
                     <p className="text-muted-foreground mb-3 text-sm">with Karan Girotra and Elena Belavina</p>
                     <div>
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
@@ -323,13 +323,13 @@ export default function Index() {
       </section>
 
       {/* Teaching Section */}
-      <section id="teaching" className="min-h-screen py-16 px-16">
+      <section id="teaching" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-5xl font-bold mb-12">Teaching</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Teaching</h1>
 
           {/* Co-instructor */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold mb-12">Co-instructor</h2>
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-8 md:mb-12">Co-instructor</h2>
             <div className="space-y-10">
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-lg font-bold mb-2">Managing Operations</h3>
@@ -345,8 +345,8 @@ export default function Index() {
           </div>
 
           {/* Teaching Assistant */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold mb-12">Teaching Assistant</h2>
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-8 md:mb-12">Teaching Assistant</h2>
             <div className="space-y-10">
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-lg font-bold mb-2">Business Data Analysis with SQL</h3>
@@ -383,13 +383,13 @@ export default function Index() {
       </section>
 
       {/* Service & Awards Section */}
-      <section id="service-awards" className="min-h-screen py-16 px-16">
+      <section id="service-awards" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-5xl font-bold mb-12">Service & Awards</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Service & Awards</h1>
 
           {/* Professional Service */}
-          <div className="mb-16">
-            <h2 className="text-3xl font-bold mb-12">Professional Service</h2>
+          <div className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-8 md:mb-12">Professional Service</h2>
             <div className="space-y-10">
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-lg font-bold mb-2">Reviewer for MSOM Annual Conference</h3>
@@ -412,7 +412,7 @@ export default function Index() {
 
           {/* Honors & Awards */}
           <div>
-            <h2 className="text-3xl font-bold mb-12">Honors & Awards</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-8 md:mb-12">Honors & Awards</h2>
             <div className="space-y-10">
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-lg font-bold mb-2">

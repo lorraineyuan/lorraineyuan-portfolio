@@ -2,11 +2,11 @@ import { Mail, MapPin, Linkedin } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div className="py-16 px-16">
+    <div className="py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
       <div className="max-w-5xl mx-auto">
-        <h1 className="text-5xl font-bold mb-12">Contact</h1>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Contact</h1>
 
-        <div className="space-y-8 text-lg">
+        <div className="space-y-6 sm:space-y-8 text-base sm:text-lg">
           <div className="flex items-start gap-4">
             <Mail className="w-6 h-6 mt-1 text-sidebar-accent flex-shrink-0" />
             <div>
