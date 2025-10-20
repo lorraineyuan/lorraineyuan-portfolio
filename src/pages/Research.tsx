@@ -22,7 +22,7 @@ export default function Research() {
               <img 
                 src={paper1} 
                 alt="Privacy-preserving Data-driven Inventory Management" 
-                className="w-48 sm:w-60 md:w-80 h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                className="w-64 sm:w-80 md:w-96 h-80 object-cover rounded-lg shadow-md flex-shrink-0"
               />
               <div className="flex-1">
                 <h2 className="text-5xl font-bold mb-2">
@@ -102,7 +102,7 @@ export default function Research() {
                 <img 
                   src={paper2} 
                   alt="Mechanism Design for Generative AI Copilot" 
-                  className="w-48 sm:w-60 md:w-80 h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  className="w-64 sm:w-80 md:w-96 h-80 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
                   <h2 className="text-5xl font-bold mb-2">
@@ -132,7 +132,7 @@ export default function Research() {
                 <img 
                   src={paper3} 
                   alt="Data-driven Decisions in Supply Chains" 
-                  className="w-48 sm:w-60 md:w-80 h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  className="w-64 sm:w-80 md:w-96 h-80 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
                   <h2 className="text-5xl font-bold mb-2">
@@ -162,7 +162,7 @@ export default function Research() {
                 <img 
                   src={paper4} 
                   alt="Privacy-preserving Collaborative Learning" 
-                  className="w-48 sm:w-60 md:w-80 h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  className="w-64 sm:w-80 md:w-96 h-80 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
                   <h2 className="text-5xl font-bold mb-2">
