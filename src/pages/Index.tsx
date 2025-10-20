@@ -42,7 +42,9 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <p className="text-base sm:text-lg font-semibold text-foreground text-center">I'm on the 2025-2026 job market.</p>
+          <p className="text-base sm:text-lg font-semibold text-foreground text-center">
+            I'm on the 2025-2026 job market.
+          </p>
         </div>
       </section>
 
@@ -106,7 +108,8 @@ export default function Index() {
             </p>
             <p>
               My research interests center on <strong>responsible AI adoption</strong>, with a particular emphasis on{" "}
-              <strong>privacy in data-driven decision making</strong> and the broader impact of <strong>AI adoption at scale</strong>.
+              <strong>privacy in data-driven decision making</strong> and the broader impact of{" "}
+              <strong>AI adoption at scale</strong>.
             </p>
             <p>
               I develop privacy-preserving data-driven algorithms and explore their impact for adoption at scale in
@@ -149,7 +152,9 @@ export default function Index() {
                   className="w-full sm:w-56 h-48 sm:h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
-                  <h2 className="text-lg sm:text-xl font-bold mb-2">Privacy-preserving Data-driven Inventory Management</h2>
+                  <h2 className="text-lg sm:text-xl font-bold mb-2">
+                    Privacy-preserving Data-driven Inventory Management
+                  </h2>
                   <p className="text-muted-foreground mb-3 text-sm">with Elena Belavina</p>
                   <div className="flex flex-wrap gap-2 mb-2">
                     <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-xs font-medium">
@@ -258,8 +263,8 @@ export default function Index() {
                   </div>
                 </div>
                 <p className="text-foreground leading-relaxed">
-                  Applies computational and statistical methods to design Human-AI copilot strategies for agentic AI
-                  within production networks.
+                  Designs human-AI copilot strategies that determine optimal human feedback points in agentic AI
+                  workflows to balance attention, fatigue, accuracy, and computational cost.
                 </p>
               </div>
 
@@ -334,12 +339,8 @@ export default function Index() {
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-lg font-bold mb-2">Managing Operations</h3>
                 <p className="text-muted-foreground">MBA Core • Weekly review sessions</p>
-                <p className="text-muted-foreground">
-                  Spring 2023 (Rating: 4.85/5, Number of respondents: 26)
-                </p>
-                <p className="text-muted-foreground">
-                  Fall 2022 (Rating: 4.95/5, Number of respondents: 20)
-                </p>
+                <p className="text-muted-foreground">Spring 2023 (Rating: 4.85/5, Number of respondents: 26)</p>
+                <p className="text-muted-foreground">Fall 2022 (Rating: 4.95/5, Number of respondents: 20)</p>
               </div>
             </div>
           </div>
