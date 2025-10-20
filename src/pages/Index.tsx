@@ -22,7 +22,7 @@ export default function Index() {
             <div className="w-64 sm:w-80 md:w-96 flex-shrink-0">
               <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg" />
             </div>
-            <div className="flex-1 flex flex-col justify-between text-center md:text-left" style={{ minHeight: "var(--headshot-height, auto)" }}>
+            <div className="flex-1 flex flex-col justify-between text-center md:text-left md:min-h-[384px] lg:min-h-[480px]">
               <div>
                 <h1 className="text-4xl sm:text-5xl font-bold mb-4">
                   <div>Lorraine</div>
@@ -30,7 +30,7 @@ export default function Index() {
                 </h1>
                 <p className="text-base text-gray-400 -mt-2">She/Her/Hers</p>
               </div>
-              <div className="mt-8 md:mt-auto">
+              <div>
                 <h2 className="text-base sm:text-lg text-muted-foreground mb-4">
                   PhD Candidate in Operations, Technology, and Information Management
                 </h2>
