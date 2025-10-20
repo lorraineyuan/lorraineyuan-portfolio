@@ -30,6 +30,7 @@ export default function Index() {
                   <div>Lorraine</div>
                   <div>Yuan</div>
                 </h1>
+                <p className="text-base text-gray-400 -mt-4">She/Her/Hers</p>
               </div>
               <div>
                 <h2 className="text-lg text-muted-foreground mb-4">
