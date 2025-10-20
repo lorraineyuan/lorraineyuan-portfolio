@@ -141,9 +141,9 @@ export default function Index() {
                 I will present my job market paper "Privacy-preserving Data-driven Inventory Management" at INFORMS Annual Meeting, Atlanta, GA.
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>INFORMS Workshop on Data Science — October 25, 1:00 PM - 2:00 PM, Bldg B Lvl 3 B305</li>
-                <li>INFORMS Annual Meeting Job Market Showcase Cluster — October 26, 11:00 AM - 12:15 PM, Bldg A Lvl 3 A311</li>
-                <li>INFORMS Annual Meeting MSOM Service Operations Cluster— October 26, 2:45 PM - 4:00 PM, Bldg B Lvl 3 B310</li>
+                <li>INFORMS Workshop on Data Science — <em>October 25, 1:00 PM - 2:00 PM, Bldg B Lvl 3 B305</em></li>
+                <li>INFORMS Annual Meeting Job Market Showcase Cluster — <em>October 26, 11:00 AM - 12:15 PM, Bldg A Lvl 3 A311</em></li>
+                <li>INFORMS Annual Meeting MSOM Service Operations Cluster— <em>October 26, 2:45 PM - 4:00 PM, Bldg B Lvl 3 B310</em></li>
               </ul>
             </div>
           </div>
