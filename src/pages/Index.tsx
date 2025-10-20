@@ -129,7 +129,7 @@ export default function Index() {
               </div>
               <div>
                 <h3 className="font-semibold mb-2">Methodologies</h3>
-                <p className="text-foreground">Data-driven Optimization, Economics Modelling, Differential Privacy</p>
+                <p className="text-foreground">Data-driven Optimization, Economic Modelling, Differential Privacy</p>
               </div>
             </div>
           </div>
@@ -138,12 +138,21 @@ export default function Index() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Recent News</h2>
             <div className="space-y-4 text-base sm:text-lg text-foreground">
               <p>
-                I will present my job market paper "Privacy-preserving Data-driven Inventory Management" at INFORMS Annual Meeting, Atlanta, GA.
+                I will present my job market paper "Privacy-preserving Data-driven Inventory Management" at INFORMS
+                Annual Meeting, Atlanta, GA.
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>INFORMS Workshop on Data Science — <em>October 25, 1:00 PM - 2:00 PM, Bldg B Lvl 3 B305</em></li>
-                <li>INFORMS Annual Meeting Job Market Showcase Cluster — <em>October 26, 11:00 AM - 12:15 PM, Bldg A Lvl 3 A311</em></li>
-                <li>INFORMS Annual Meeting MSOM Service Operations Cluster— <em>October 26, 2:45 PM - 4:00 PM, Bldg B Lvl 3 B310</em></li>
+                <li>
+                  INFORMS Workshop on Data Science — <em>October 25, 1:00 PM - 2:00 PM, Bldg B Lvl 3 B305</em>
+                </li>
+                <li>
+                  INFORMS Annual Meeting Job Market Showcase Cluster —{" "}
+                  <em>October 26, 11:00 AM - 12:15 PM, Bldg A Lvl 3 A311</em>
+                </li>
+                <li>
+                  INFORMS Annual Meeting MSOM Service Operations Cluster—{" "}
+                  <em>October 26, 2:45 PM - 4:00 PM, Bldg B Lvl 3 B310</em>
+                </li>
               </ul>
             </div>
           </div>
@@ -154,7 +163,7 @@ export default function Index() {
       <section id="research" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Research</h1>
-          
+
           {/* Publications Section */}
           <div className="mb-12 md:mb-20">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Job Market Paper</h2>
@@ -178,8 +187,8 @@ export default function Index() {
                       </span>
                       <span
                         className="inline-block p-[3px] rounded"
-                        style={{ 
-                          background: 'var(--gradient-rainbow)',
+                        style={{
+                          background: "var(--gradient-rainbow)",
                         }}
                       >
                         <a
@@ -362,7 +371,9 @@ export default function Index() {
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-xl font-bold mb-2">Managing Operations</h3>
                 <p className="text-muted-foreground text-base">MBA Core • Weekly review sessions</p>
-                <p className="text-muted-foreground text-base">Spring 2023 (Rating: 4.85/5, Number of respondents: 26)</p>
+                <p className="text-muted-foreground text-base">
+                  Spring 2023 (Rating: 4.85/5, Number of respondents: 26)
+                </p>
                 <p className="text-muted-foreground text-base">Fall 2022 (Rating: 4.95/5, Number of respondents: 20)</p>
               </div>
             </div>
@@ -472,7 +483,6 @@ export default function Index() {
           </div>
         </div>
       </section>
-
     </Layout>
   );
 }
