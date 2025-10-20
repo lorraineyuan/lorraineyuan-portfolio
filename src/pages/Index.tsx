@@ -18,28 +18,19 @@ export default function Index() {
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto w-full">
-          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-end mb-8">
             <div className="w-64 sm:w-80 md:w-96 flex-shrink-0">
               <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg" />
             </div>
-            <div className="flex-1 flex flex-col justify-between text-center md:text-left" style={{ minHeight: "auto" }}>
-              <div>
-                <h1 className="text-4xl sm:text-5xl font-bold mb-4 md:mb-8">
-                  <div>Lorraine</div>
-                  <div>Yuan</div>
-                </h1>
-                <p className="text-base text-gray-400 -mt-2 md:-mt-4">She/Her/Hers</p>
-              </div>
-              <div className="mt-8 md:mt-0">
-                <h2 className="text-base sm:text-lg text-muted-foreground mb-4">
-                  PhD Candidate in Operations, Technology, and Information Management
-                </h2>
-                <p className="text-base sm:text-lg text-muted-foreground">
-                  Johnson College of Business
-                  <br />
-                  Cornell Tech, Cornell University
-                </p>
-              </div>
+            <div className="flex-1 text-center md:text-left">
+              <h2 className="text-base sm:text-lg text-muted-foreground mb-4">
+                PhD Candidate in Operations, Technology, and Information Management
+              </h2>
+              <p className="text-base sm:text-lg text-muted-foreground">
+                Johnson College of Business
+                <br />
+                Cornell Tech, Cornell University
+              </p>
             </div>
           </div>
           <p className="text-base sm:text-lg font-semibold text-foreground text-center">I'm on the 2025-2026 job market.</p>
