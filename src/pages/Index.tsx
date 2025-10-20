@@ -180,7 +180,7 @@ export default function Index() {
                         href="https://ssrn.com"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm hover:bg-muted transition-colors"
+                        className="inline-block bg-accent text-accent-foreground px-3 py-1 rounded text-sm hover:bg-accent/80 transition-colors font-medium"
                       >
                         SSRN
                       </a>
