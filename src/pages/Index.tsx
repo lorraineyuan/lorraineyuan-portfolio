@@ -14,67 +14,65 @@ export default function Index() {
   return (
     <div>
       {/* Home Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center px-16 relative">
-        {/* Decorative circles */}
-        <div className="absolute right-32 top-1/3 w-24 h-24 rounded-full bg-circle-gray-1" />
-        <div className="absolute right-48 top-1/2 w-32 h-32 rounded-full bg-circle-gray-2" />
-        <div className="absolute right-24 top-1/2 transform translate-y-8 w-20 h-20 rounded-full bg-sidebar-accent" />
-
-        <div className="max-w-3xl">
-          <h1 className="text-6xl font-bold leading-tight mb-6">
-            PhD Candidate in Operations, Technology, and Information Management
-          </h1>
-          <p className="text-xl text-muted-foreground leading-relaxed">
-            Researching responsible AI adoption, privacy in data-driven decision making, 
-            and the broader impact of AI adoption at scale.
-          </p>
-          <p className="text-lg text-muted-foreground mt-6 font-medium">
-            I will be on the 2025-2026 job market.
-          </p>
+      <section id="home" className="min-h-screen flex items-center justify-center px-16">
+        <div className="max-w-5xl mx-auto flex gap-16 items-center">
+          <div className="w-96 flex-shrink-0">
+            <img 
+              src={headshot} 
+              alt="Lorraine Yuan"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
+          <div className="flex-1">
+            <h1 className="text-5xl font-bold mb-4">Lorraine Yuan</h1>
+            <h2 className="text-2xl text-muted-foreground mb-6">
+              PhD Candidate in Operations, Technology, and Information Management
+            </h2>
+            <p className="text-xl mb-4">
+              SC Johnson College of Business, Cornell Tech
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              My research focuses on responsible AI adoption, privacy in data-driven decision making, 
+              and the broader impact of AI adoption at scale.
+            </p>
+            <p className="text-lg font-semibold text-foreground">
+              I will be on the 2025-2026 job market.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* About Section */}
       <section id="about" className="min-h-screen py-16 px-16">
         <div className="max-w-5xl mx-auto">
-          <div className="flex gap-12 items-start mb-16">
-            <div className="flex-1">
-              <h1 className="text-5xl font-bold mb-8">About Me</h1>
-              <div className="space-y-6 text-lg leading-relaxed text-foreground">
-                <p>
-                  I am Lorraine Yuan, a final year PhD candidate in the Operations, Technology, 
-                  and Information Management (OTIM) division of SC Johnson College of Business 
-                  at Cornell Tech, where I am very fortunate to be advised by Prof. Karan Girotra 
-                  and Prof. Elena Belavina. I'm also a doctoral fellow at the Digital Life Initiative.
-                </p>
-                <p>
-                  I obtained a B.S. in Mathematics and a B.A. in Economics from Renmin University 
-                  of China. I also hold a M.Eng. in Operations Research from Cornell Tech.
-                </p>
-                <p>
-                  My research interests center on responsible AI adoption, with a particular 
-                  emphasis on privacy in data-driven decision making and the broader impact of 
-                  AI adoption at scale.
-                </p>
-                <p>
-                  I develop privacy-preserving data-driven algorithms and explore their impact 
-                  for adoption at scale in inventory management to enhance profitability maintaining 
-                  customer privacy. More recently, my work applies computational and statistical 
-                  methods to design Human-AI copilot strategies for agentic AI within production networks.
-                </p>
-              </div>
-            </div>
-            <div className="w-80 flex-shrink-0">
-              <img 
-                src={headshot} 
-                alt="Lorraine Yuan"
-                className="w-full rounded-lg shadow-lg"
-              />
-            </div>
+          <h1 className="text-5xl font-bold mb-12">About Me</h1>
+          
+          <div className="space-y-6 text-lg leading-relaxed text-foreground mb-16">
+            <p>
+              I am Lorraine Yuan, a final year PhD candidate in the Operations, Technology, 
+              and Information Management (OTIM) division of SC Johnson College of Business 
+              at Cornell Tech, where I am very fortunate to be advised by Prof. Karan Girotra 
+              and Prof. Elena Belavina. I'm also a doctoral fellow at the Digital Life Initiative.
+            </p>
+            <p>
+              I obtained a B.S. in Mathematics and a B.A. in Economics from Renmin University 
+              of China. I also hold a M.Eng. in Operations Research from Cornell Tech.
+            </p>
+            <p>
+              My research interests center on responsible AI adoption, with a particular 
+              emphasis on privacy in data-driven decision making and the broader impact of 
+              AI adoption at scale.
+            </p>
+            <p>
+              I develop privacy-preserving data-driven algorithms and explore their impact 
+              for adoption at scale in inventory management to enhance profitability maintaining 
+              customer privacy. More recently, my work applies computational and statistical 
+              methods to design Human-AI copilot strategies for agentic AI within production networks.
+            </p>
           </div>
 
           <div className="mb-16">
-            <h2 className="text-3xl font-bold mb-6">Research Interests</h2>
+            <h2 className="text-3xl font-bold mb-8">Research Interests</h2>
             <div className="space-y-4 text-lg">
               <div>
                 <h3 className="font-semibold mb-2">Topics</h3>
