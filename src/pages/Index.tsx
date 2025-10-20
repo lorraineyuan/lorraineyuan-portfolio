@@ -31,7 +31,7 @@ export default function Index() {
               <h1 className="text-5xl font-bold mb-8">Lorraine Yuan</h1>
             </div>
             <div>
-              <h2 className="text-xl text-muted-foreground mb-4">
+              <h2 className="text-lg text-muted-foreground mb-4">
                 PhD Candidate in Operations, Technology, and Information Management
               </h2>
               <p className="text-lg text-muted-foreground">
