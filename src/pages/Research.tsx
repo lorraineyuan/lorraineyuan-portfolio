@@ -122,8 +122,7 @@ export default function Research() {
                 </div>
               </div>
               <p className="text-foreground leading-relaxed">
-                Applies computational and statistical methods to design Human-AI copilot strategies 
-                for agentic AI within production networks.
+                Designs human-AI copilot strategies that determine optimal human feedback points in agentic AI workflows to balance attention, fatigue, accuracy, and computational cost.
               </p>
             </div>
 
@@ -153,8 +152,7 @@ export default function Research() {
                 </div>
               </div>
               <p className="text-foreground leading-relaxed">
-                Explores the intersection of contract design, algorithmic decision-making, and 
-                operational efficiency in modern supply chain networks.
+                Explores how data-driven algorithms interact with supply chain contracts to shape efficiency and coordination strategies.
               </p>
             </div>
 
