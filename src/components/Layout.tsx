@@ -131,9 +131,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </div>
                 
                 {/* Contact Information for Mobile */}
-                <div className="border-t border-sidebar-text/10 pt-4 space-y-3 text-sm">
+                <div className="border-t border-sidebar-text/10 pt-4 space-y-3 text-base">
                   <div className="flex items-start gap-2">
-                    <Mail className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                    <Mail className="w-5 h-5 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
                     <a href="mailto:hy557@cornell.edu" className="text-sidebar-text/60 hover:text-sidebar-text transition-colors break-all">
                       hy557@cornell.edu
                     </a>
@@ -145,12 +145,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-sidebar-text/60 hover:text-sidebar-text transition-colors"
                     >
-                      <Linkedin className="w-4 h-4 flex-shrink-0" />
+                      <Linkedin className="w-5 h-5 flex-shrink-0" />
                       <span>LinkedIn</span>
                     </a>
                   </div>
                   <div className="flex items-start gap-2">
-                    <MapPin className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                    <MapPin className="w-5 h-5 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
                     <p className="text-sidebar-text/60">
                       Cornell Tech<br />
                       2 West Loop Road<br />
@@ -188,9 +188,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
           {/* Contact Information */}
           {!isCollapsed && (
-            <div className="border-t border-sidebar-text/10 pt-4 mb-4 space-y-3 text-sm">
+            <div className="border-t border-sidebar-text/10 pt-4 mb-4 space-y-3 text-base">
               <div className="flex items-start gap-2">
-                <Mail className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                <Mail className="w-5 h-5 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
                 <a href="mailto:hy557@cornell.edu" className="text-sidebar-text/60 hover:text-sidebar-text transition-colors break-all">
                   hy557@cornell.edu
                 </a>
@@ -202,12 +202,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sidebar-text/60 hover:text-sidebar-text transition-colors"
                 >
-                  <Linkedin className="w-4 h-4 flex-shrink-0" />
+                  <Linkedin className="w-5 h-5 flex-shrink-0" />
                   <span>LinkedIn</span>
                 </a>
               </div>
               <div className="flex items-start gap-2">
-                <MapPin className="w-4 h-4 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
+                <MapPin className="w-5 h-5 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
                 <p className="text-sidebar-text/60">
                   Cornell Tech<br />
                   2 West Loop Road<br />
@@ -223,7 +223,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 title="Email"
                 className="text-sidebar-text/60 hover:text-sidebar-text transition-colors"
               >
-                <Mail className="w-4 h-4" />
+                <Mail className="w-5 h-5" />
               </a>
               <a 
                 href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell" 
@@ -232,7 +232,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 title="LinkedIn"
                 className="text-sidebar-text/60 hover:text-sidebar-text transition-colors"
               >
-                <Linkedin className="w-4 h-4" />
+                <Linkedin className="w-5 h-5" />
               </a>
             </div>
           )}
