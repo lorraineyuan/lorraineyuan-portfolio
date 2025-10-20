@@ -89,7 +89,7 @@ export default function Index() {
               >
                 Prof. Elena Belavina
               </a>
-              . I'm also a doctoral fellow at the{" "}
+              . I was also a doctoral fellow at the{" "}
               <a
                 href="https://www.dli.tech.cornell.edu/"
                 target="_blank"
@@ -335,8 +335,10 @@ export default function Index() {
                 <h3 className="text-lg font-bold mb-2">Managing Operations</h3>
                 <p className="text-muted-foreground">MBA Core • Weekly review sessions</p>
                 <p className="text-muted-foreground">
-                  Spring 2023 (Rating: 4.85/5, Number of respondents: 26) • Fall 2022 (Rating: 4.95/5, Number of
-                  respondents: 20)
+                  Spring 2023 (Rating: 4.85/5, Number of respondents: 26)
+                </p>
+                <p className="text-muted-foreground">
+                  Fall 2022 (Rating: 4.95/5, Number of respondents: 20)
                 </p>
               </div>
             </div>
