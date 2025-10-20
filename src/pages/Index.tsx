@@ -294,7 +294,7 @@ export default function Index() {
                   </div>
                 </div>
                 <p className="text-foreground leading-relaxed">
-                  Explores how data-driven algorithms interact with supply chain contracts to shape efficiency and
+                  Studies how data-driven algorithms interact with supply chain contracts to shape efficiency and
                   coordination strategies.
                 </p>
               </div>
