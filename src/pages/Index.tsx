@@ -18,11 +18,11 @@ export default function Index() {
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto w-full">
-          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-end mb-8">
             <div className="w-64 sm:w-80 md:w-96 flex-shrink-0">
               <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg" />
             </div>
-            <div className="flex-1 flex flex-col justify-between text-center md:text-left md:min-h-[384px] lg:min-h-[480px]">
+            <div className="flex-1 flex flex-col justify-between text-center md:text-left md:self-stretch">
               <div>
                 <h1 className="text-4xl sm:text-5xl font-bold mb-4">
                   <div>Lorraine</div>
