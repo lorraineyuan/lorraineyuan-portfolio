@@ -116,7 +116,7 @@ export default function Research() {
                       Working Paper
                     </span>
                     <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
-                      Draft upon request
+                      Draft Upon Request
                     </span>
                   </div>
                 </div>
@@ -146,7 +146,7 @@ export default function Research() {
                       Working Paper
                     </span>
                     <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
-                      Draft upon request
+                      Draft Upon Request
                     </span>
                   </div>
                 </div>
