@@ -36,7 +36,8 @@ export default function Index() {
                   PhD Candidate in Operations, Technology, and Information Management
                 </h2>
                 <p className="text-lg text-muted-foreground">
-                  Johnson College of Business, Cornell Tech
+                  <div>Johnson College of Business,</div>
+                  <div>Cornell Tech, Cornell University</div>
                 </p>
               </div>
             </div>
