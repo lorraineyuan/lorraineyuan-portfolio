@@ -55,10 +55,9 @@ export default function Index() {
           
           <div className="space-y-6 text-lg leading-relaxed text-foreground mb-16">
             <p>
-              I am Lorraine Yuan, a final year PhD candidate in the <a href="https://www.johnson.cornell.edu/programs/phd-program/operations-technology-information-management/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Operations, Technology, 
+              I am Lorraine Yuan, a final year PhD candidate in the <a href="https://www.johnson.cornell.edu/programs/phd-program/operations-technology-information-management/" target="_blank" rel="noopener noreferrer" className="text-blue-900 hover:underline">Operations, Technology, 
               and Information Management (OTIM)</a> division of SC Johnson College of Business 
-              at <a href="https://tech.cornell.edu/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Cornell Tech</a>, where I am very fortunate to be advised by <a href="https://tech.cornell.edu/people/karan-girotra/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Prof. Karan Girotra</a> 
-              and <a href="https://sha.cornell.edu/faculty-research/faculty/eb733/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Prof. Elena Belavina</a>. I'm also a doctoral fellow at the <a href="https://www.dli.tech.cornell.edu/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Digital Life Initiative</a>.
+              at <a href="https://tech.cornell.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-900 hover:underline">Cornell Tech</a>, where I am very fortunate to be advised by <a href="https://tech.cornell.edu/people/karan-girotra/" target="_blank" rel="noopener noreferrer" className="text-blue-900 hover:underline">Prof. Karan Girotra</a> and <a href="https://sha.cornell.edu/faculty-research/faculty/eb733/" target="_blank" rel="noopener noreferrer" className="text-blue-900 hover:underline">Prof. Elena Belavina</a>. I'm also a doctoral fellow at the <a href="https://www.dli.tech.cornell.edu/" target="_blank" rel="noopener noreferrer" className="text-blue-900 hover:underline">Digital Life Initiative</a>.
             </p>
             <p>
               I obtained a B.S. in Mathematics and a B.A. in Economics from Renmin University 
