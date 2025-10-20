@@ -6,13 +6,15 @@ import paper4 from "@/assets/paper4.jpg";
 import { ExternalLink, ChevronDown, Mail, MapPin, FileText } from "lucide-react";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { useState } from "react";
+import Layout from "@/components/Layout";
+import Contact from "./Contact";
 
 export default function Index() {
   const [isAbstractOpen, setIsAbstractOpen] = useState(false);
   const [isFlashTalkOpen, setIsFlashTalkOpen] = useState(false);
 
   return (
-    <div>
+    <Layout>
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-16">
         <div className="max-w-5xl mx-auto">
@@ -447,50 +449,9 @@ export default function Index() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="min-h-screen py-16 px-16">
-        <div className="max-w-5xl mx-auto">
-          <h1 className="text-5xl font-bold mb-12">Contact</h1>
-
-          <div className="space-y-8 text-lg">
-            <div className="flex items-start gap-4">
-              <Mail className="w-6 h-6 mt-1 text-sidebar-accent flex-shrink-0" />
-              <div>
-                <h3 className="font-semibold mb-1">Email</h3>
-                <a href="mailto:hy557@cornell.edu" className="text-sidebar-accent hover:underline">
-                  hy557@cornell.edu
-                </a>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
-              <MapPin className="w-6 h-6 mt-1 text-sidebar-accent flex-shrink-0" />
-              <div>
-                <h3 className="font-semibold mb-1">Address</h3>
-                <p className="text-foreground">
-                  Cornell Tech
-                  <br />
-                  2 West Loop Road
-                  <br />
-                  New York, NY 10044
-                </p>
-              </div>
-            </div>
-
-            <div className="flex items-start gap-4">
-              <FileText className="w-6 h-6 mt-1 text-sidebar-accent flex-shrink-0" />
-              <div>
-                <h3 className="font-semibold mb-1">Curriculum Vitae</h3>
-                <p className="text-muted-foreground">Available upon request</p>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-16 pt-8 border-t border-border">
-            <h2 className="text-2xl font-bold mb-6">Office Hours</h2>
-            <p className="text-lg text-foreground">Available by appointment. Please email to schedule a meeting.</p>
-          </div>
-        </div>
+      <section id="contact">
+        <Contact />
       </section>
-    </div>
+    </Layout>
   );
 }
