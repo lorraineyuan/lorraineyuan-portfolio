@@ -25,7 +25,7 @@ export default function Research() {
                 className="w-32 sm:w-40 md:w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
               />
               <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-2">
+                <h2 className="text-4xl font-bold mb-2">
                   Privacy-preserving Data-driven Inventory Management
                 </h2>
                 <p className="text-muted-foreground mb-3 text-sm">
@@ -105,7 +105,7 @@ export default function Research() {
                   className="w-32 sm:w-40 md:w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
-                  <h2 className="text-3xl font-bold mb-2">
+                  <h2 className="text-4xl font-bold mb-2">
                     Mechanism Design for Generative AI Copilot in a Sequential Production Process
                   </h2>
                   <p className="text-muted-foreground mb-3 text-sm">
@@ -135,7 +135,7 @@ export default function Research() {
                   className="w-32 sm:w-40 md:w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
-                  <h2 className="text-3xl font-bold mb-2">
+                  <h2 className="text-4xl font-bold mb-2">
                     Data-driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
                   </h2>
                   <p className="text-muted-foreground mb-3 text-sm">
@@ -165,7 +165,7 @@ export default function Research() {
                   className="w-32 sm:w-40 md:w-56 h-40 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1">
-                  <h2 className="text-3xl font-bold mb-2">
+                  <h2 className="text-4xl font-bold mb-2">
                     Privacy-preserving Collaborative Learning
                   </h2>
                   <p className="text-muted-foreground mb-3 text-sm">
