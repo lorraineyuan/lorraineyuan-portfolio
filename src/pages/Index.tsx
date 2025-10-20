@@ -27,7 +27,7 @@ export default function Index() {
             </p>
           </div>
           <div className="flex-1 pt-8">
-            <h1 className="text-5xl font-bold mb-4">Lorraine Yuan</h1>
+            <h1 className="text-5xl font-bold mb-8">Lorraine Yuan</h1>
             <h2 className="text-xl text-muted-foreground mb-4">
               PhD Candidate in Operations, Technology, and Information Management
             </h2>
