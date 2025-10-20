@@ -7,7 +7,6 @@ import { ExternalLink, ChevronDown, Mail, MapPin, FileText } from "lucide-react"
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { useState } from "react";
 import Layout from "@/components/Layout";
-import Contact from "./Contact";
 
 export default function Index() {
   const [isAbstractOpen, setIsAbstractOpen] = useState(false);
@@ -16,7 +15,7 @@ export default function Index() {
   return (
     <Layout>
       {/* Home Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-8 md:px-16">
+      <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-8 md:px-16 pt-16">
         <div className="max-w-5xl mx-auto w-full">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-end mb-8">
             <div className="w-64 sm:w-80 md:w-96 flex-shrink-0">
@@ -466,10 +465,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact">
-        <Contact />
-      </section>
     </Layout>
   );
 }
