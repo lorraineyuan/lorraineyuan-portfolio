@@ -210,7 +210,7 @@ export default function Index() {
               </div>
 
               <p className="text-foreground leading-relaxed mb-4">
-                Examines how different ways of using data to make decisions lead to fundamentally different outcomes for privacy, firm's profit, and customer welfare.
+                Examines how different ways of using data to make decisions lead to fundamentally different outcomes for difficulty for privacy protection, firm's profit, and customer welfare.
               </p>
 
               <div className="space-y-3">
