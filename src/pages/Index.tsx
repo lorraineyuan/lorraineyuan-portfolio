@@ -237,17 +237,19 @@ export default function Index() {
                     10-min Flash Talk
                   </CollapsibleTrigger>
                   <CollapsibleContent className="pt-2">
-                    <div className="aspect-video w-full max-w-3xl">
-                      <iframe
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/JJjOuLfzm5s"
-                        title="Flash Talk - Privacy-preserving Data-driven Inventory Management"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        className="rounded-lg"
-                      ></iframe>
+                    <div className="flex justify-center">
+                      <div className="aspect-video w-full max-w-3xl">
+                        <iframe
+                          width="100%"
+                          height="100%"
+                          src="https://www.youtube.com/embed/JJjOuLfzm5s"
+                          title="Flash Talk - Privacy-preserving Data-driven Inventory Management"
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                          className="rounded-lg"
+                        ></iframe>
+                      </div>
                     </div>
                   </CollapsibleContent>
                 </Collapsible>
