@@ -24,18 +24,14 @@ export default function Index() {
             />
           </div>
           <div className="flex-1">
-            <h1 className="text-5xl font-bold mb-4">Lorraine Yuan</h1>
-            <h2 className="text-2xl text-muted-foreground mb-6">
+            <h1 className="text-4xl font-bold mb-3">Lorraine Yuan</h1>
+            <h2 className="text-xl text-muted-foreground mb-4">
               PhD Candidate in Operations, Technology, and Information Management
             </h2>
-            <p className="text-xl mb-4">
+            <p className="text-lg mb-6">
               SC Johnson College of Business, Cornell Tech
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              My research focuses on responsible AI adoption, privacy in data-driven decision making, 
-              and the broader impact of AI adoption at scale.
-            </p>
-            <p className="text-lg font-semibold text-foreground">
+            <p className="text-base font-semibold text-foreground">
               I will be on the 2025-2026 job market.
             </p>
           </div>
