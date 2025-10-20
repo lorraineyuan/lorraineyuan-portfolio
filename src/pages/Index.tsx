@@ -36,8 +36,8 @@ export default function Index() {
                   PhD Candidate in Operations, Technology, and Information Management
                 </h2>
                 <p className="text-lg text-muted-foreground">
-                  <div>Johnson College of Business,</div>
-                  <div>Cornell Tech, Cornell University</div>
+                  Johnson College of Business,<br />
+                  Cornell Tech, Cornell University
                 </p>
               </div>
             </div>
@@ -55,19 +55,19 @@ export default function Index() {
           
           <div className="space-y-6 text-lg leading-relaxed text-foreground mb-16">
             <p>
-              I am Lorraine Yuan, a final year PhD candidate in the Operations, Technology, 
-              and Information Management (OTIM) division of SC Johnson College of Business 
-              at Cornell Tech, where I am very fortunate to be advised by Prof. Karan Girotra 
-              and Prof. Elena Belavina. I'm also a doctoral fellow at the Digital Life Initiative.
+              I am Lorraine Yuan, a final year PhD candidate in the <a href="https://www.johnson.cornell.edu/programs/phd-program/operations-technology-information-management/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Operations, Technology, 
+              and Information Management (OTIM)</a> division of SC Johnson College of Business 
+              at <a href="https://tech.cornell.edu/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Cornell Tech</a>, where I am very fortunate to be advised by <a href="https://tech.cornell.edu/people/karan-girotra/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Prof. Karan Girotra</a> 
+              and <a href="https://sha.cornell.edu/faculty-research/faculty/eb733/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Prof. Elena Belavina</a>. I'm also a doctoral fellow at the <a href="https://www.dli.tech.cornell.edu/" target="_blank" rel="noopener noreferrer" className="text-sidebar-accent hover:underline">Digital Life Initiative</a>.
             </p>
             <p>
               I obtained a B.S. in Mathematics and a B.A. in Economics from Renmin University 
               of China. I also hold a M.Eng. in Operations Research from Cornell Tech.
             </p>
             <p>
-              My research interests center on responsible AI adoption, with a particular 
-              emphasis on privacy in data-driven decision making and the broader impact of 
-              AI adoption at scale.
+              My research interests center on <strong>responsible AI adoption</strong>, with a particular 
+              emphasis on <strong>privacy in data-driven decision making</strong> and the broader impact of 
+              <strong>AI adoption at scale</strong>.
             </p>
             <p>
               I develop privacy-preserving data-driven algorithms and explore their impact 
@@ -288,7 +288,8 @@ export default function Index() {
             <div className="space-y-10">
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-lg font-bold mb-2">Managing Operations</h3>
-                <p className="text-muted-foreground">MBA Core • Weekly review sessions • Spring 2023 (Rating: 4.85/5) • Fall 2022 (Rating: 4.95/5)</p>
+                <p className="text-muted-foreground">MBA Core • Weekly review sessions</p>
+                <p className="text-muted-foreground">Spring 2023 (Rating: 4.85/5, Number of respondents: 26) • Fall 2022 (Rating: 4.95/5, Number of respondents: 20)</p>
               </div>
             </div>
           </div>
