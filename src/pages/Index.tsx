@@ -161,10 +161,8 @@ export default function Index() {
                     <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
                       Accepted to NYC Privacy Day at Google
                     </span>
-                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
-                      Third Place in YinzOR Conference Flash Talk Competition
-                    </span>
                   </div>
+                  <p className="text-sm text-foreground mb-2">Third Place in YinzOR Conference Flash Talk Competition</p>
                   <a
                     href="https://ssrn.com"
                     target="_blank"
