@@ -15,27 +15,32 @@ export default function Index() {
     <div>
       {/* Home Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-16">
-        <div className="max-w-5xl mx-auto flex gap-16 items-start">
-          <div className="w-96 flex-shrink-0">
-            <img 
-              src={headshot} 
-              alt="Lorraine Yuan"
-              className="w-full rounded-lg shadow-lg"
-            />
-          </div>
-          <div className="flex-1 flex flex-col justify-between" style={{ minHeight: '384px' }}>
-            <div>
-              <h1 className="text-5xl font-bold mb-8">Lorraine Yuan</h1>
+        <div className="max-w-5xl mx-auto">
+          <div className="flex gap-16 items-start mb-8">
+            <div className="w-96 flex-shrink-0">
+              <img 
+                src={headshot} 
+                alt="Lorraine Yuan"
+                className="w-full rounded-lg shadow-lg"
+              />
             </div>
-            <div>
-              <h2 className="text-lg text-muted-foreground mb-4">
-                PhD Candidate in Operations, Technology, and Information Management
-              </h2>
-              <p className="text-lg text-muted-foreground">
-                SC Johnson College of Business, Cornell Tech
-              </p>
+            <div className="flex-1 flex flex-col justify-between" style={{ minHeight: '384px' }}>
+              <div>
+                <h1 className="text-5xl font-bold mb-8">Lorraine Yuan</h1>
+              </div>
+              <div>
+                <h2 className="text-lg text-muted-foreground mb-4">
+                  PhD Candidate in Operations, Technology, and Information Management
+                </h2>
+                <p className="text-lg text-muted-foreground">
+                  SC Johnson College of Business, Cornell Tech
+                </p>
+              </div>
             </div>
           </div>
+          <p className="text-lg font-semibold text-foreground text-center">
+            I will be on the 2025-2026 job market.
+          </p>
         </div>
       </section>
 
