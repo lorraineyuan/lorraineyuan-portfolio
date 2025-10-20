@@ -26,7 +26,10 @@ export default function Index() {
             </div>
             <div className="flex-1 flex flex-col justify-between" style={{ minHeight: '384px' }}>
               <div>
-                <h1 className="text-5xl font-bold mb-8">Lorraine Yuan</h1>
+                <h1 className="text-5xl font-bold mb-8">
+                  <div>Lorraine</div>
+                  <div>Yuan</div>
+                </h1>
               </div>
               <div>
                 <h2 className="text-lg text-muted-foreground mb-4">
