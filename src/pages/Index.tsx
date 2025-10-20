@@ -351,10 +351,10 @@ export default function Index() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-8 md:mb-12">Co-instructor</h2>
             <div className="space-y-10">
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Managing Operations</h3>
-                <p className="text-muted-foreground">MBA Core • Weekly review sessions</p>
-                <p className="text-muted-foreground">Spring 2023 (Rating: 4.85/5, Number of respondents: 26)</p>
-                <p className="text-muted-foreground">Fall 2022 (Rating: 4.95/5, Number of respondents: 20)</p>
+                <h3 className="text-xl font-bold mb-2">Managing Operations</h3>
+                <p className="text-muted-foreground text-base">MBA Core • Weekly review sessions</p>
+                <p className="text-muted-foreground text-base">Spring 2023 (Rating: 4.85/5, Number of respondents: 26)</p>
+                <p className="text-muted-foreground text-base">Fall 2022 (Rating: 4.95/5, Number of respondents: 20)</p>
               </div>
             </div>
           </div>
@@ -364,24 +364,24 @@ export default function Index() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-8 md:mb-12">Teaching Assistant</h2>
             <div className="space-y-10">
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Business Data Analysis with SQL</h3>
-                <p className="text-muted-foreground">MBA Elective • Summer 2024</p>
+                <h3 className="text-xl font-bold mb-2">Business Data Analysis with SQL</h3>
+                <p className="text-muted-foreground text-base">MBA Elective • Summer 2024</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Generative AI for Business Transformation</h3>
-                <p className="text-muted-foreground">eCornell Certificate Program • Spring 2024</p>
+                <h3 className="text-xl font-bold mb-2">Generative AI for Business Transformation</h3>
+                <p className="text-muted-foreground text-base">eCornell Certificate Program • Spring 2024</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Managing Operations</h3>
-                <p className="text-muted-foreground">EMBA • Fall 2023, Spring 2021</p>
+                <h3 className="text-xl font-bold mb-2">Managing Operations</h3>
+                <p className="text-muted-foreground text-base">EMBA • Fall 2023, Spring 2021</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Operations Management</h3>
-                <p className="text-muted-foreground">Cornell–Peking MBA • Spring 2023</p>
+                <h3 className="text-xl font-bold mb-2">Operations Management</h3>
+                <p className="text-muted-foreground text-base">Cornell–Peking MBA • Spring 2023</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Innovation & New Venture Creation / The Customer Experience</h3>
-                <p className="text-muted-foreground">MBA Elective • Fall 2021</p>
+                <h3 className="text-xl font-bold mb-2">Innovation & New Venture Creation / The Customer Experience</h3>
+                <p className="text-muted-foreground text-base">MBA Elective • Fall 2021</p>
               </div>
             </div>
           </div>
@@ -390,8 +390,8 @@ export default function Index() {
           <div>
             <h2 className="text-3xl font-bold mb-12">Directed Reading Mentor</h2>
             <div className="border-l-4 border-foreground pl-6 py-2">
-              <h3 className="text-lg font-bold mb-2">Cornell Tech MBA '23</h3>
-              <p className="text-muted-foreground">Spring 2023</p>
+              <h3 className="text-xl font-bold mb-2">Cornell Tech MBA '23</h3>
+              <p className="text-muted-foreground text-base">Spring 2023</p>
             </div>
           </div>
         </div>
@@ -407,20 +407,20 @@ export default function Index() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-8 md:mb-12">Professional Service</h2>
             <div className="space-y-10">
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Reviewer for MSOM Annual Conference</h3>
-                <p className="text-muted-foreground">2025</p>
+                <h3 className="text-xl font-bold mb-2">Reviewer for MSOM Annual Conference</h3>
+                <p className="text-muted-foreground text-base">2025</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Doctoral Fellow, Digital Life Initiative, Cornell University</h3>
-                <p className="text-muted-foreground">2024 - 2025</p>
+                <h3 className="text-xl font-bold mb-2">Doctoral Fellow, Digital Life Initiative, Cornell University</h3>
+                <p className="text-muted-foreground text-base">2024 - 2025</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Co-chair, OTIM PhD Forum, Cornell University</h3>
-                <p className="text-muted-foreground">2022 - 2023</p>
+                <h3 className="text-xl font-bold mb-2">Co-chair, OTIM PhD Forum, Cornell University</h3>
+                <p className="text-muted-foreground text-base">2022 - 2023</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Session Co-chair, 2022 INFORMS Annual Conference</h3>
-                <p className="text-muted-foreground">2022</p>
+                <h3 className="text-xl font-bold mb-2">Session Co-chair, 2022 INFORMS Annual Conference</h3>
+                <p className="text-muted-foreground text-base">2022</p>
               </div>
             </div>
           </div>
@@ -430,34 +430,34 @@ export default function Index() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-8 md:mb-12">Honors & Awards</h2>
             <div className="space-y-10">
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">
+                <h3 className="text-xl font-bold mb-2">
                   Byron E. Grote Johnson Professional Scholarship, Cornell University
                 </h3>
-                <p className="text-muted-foreground">2021, 2024</p>
+                <p className="text-muted-foreground text-base">2021, 2024</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">
+                <h3 className="text-xl font-bold mb-2">
                   Digital Life Initiative Doctoral Fellowship, Cornell University
                 </h3>
-                <p className="text-muted-foreground">2024</p>
+                <p className="text-muted-foreground text-base">2024</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Cornell University Doctoral Fellowship</h3>
-                <p className="text-muted-foreground">2020 - 2026</p>
+                <h3 className="text-xl font-bold mb-2">Cornell University Doctoral Fellowship</h3>
+                <p className="text-muted-foreground text-base">2020 - 2026</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">
+                <h3 className="text-xl font-bold mb-2">
                   Noel Croucher Graduate Fellowship ($20000), Cornell University
                 </h3>
-                <p className="text-muted-foreground">2019</p>
+                <p className="text-muted-foreground text-base">2019</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">Lester B. Knight Scholarship ($40000), Cornell University</h3>
-                <p className="text-muted-foreground">2019</p>
+                <h3 className="text-xl font-bold mb-2">Lester B. Knight Scholarship ($40000), Cornell University</h3>
+                <p className="text-muted-foreground text-base">2019</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-lg font-bold mb-2">First Class Study Scholarship, Renmin University of China</h3>
-                <p className="text-muted-foreground">2018</p>
+                <h3 className="text-xl font-bold mb-2">First Class Study Scholarship, Renmin University of China</h3>
+                <p className="text-muted-foreground text-base">2018</p>
               </div>
             </div>
           </div>
