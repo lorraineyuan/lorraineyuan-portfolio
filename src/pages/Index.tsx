@@ -138,7 +138,7 @@ export default function Index() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Recent News</h2>
             <div className="space-y-4 text-base sm:text-lg text-foreground">
               <p>
-                I will present my job market paper "Privacy-preserving Data-driven Inventory Management" at INFORMS
+                I will present my job market paper "Privacy-Preserving Data-Driven Inventory Management" at INFORMS
                 Annual Meeting, Atlanta, GA.
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
@@ -172,13 +172,13 @@ export default function Index() {
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                 <img
                   src={paper1}
-                  alt="Privacy-preserving Data-driven Inventory Management"
+                  alt="Privacy-Preserving Data-Driven Inventory Management"
                   className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
                 />
                 <div className="flex-1 flex flex-col justify-between h-full">
                   <div>
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-                      Privacy-preserving Data-driven Inventory Management
+                      Privacy-Preserving Data-Driven Inventory Management
                     </h2>
                     <p className="text-muted-foreground mb-3 text-base">with Elena Belavina</p>
                     <div className="flex flex-wrap gap-2 mb-2">
@@ -263,7 +263,7 @@ export default function Index() {
                           width="100%"
                           height="100%"
                           src="https://www.youtube.com/embed/JJjOuLfzm5s"
-                          title="Flash Talk - Privacy-preserving Data-driven Inventory Management"
+                          title="Flash Talk - Privacy-Preserving Data-Driven Inventory Management"
                           frameBorder="0"
                           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                           allowFullScreen
@@ -321,7 +321,7 @@ export default function Index() {
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-                      Data-driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
+                      Data-Driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
                     </h2>
                     <p className="text-muted-foreground mb-3 text-base">
                       with Xiaoyue Yan, Karan Girotra and Elena Belavina
@@ -347,11 +347,11 @@ export default function Index() {
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                   <img
                     src={paper4}
-                    alt="Privacy-preserving Collaborative Learning"
+                    alt="Privacy-Preserving Collaborative Learning"
                     className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
-                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">Privacy-preserving Collaborative Learning</h2>
+                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">Privacy-Preserving Collaborative Learning</h2>
                     <p className="text-muted-foreground mb-3 text-base">with Karan Girotra and Elena Belavina</p>
                     <div>
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
