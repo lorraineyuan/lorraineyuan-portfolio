@@ -21,12 +21,12 @@ export default function Research() {
             <div className="flex gap-8 items-start mb-4">
               <img 
                 src={paper1} 
-                alt="Privacy-preserving Data-driven Inventory Management" 
+                alt="Privacy-Preserving Data-Driven Inventory Management"
                 className="w-64 sm:w-80 md:w-96 h-80 object-cover rounded-lg shadow-md flex-shrink-0"
               />
               <div className="flex-1">
                 <h2 className="text-5xl font-bold mb-2">
-                  Privacy-preserving Data-driven Inventory Management
+                  Privacy-Preserving Data-Driven Inventory Management
                 </h2>
                 <p className="text-muted-foreground mb-3 text-sm">
                   with Elena Belavina
@@ -136,7 +136,7 @@ export default function Research() {
                 />
                 <div className="flex-1">
                   <h2 className="text-5xl font-bold mb-2">
-                    Data-driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
+                    Data-Driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
                   </h2>
                   <p className="text-muted-foreground mb-3 text-sm">
                     with Xiaoyue Yan, Karan Girotra and Elena Belavina
@@ -166,7 +166,7 @@ export default function Research() {
                 />
                 <div className="flex-1">
                   <h2 className="text-5xl font-bold mb-2">
-                    Privacy-preserving Collaborative Learning
+                    Privacy-Preserving Collaborative Learning
                   </h2>
                   <p className="text-muted-foreground mb-3 text-sm">
                     with Karan Girotra and Elena Belavina
