@@ -1,7 +1,7 @@
 import paper1 from "@/assets/paper1.jpg";
 import paper2 from "@/assets/paper2d.jpg";
-import paper3 from "@/assets/paper3.jpg";
-import paper4 from "@/assets/paper4.jpg";
+import paper3 from "@/assets/paper3-contracts.png";
+import paper4 from "@/assets/paper4-privacy-collab.png";
 import { ExternalLink, ChevronDown } from "lucide-react";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { useState } from "react";
