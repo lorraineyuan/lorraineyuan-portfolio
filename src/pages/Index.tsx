@@ -192,7 +192,7 @@ export default function Index() {
                         }}
                       >
                         <a
-                          href="https://ssrn.com"
+                          href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5219878"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-block px-3 py-1 rounded text-sm font-medium text-foreground bg-white transition-transform hover:scale-105"

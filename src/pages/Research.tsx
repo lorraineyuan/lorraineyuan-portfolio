@@ -43,7 +43,7 @@ export default function Research() {
                   </span>
                 </div>
                 <a 
-                  href="https://ssrn.com" 
+                  href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5219878" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1 text-muted-foreground hover:text-sidebar-accent transition-colors text-sm"
