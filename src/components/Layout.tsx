@@ -11,7 +11,7 @@ const navigation = [
   { name: "Research", hash: "#research", icon: FileText },
   { name: "Teaching", hash: "#teaching", icon: GraduationCap },
   { name: "Service & Awards", hash: "#service-awards", icon: Award },
-  { name: "Curriculum Vitae", path: "https://drive.google.com/file/d/1S8dvQgZZpCzePSpl0dXdSP8ks743VuQ5/view?usp=share_link", icon: FileDown, external: true },
+  
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
