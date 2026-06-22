@@ -41,9 +41,6 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <p className="text-base sm:text-lg font-semibold text-foreground text-center">
-            I'm on the 2025-2026 job market.
-          </p>
         </div>
       </section>
 
