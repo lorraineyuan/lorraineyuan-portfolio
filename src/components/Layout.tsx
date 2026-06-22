@@ -11,7 +11,7 @@ const navigation = [
   { name: "Research", hash: "#research", icon: FileText },
   { name: "Teaching", hash: "#teaching", icon: GraduationCap },
   { name: "Service & Awards", hash: "#service-awards", icon: Award },
-  { name: "Curriculum Vitae", path: "https://drive.google.com/file/d/1S8dvQgZZpCzePSpl0dXdSP8ks743VuQ5/view?usp=share_link", icon: FileDown, external: true },
+  
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -60,25 +60,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <>
       {navigation.map((item) => {
         const Icon = item.icon;
-        
-        if (item.external) {
-          return (
-            <a
-              key={item.path}
-              href={item.path}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={cn(
-                "flex items-center gap-3 text-base py-2 transition-colors text-sidebar-text/60 hover:text-sidebar-text",
-                isMobile ? "" : isCollapsed && "justify-center"
-              )}
-              title={isCollapsed && !isMobile ? item.name : undefined}
-            >
-              <Icon className="w-5 h-5 flex-shrink-0" />
-              {(!isCollapsed || isMobile) && <span>{item.name}</span>}
-            </a>
-          );
-        }
         
         const isActive = activeSection === item.hash;
         
