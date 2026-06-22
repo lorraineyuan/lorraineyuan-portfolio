@@ -362,6 +362,115 @@ export default function Index() {
                   and competitive advantages.
                 </p>
               </div>
+
+              {/* Privacy-Preserving Data-Driven Inventory Management */}
+              <div>
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
+                  <img
+                    src={paper1}
+                    alt="Privacy-Preserving Data-Driven Inventory Management"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  />
+                  <div className="flex-1 flex flex-col justify-between h-full">
+                    <div>
+                      <h2 className="text-2xl sm:text-3xl font-bold mb-2">
+                        Privacy-Preserving Data-Driven Inventory Management
+                      </h2>
+                      <p className="text-muted-foreground mb-3 text-base">with Elena Belavina</p>
+                      <div className="flex flex-wrap gap-2 mb-2">
+                        <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium">
+                          Major Revision at Management Science
+                        </span>
+                        <span
+                          className="inline-block p-[3px] rounded"
+                          style={{
+                            background: "var(--gradient-rainbow)",
+                          }}
+                        >
+                          <a
+                            href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5219878"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block px-3 py-1 rounded text-sm font-medium text-foreground bg-white transition-transform hover:scale-105"
+                          >
+                            SSRN
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                    <ul className="list-disc list-inside text-base text-foreground space-y-1">
+                      <li>Accepted to NYC Privacy Day at Google</li>
+                      <li>Third Place in YinzOR Conference Flash Talk Competition</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <p className="text-foreground leading-relaxed mb-4">
+                  Examines how different ways of using data to make decisions lead to fundamentally different outcomes in
+                  difficulty for privacy protection, firm's profit, and customer welfare.
+                </p>
+
+                <div className="space-y-3">
+                  <Collapsible open={isAbstractOpen} onOpenChange={setIsAbstractOpen}>
+                    <CollapsibleTrigger className="flex items-center gap-2 text-lg font-semibold hover:text-sidebar-accent transition-colors">
+                      <ChevronDown className={`w-5 h-5 transition-transform ${isAbstractOpen ? "rotate-180" : ""}`} />
+                      Abstract
+                    </CollapsibleTrigger>
+                    <CollapsibleContent className="pt-2">
+                      <p className="text-foreground leading-relaxed">
+                        Firms today have access to increasing amounts of customer data that can facilitate better demand
+                        prediction and inventory management. However, security researchers have long demonstrated that
+                        attackers can exploit these decision pipelines to recover sensitive data by combining data-driven
+                        decisions with background information—a fear realized in recent attacks and one that is a
+                        deterrent to broader adoption of data-driven decision-making. This study develops and compares
+                        privacy-preserving approaches for data-driven inventory management that are robust to such
+                        attacks. We propose differential privacy-based adaptations of two leading data-driven inventory
+                        management methods—the traditional two-step estimate-then-optimize, and a more contemporary
+                        one-step joint estimate-optimize paradigm—and establish theoretical guarantees on their
+                        performance. Our analysis characterizes a firm's tradeoff between privacy protection and
+                        profitability and compares the three algorithms in terms of the difficulty of privacy
+                        preservation, profit losses from privacy, optimal privacy protection levels, and the ensuing
+                        customer surplus. Our analysis shows that the one-step paradigm dominates the two-step paradigm by
+                        enabling lower-cost privatization of customer data through more targeted noise injection,
+                        achieving lower privacy exposure risk, higher profitability, and greater customer surplus. This
+                        finding reshapes our understanding of privacy protection—the costs and benefits of privacy
+                        preservation are not only driven by the privacy algorithms used but are also fundamentally shaped
+                        by the underlying data-driven decision-making paradigm. We also show that a firm that uses our
+                        methods and chooses an optimal privacy level will, in fact, increase its demand, profit, and
+                        customer surplus (under most conditions)—challenging the notion that privacy protection comes
+                        necessarily at a cost. Our numerical analysis reveals that one-step algorithms offer 3 to 6 times
+                        stronger privacy protection and around 30% higher profits than the two-step counterpart. Even with
+                        high customer preference for privacy, one-step algorithms can boost profits by as much as 40%
+                        while maintaining strong privacy protection—an achievement unattainable with the two-step
+                        algorithm.
+                      </p>
+                    </CollapsibleContent>
+                  </Collapsible>
+
+                  <Collapsible open={isFlashTalkOpen} onOpenChange={setIsFlashTalkOpen}>
+                    <CollapsibleTrigger className="flex items-center gap-2 text-lg font-semibold hover:text-sidebar-accent transition-colors">
+                      <ChevronDown className={`w-5 h-5 transition-transform ${isFlashTalkOpen ? "rotate-180" : ""}`} />
+                      10-min Flash Talk
+                    </CollapsibleTrigger>
+                    <CollapsibleContent className="pt-2">
+                      <div className="flex justify-center">
+                        <div className="aspect-video w-full max-w-3xl">
+                          <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/JJjOuLfzm5s"
+                            title="Flash Talk - Privacy-Preserving Data-Driven Inventory Management"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            className="rounded-lg"
+                          ></iframe>
+                        </div>
+                      </div>
+                    </CollapsibleContent>
+                  </Collapsible>
+                </div>
+              </div>
             </div>
           </div>
         </div>
