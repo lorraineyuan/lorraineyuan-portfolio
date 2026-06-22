@@ -166,90 +166,6 @@ export default function Index() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Working Papers</h2>
 
             <div className="space-y-12 md:space-y-16">
-              {/* Paper 2 */}
-              <div>
-                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
-                  <img
-                    src={paper2}
-                    alt="Mechanism Design for Generative AI Copilot"
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
-                  />
-                  <div className="flex-1">
-                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-                      Mechanism Design for Generative AI Copilot in a Sequential Production Process
-                    </h2>
-                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra and Elena Belavina</p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Working Paper
-                      </span>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Draft Available Upon Request
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <p className="text-foreground leading-relaxed">
-                  Designs human-AI copilot strategies that determine optimal human feedback points in agentic AI
-                  workflows to balance attention, fatigue, accuracy, and computational cost.
-                </p>
-              </div>
-
-              {/* Paper 3 */}
-              <div>
-                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
-                  <img
-                    src={paper3}
-                    alt="Data-driven Decisions in Supply Chains"
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
-                  />
-                  <div className="flex-1">
-                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-                      Data-Driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
-                    </h2>
-                    <p className="text-muted-foreground mb-3 text-base">
-                      with Xiaoyue Yan, Karan Girotra and Elena Belavina
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Working Paper
-                      </span>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Draft Available Upon Request
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <p className="text-foreground leading-relaxed">
-                  Explores the intersection of contract design, algorithmic decision-making, and operational efficiency
-                  in modern supply chain networks.
-                </p>
-              </div>
-
-              {/* Paper 4 */}
-              <div>
-                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
-                  <img
-                    src={paper4}
-                    alt="Privacy-Preserving Collaborative Learning"
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
-                  />
-                  <div className="flex-1">
-                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">Privacy-Preserving Collaborative Learning</h2>
-                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra and Elena Belavina</p>
-                    <div>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Work In Progress
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <p className="text-foreground leading-relaxed">
-                  Investigates mechanisms for collaborative learning across organizations while preserving data privacy
-                  and competitive advantages.
-                </p>
-              </div>
-
               {/* Privacy-Preserving Data-Driven Inventory Management */}
               <div>
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
@@ -357,6 +273,90 @@ export default function Index() {
                     </CollapsibleContent>
                   </Collapsible>
                 </div>
+              </div>
+
+              {/* Paper 2 */}
+              <div>
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
+                  <img
+                    src={paper2}
+                    alt="Mechanism Design for Generative AI Copilot"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  />
+                  <div className="flex-1">
+                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">
+                      Mechanism Design for Generative AI Copilot in a Sequential Production Process
+                    </h2>
+                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra and Elena Belavina</p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                        Working Paper
+                      </span>
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                        Draft Available Upon Request
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-foreground leading-relaxed">
+                  Designs human-AI copilot strategies that determine optimal human feedback points in agentic AI
+                  workflows to balance attention, fatigue, accuracy, and computational cost.
+                </p>
+              </div>
+
+              {/* Paper 3 */}
+              <div>
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
+                  <img
+                    src={paper3}
+                    alt="Data-driven Decisions in Supply Chains"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  />
+                  <div className="flex-1">
+                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">
+                      Data-Driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
+                    </h2>
+                    <p className="text-muted-foreground mb-3 text-base">
+                      with Xiaoyue Yan, Karan Girotra and Elena Belavina
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                        Working Paper
+                      </span>
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                        Draft Available Upon Request
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-foreground leading-relaxed">
+                  Explores the intersection of contract design, algorithmic decision-making, and operational efficiency
+                  in modern supply chain networks.
+                </p>
+              </div>
+
+              {/* Paper 4 */}
+              <div>
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
+                  <img
+                    src={paper4}
+                    alt="Privacy-Preserving Collaborative Learning"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  />
+                  <div className="flex-1">
+                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">Privacy-Preserving Collaborative Learning</h2>
+                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra and Elena Belavina</p>
+                    <div>
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                        Work In Progress
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-foreground leading-relaxed">
+                  Investigates mechanisms for collaborative learning across organizations while preserving data privacy
+                  and competitive advantages.
+                </p>
               </div>
             </div>
           </div>
