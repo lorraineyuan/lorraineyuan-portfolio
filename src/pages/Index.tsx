@@ -135,7 +135,7 @@ export default function Index() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Recent News</h2>
             <div className="space-y-4 text-base sm:text-lg text-foreground">
               <p>
-                I will present my job market paper "Privacy-Preserving Data-Driven Inventory Management" at INFORMS
+                I presented my recent work on "Privacy-Preserving Data-Driven Inventory Management" at INFORMS
                 Annual Meeting, Atlanta, GA.
               </p>
               <ul className="list-disc list-inside space-y-2 ml-4">
