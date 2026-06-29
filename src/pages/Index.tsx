@@ -2,7 +2,7 @@ import headshot from "@/assets/headshot.png";
 import paper1 from "@/assets/paper1-new.jpg";
 import paper2 from "@/assets/paper2-new.jpg";
 import paper3 from "@/assets/paper3-new.png";
-import paper4 from "@/assets/paper4-new.png";
+import paper4 from "@/assets/paper4-ev.png";
 import { ExternalLink, ChevronDown, Mail, MapPin, FileText, Linkedin } from "lucide-react";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { useState } from "react";
