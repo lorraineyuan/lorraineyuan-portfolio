@@ -19,7 +19,7 @@ export default function Index() {
         <div className="max-w-5xl mx-auto w-full">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-end mb-8">
             <div className="w-64 sm:w-80 md:w-96 flex-shrink-0">
-              <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg" />
+              <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg grayscale" />
             </div>
             <div className="flex-1 flex flex-col justify-between text-center md:text-left md:self-stretch">
               <div>
