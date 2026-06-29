@@ -24,7 +24,7 @@ export default function Index() {
             <div className="flex-1 flex flex-col text-center md:text-left">
               <div>
                 <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-                  <div>Lorraine</div>
+                  <div>Huaibing (Lorraine)</div>
                   <div>Yuan</div>
                 </h1>
                 <p className="text-base text-gray-400 -mt-2">She/Her/Hers</p>
