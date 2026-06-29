@@ -9,14 +9,15 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Le Labo inspired: cream paper background, ink black, typewriter */
-    --background: 40 20% 96%;
+    --background: 0 0% 99%;
     --foreground: 0 0% 8%;
 
-    --card: 40 20% 96%;
+    --card: 0 0% 99%;
     --card-foreground: 0 0% 8%;
 
-    --popover: 40 20% 96%;
+    --popover: 0 0% 99%;
     --popover-foreground: 0 0% 8%;
+
 
     --primary: 0 0% 8%;
     --primary-foreground: 40 20% 96%;
