@@ -351,7 +351,11 @@ export default function Index() {
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         In Preparation for Submission to Management Science
                       </span>
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                        Draft Available Upon Request
+                      </span>
                     </div>
+
                   </div>
                 </div>
                 <p className="text-foreground leading-relaxed">
@@ -378,10 +382,8 @@ export default function Index() {
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Working Paper
                       </span>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Draft Available Upon Request
-                      </span>
                     </div>
+
                   </div>
                 </div>
                 <p className="text-foreground leading-relaxed">
