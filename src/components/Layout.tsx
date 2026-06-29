@@ -163,37 +163,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         {children}
       </main>
 
-      {/* Footer with contact (desktop) */}
-      {!isMobile && (
-        <footer className="border-t border-foreground/15 bg-background mt-16">
-          <div className="max-w-7xl mx-auto px-8 py-10 grid grid-cols-3 gap-8 text-sm">
-            <div className="flex items-start gap-2">
-              <Mail className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
-              <a href="mailto:hy557@cornell.edu" className="text-foreground/70 hover:text-foreground transition-colors">
-                hy557@cornell.edu
-              </a>
-            </div>
-            <div className="flex items-start gap-2">
-              <Linkedin className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
-              <a
-                href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-foreground/70 hover:text-foreground transition-colors"
-              >
-                LinkedIn
-              </a>
-            </div>
-            <div className="flex items-start gap-2">
-              <MapPin className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
-              <p className="text-foreground/70 leading-relaxed">
-                Cornell Tech, 2 West Loop Road<br />
-                New York, NY 10044
-              </p>
-            </div>
-          </div>
-        </footer>
-      )}
     </div>
   );
 }
