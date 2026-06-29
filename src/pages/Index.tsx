@@ -43,7 +43,7 @@ export default function Index() {
           </div>
 
           {/* Contacts row */}
-          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-start gap-x-8 gap-y-3 text-sm text-foreground/80 border-t border-foreground/15 pt-6">
+          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-between gap-x-8 gap-y-3 text-sm text-foreground/80 border-t border-foreground/15 pt-6">
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-foreground/60 flex-shrink-0" />
               <a href="mailto:hy557@cornell.edu" className="hover:text-foreground transition-colors break-all">
