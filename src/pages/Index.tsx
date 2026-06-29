@@ -146,12 +146,14 @@ export default function Index() {
               <div>
                 <h3 className="font-semibold mb-2">Topics</h3>
                 <p className="text-foreground">
-                  Data Privacy, Generative AI Adoption, Inventory Management, Mechanism Design
+                  Privacy-Aware Analytics, AI with Human-in-the-Loop, Supply Chain Management, Sustainable Transportation
                 </p>
               </div>
               <div>
                 <h3 className="font-semibold mb-2">Methodologies</h3>
-                <p className="text-foreground">Data-driven Optimization, Economic Modelling, Differential Privacy</p>
+                <p className="text-foreground">
+                  Data-Driven Optimization, Economic and Statistical Modelling, Empirical OM, Causal Inference
+                </p>
               </div>
             </div>
           </div>
@@ -305,17 +307,17 @@ export default function Index() {
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                   <img
                     src={paper2}
-                    alt="Mechanism Design for Generative AI Copilot"
+                    alt="Governing Agentic AI Workflows"
                     className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-                      Mechanism Design for Generative AI Copilot in a Sequential Production Process
+                      Governing Agentic AI Workflows: Oversight with Agentic and Assistive Designs
                     </h2>
-                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra and Elena Belavina</p>
+                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra</p>
                     <div className="flex flex-wrap gap-2">
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Working Paper
+                        In Preparation for Submission to Management Science
                       </span>
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Draft Available Upon Request
@@ -324,8 +326,9 @@ export default function Index() {
                   </div>
                 </div>
                 <p className="text-foreground leading-relaxed">
-                  Designs human-AI copilot strategies that determine optimal human feedback points in agentic AI
-                  workflows to balance attention, fatigue, accuracy, and computational cost.
+                  Develops a stochastic model to study how to optimally place human feedback in agentic AI systems with
+                  multi-step workflows under a principal-agent framework, balancing uncertainty in AI jagged intelligence
+                  and human moral hazard.
                 </p>
               </div>
 
@@ -334,7 +337,7 @@ export default function Index() {
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                   <img
                     src={paper3}
-                    alt="Data-driven Decisions in Supply Chains"
+                    alt="Data-Driven Decisions in Supply Chains"
                     className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
@@ -342,8 +345,35 @@ export default function Index() {
                       Data-Driven Decisions in Supply Chains: Contracts, Algorithms, and Efficiency
                     </h2>
                     <p className="text-muted-foreground mb-3 text-base">
-                      with Xiaoyue Yan, Karan Girotra and Elena Belavina
+                      with Elena Belavina, Karan Girotra and Xiaoyue Yan
                     </p>
+                    <div className="flex flex-wrap gap-2">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                        In Preparation for Submission to Management Science
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-foreground leading-relaxed">
+                  Studies how learning algorithm choice interacts with classic coordinating contracts in multi-tier
+                  supply chains, showing that algorithmic bias and variance can reverse standard coordination results
+                  across prevalent data-driven methods.
+                </p>
+              </div>
+
+              {/* Paper 4 */}
+              <div>
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
+                  <img
+                    src={paper4}
+                    alt="Charging Before Empty"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  />
+                  <div className="flex-1">
+                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">
+                      Charging Before Empty: Private Buffers and Public Burdens in Electric Vehicle Charging Behavior
+                    </h2>
+                    <p className="text-muted-foreground mb-3 text-base">with Yu Nu</p>
                     <div className="flex flex-wrap gap-2">
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         Working Paper
@@ -355,32 +385,49 @@ export default function Index() {
                   </div>
                 </div>
                 <p className="text-foreground leading-relaxed">
-                  Explores the intersection of contract design, algorithmic decision-making, and operational efficiency
-                  in modern supply chain networks.
+                  Studies how EV drivers maintain private battery buffers by charging before their batteries are close to
+                  empty, and how these precautionary choices impose public burdens through congestion at shared charging
+                  stations; uses large-scale trip and charging data to estimate charging behavior and quantify its
+                  operational impact.
                 </p>
               </div>
+            </div>
+          </div>
 
-              {/* Paper 4 */}
-              <div>
-                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
-                  <img
-                    src={paper4}
-                    alt="Privacy-Preserving Collaborative Learning"
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
-                  />
-                  <div className="flex-1">
-                    <h2 className="text-2xl sm:text-3xl font-bold mb-2">Privacy-Preserving Collaborative Learning</h2>
-                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra and Elena Belavina</p>
-                    <div>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
-                        Work In Progress
-                      </span>
-                    </div>
-                  </div>
-                </div>
+          {/* Ongoing Projects Section */}
+          <div className="mt-16 md:mt-20">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Ongoing Projects</h2>
+            <div className="space-y-8">
+              <div className="border-l-4 border-foreground pl-6 py-2">
+                <h3 className="text-xl font-bold mb-2">Privacy-Preserving Collaborative Learning</h3>
                 <p className="text-foreground leading-relaxed">
-                  Investigates mechanisms for collaborative learning across organizations while preserving data privacy
-                  and competitive advantages.
+                  Studies how firms can jointly train predictive models while limiting the leakage of proprietary demand,
+                  inventory, or operational data; develops privacy-preserving learning mechanisms that trade off model
+                  performance, coordination benefits, and information exposure.
+                </p>
+              </div>
+              <div className="border-l-4 border-foreground pl-6 py-2">
+                <h3 className="text-xl font-bold mb-2">Transfer Learning for Privacy-Aware Agentic AI</h3>
+                <p className="text-foreground leading-relaxed">
+                  Studies how agentic AI systems can transfer knowledge across related tasks or users while respecting
+                  privacy constraints; characterizes when transfer improves decision quality and when it amplifies
+                  privacy risks or model misspecification.
+                </p>
+              </div>
+              <div className="border-l-4 border-foreground pl-6 py-2">
+                <h3 className="text-xl font-bold mb-2">AI Token Allocation in a Production Network</h3>
+                <p className="text-foreground leading-relaxed">
+                  Studies how scarce AI inference capacity should be allocated across tasks, stages, and firms in a
+                  production network; develops models for prioritizing token budgets when AI assistance affects
+                  downstream productivity and bottlenecks.
+                </p>
+              </div>
+              <div className="border-l-4 border-foreground pl-6 py-2">
+                <h3 className="text-xl font-bold mb-2">Pricing For EV Chargers Under Congestion</h3>
+                <p className="text-foreground leading-relaxed">
+                  Studies dynamic pricing for electric vehicle charging stations when drivers face congestion and
+                  heterogeneous charging needs; designs congestion-aware prices that manage station utilization while
+                  accounting for driver substitution and timing responses.
                 </p>
               </div>
             </div>
