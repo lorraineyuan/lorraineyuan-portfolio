@@ -95,7 +95,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <div className="flex min-h-screen">
       {/* Mobile Header */}
       {isMobile && (
-        <header className="fixed top-0 left-0 right-0 h-16 bg-sidebar-dark text-sidebar-text flex items-center justify-between px-4 z-50 border-b border-sidebar-text/10">
+        <header className="fixed top-0 left-0 right-0 h-16 bg-sidebar-dark text-sidebar-text flex items-center justify-between px-4 z-50 border-b border-foreground/15">
           <div className="flex items-center gap-2">
             <h1 className="text-xl font-bold">Lorraine Yuan</h1>
           </div>
