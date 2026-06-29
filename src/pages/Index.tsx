@@ -19,13 +19,14 @@ export default function Index() {
         <div className="max-w-5xl mx-auto w-full">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
             <div className="w-44 sm:w-52 md:w-60 flex-shrink-0">
-              <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg grayscale" />
+              <img src={headshot} alt="Huaibing Yuan" className="w-full rounded-lg shadow-lg grayscale" />
             </div>
             <div className="flex-1 flex flex-col text-center md:text-left">
               <div>
                 <h1 className="text-4xl sm:text-5xl font-bold mb-4">
-                  <div>Lorraine</div>
+                  <div>Huaibing</div>
                   <div>Yuan</div>
+
                 </h1>
                 <p className="text-base text-gray-400 -mt-2">She/Her/Hers</p>
               </div>
@@ -76,7 +77,7 @@ export default function Index() {
 
           <div className="space-y-6 text-base sm:text-lg leading-relaxed text-foreground mb-12 md:mb-16">
             <p>
-              I am Lorraine Yuan, a final year PhD candidate in the{" "}
+              I am Huaibing Yuan, a final year PhD candidate in the{" "}
               <a
                 href="https://www.johnson.cornell.edu/programs/phd-program/operations-technology-information-management/"
                 target="_blank"
