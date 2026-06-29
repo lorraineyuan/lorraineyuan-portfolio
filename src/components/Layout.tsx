@@ -44,7 +44,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     const element = document.querySelector(hash) as HTMLElement | null;
     if (element) {
       const headerOffset = 96;
-      const top = element.getBoundingClientRect().top + window.scrollY - headerOffset;
+      // Scroll to the section's first heading (title) so it sits right under the header,
+      // skipping the section's top padding which would otherwise show as blank space.
+      const titleEl = element.querySelector('h1, h2, h3') as HTMLElement | null;
+      const target = titleEl ?? element;
+      const top = target.getBoundingClientRect().top + window.scrollY - headerOffset - 16;
       window.scrollTo({ top, behavior: 'smooth' });
       window.history.pushState(null, '', hash);
       setActiveSection(hash);
