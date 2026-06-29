@@ -15,7 +15,7 @@ export default function Index() {
   return (
     <Layout>
       {/* Home Section */}
-      <section id="home" className="flex items-center justify-center px-4 sm:px-8 md:px-16 py-8 md:py-12">
+      <section id="home" className="flex items-center justify-center px-4 sm:px-8 md:px-16 py-16 md:py-24">
         <div className="max-w-5xl mx-auto w-full">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-end mb-8">
             <div className="w-64 sm:w-80 md:w-96 flex-shrink-0">
@@ -45,7 +45,7 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
+      <section id="about" className="min-h-screen py-20 sm:py-28 md:py-36 px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">About Me</h1>
 
@@ -157,7 +157,7 @@ export default function Index() {
       </section>
 
       {/* Research Section */}
-      <section id="research" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
+      <section id="research" className="min-h-screen py-20 sm:py-28 md:py-36 px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Research</h1>
 
@@ -364,7 +364,7 @@ export default function Index() {
       </section>
 
       {/* Teaching Section */}
-      <section id="teaching" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
+      <section id="teaching" className="min-h-screen py-20 sm:py-28 md:py-36 px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Teaching</h1>
 
@@ -422,7 +422,7 @@ export default function Index() {
       </section>
 
       {/* Service & Awards Section */}
-      <section id="service-awards" className="min-h-screen py-8 sm:py-12 md:py-16 px-4 sm:px-8 md:px-16">
+      <section id="service-awards" className="min-h-screen py-20 sm:py-28 md:py-36 px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Service & Awards</h1>
 
