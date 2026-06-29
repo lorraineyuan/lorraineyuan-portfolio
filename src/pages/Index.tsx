@@ -17,7 +17,7 @@ export default function Index() {
       {/* Home Section */}
       <section id="home" className="flex items-center justify-center px-4 sm:px-8 md:px-16 py-16 md:py-24">
         <div className="max-w-5xl mx-auto w-full">
-          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
+          <div className="flex flex-col md:flex-row-reverse gap-8 md:gap-16 items-center md:items-start mb-8">
             <div className="w-44 sm:w-52 md:w-60 flex-shrink-0 flex flex-col gap-5">
               <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg grayscale" />
               <div className="space-y-2 text-sm text-foreground/80">
