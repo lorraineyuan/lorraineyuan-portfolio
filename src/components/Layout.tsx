@@ -41,14 +41,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, hash: string) => {
     e.preventDefault();
-    const element = document.querySelector(hash);
+    const element = document.querySelector(hash) as HTMLElement | null;
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const headerOffset = 96;
+      const top = element.getBoundingClientRect().top + window.scrollY - headerOffset;
+      window.scrollTo({ top, behavior: 'smooth' });
       window.history.pushState(null, '', hash);
       setActiveSection(hash);
       setIsOpen(false);
     }
   };
+
 
   const renderNavItems = (vertical = false) => (
     <>
