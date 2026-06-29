@@ -1,22 +1,18 @@
-import { useLocation } from "react-router-dom";
 import { cn } from "@/lib/utils";
-import { Home, User, FileText, GraduationCap, Award, FileDown, ChevronLeft, ChevronRight, Menu, Mail, MapPin, Linkedin } from "lucide-react";
+import { Menu, Mail, MapPin, Linkedin } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navigation = [
-  { name: "Home", hash: "#home", icon: Home },
-  { name: "About", hash: "#about", icon: User },
-  { name: "Research", hash: "#research", icon: FileText },
-  { name: "Teaching", hash: "#teaching", icon: GraduationCap },
-  { name: "Service & Awards", hash: "#service-awards", icon: Award },
-  
+  { name: "Home", hash: "#home" },
+  { name: "About", hash: "#about" },
+  { name: "Research", hash: "#research" },
+  { name: "Teaching", hash: "#teaching" },
+  { name: "Service & Awards", hash: "#service-awards" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const location = useLocation();
-  const [isCollapsed, setIsCollapsed] = useState(false);
   const [activeSection, setActiveSection] = useState('#home');
   const [isOpen, setIsOpen] = useState(false);
   const isMobile = useIsMobile();
@@ -24,7 +20,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     const handleScroll = () => {
       const sections = ['#home', '#about', '#research', '#teaching', '#service-awards'];
-      const scrollPosition = window.scrollY + 100; // offset for better detection
+      const scrollPosition = window.scrollY + 120;
 
       for (let i = sections.length - 1; i >= 0; i--) {
         const section = document.querySelector(sections[i]);
@@ -39,8 +35,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Initial check
-    
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -49,41 +44,32 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     const element = document.querySelector(hash);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      // Update URL hash without jumping
       window.history.pushState(null, '', hash);
       setActiveSection(hash);
-      setIsOpen(false); // Close mobile menu after navigation
+      setIsOpen(false);
     }
   };
 
-  const renderNavItems = () => (
+  const renderNavItems = (vertical = false) => (
     <>
       {navigation.map((item) => {
-        const Icon = item.icon;
-        
         const isActive = activeSection === item.hash;
-        
         return (
           <a
             key={item.hash}
             href={item.hash}
             onClick={(e) => handleNavClick(e, item.hash!)}
             className={cn(
-              "flex items-center gap-3 text-base py-2 transition-colors relative",
-              isActive 
-                ? "text-sidebar-text" 
-                : "text-sidebar-text/60 hover:text-sidebar-text",
-              isMobile ? "" : isCollapsed && "justify-center"
+              "uppercase tracking-[0.15em] text-xs sm:text-sm transition-colors relative whitespace-nowrap",
+              vertical ? "py-3 text-base" : "py-2",
+              isActive
+                ? "text-foreground"
+                : "text-foreground/55 hover:text-foreground"
             )}
-            title={isCollapsed && !isMobile ? item.name : undefined}
           >
-            <Icon className="w-5 h-5 flex-shrink-0" />
-            {(!isCollapsed || isMobile) && <span>{item.name}</span>}
-            {isActive && !isCollapsed && !isMobile && (
-              <span className="absolute left-0 bottom-0 w-12 h-0.5 bg-sidebar-accent" />
-            )}
-            {isActive && isCollapsed && !isMobile && (
-              <span className="absolute left-1/2 -translate-x-1/2 bottom-0 w-8 h-0.5 bg-sidebar-accent" />
+            {item.name}
+            {isActive && !vertical && (
+              <span className="absolute left-0 right-0 -bottom-1 h-px bg-foreground" />
             )}
           </a>
         );
@@ -92,151 +78,115 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   );
 
   return (
-    <div className="flex min-h-screen">
-      {/* Mobile Header */}
-      {isMobile && (
-        <header className="fixed top-0 left-0 right-0 h-16 bg-sidebar-dark text-sidebar-text flex items-center justify-between px-4 z-50 border-b border-foreground/15">
-          <div className="flex items-center gap-2">
-            <h1 className="text-xl font-bold">Lorraine Yuan</h1>
-          </div>
-          <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger asChild>
-              <button className="p-2 hover:bg-sidebar-text/10 rounded-md transition-colors">
-                <Menu className="w-6 h-6" />
-              </button>
-            </SheetTrigger>
-            <SheetContent side="right" className="bg-sidebar-dark text-sidebar-text border-sidebar-text/10 w-64">
-              <div className="flex flex-col gap-2 mt-8 h-full">
-                <div className="flex-1">
-                  {renderNavItems()}
-                </div>
-                
-                {/* Contact Information for Mobile */}
-                <div className="border-t border-sidebar-text/10 pt-4 space-y-3 text-base">
-                  <div className="flex items-start gap-2">
-                    <Mail className="w-5 h-5 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
-                    <a href="mailto:hy557@cornell.edu" className="text-sidebar-text/60 hover:text-sidebar-text transition-colors break-all">
-                      hy557@cornell.edu
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <a 
-                      href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-sidebar-text/60 hover:text-sidebar-text transition-colors"
-                    >
-                      <Linkedin className="w-5 h-5 flex-shrink-0" />
-                      <span>LinkedIn</span>
-                    </a>
-                  </div>
-                  <div className="flex items-start gap-2">
-                    <MapPin className="w-5 h-5 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
-                    <p className="text-sidebar-text/60">
-                      Cornell Tech<br />
-                      2 West Loop Road<br />
-                      New York, NY 10044
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </SheetContent>
-          </Sheet>
-        </header>
-      )}
-
-      {/* Desktop Sidebar */}
-      {!isMobile && (
-        <aside className={cn(
-          "fixed left-0 top-0 h-screen bg-sidebar-dark text-sidebar-text flex flex-col p-8 transition-all duration-300 border-r border-foreground/15",
-          isCollapsed ? "w-20" : "w-64"
-        )}>
-
-          <div className="mb-12">
-            {!isCollapsed && (
-              <>
-                <h1 className="text-2xl font-bold mb-1">Lorraine</h1>
-                <h1 className="text-2xl font-bold">Yuan</h1>
-              </>
-            )}
-            {isCollapsed && (
-              <h1 className="text-xl font-bold text-center">LY</h1>
-            )}
-          </div>
-          
-          <nav className="flex flex-col gap-2 flex-1">
-            {renderNavItems()}
-          </nav>
-
-          {/* Contact Information */}
-          {!isCollapsed && (
-            <div className="border-t border-sidebar-text/10 pt-4 mb-4 space-y-3 text-base">
-              <div className="flex items-start gap-2">
-                <Mail className="w-5 h-5 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
-                <a href="mailto:hy557@cornell.edu" className="text-sidebar-text/60 hover:text-sidebar-text transition-colors break-all">
-                  hy557@cornell.edu
-                </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <a 
-                  href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-sidebar-text/60 hover:text-sidebar-text transition-colors"
-                >
-                  <Linkedin className="w-5 h-5 flex-shrink-0" />
-                  <span>LinkedIn</span>
-                </a>
-              </div>
-              <div className="flex items-start gap-2">
-                <MapPin className="w-5 h-5 mt-0.5 text-sidebar-text/60 flex-shrink-0" />
-                <p className="text-sidebar-text/60">
-                  Cornell Tech<br />
-                  2 West Loop Road<br />
-                  New York, NY 10044
-                </p>
-              </div>
-            </div>
-          )}
-          {isCollapsed && (
-            <div className="border-t border-sidebar-text/10 pt-4 mb-4 flex flex-col items-center gap-3">
-              <a 
-                href="mailto:hy557@cornell.edu" 
-                title="Email"
-                className="text-sidebar-text/60 hover:text-sidebar-text transition-colors"
-              >
-                <Mail className="w-5 h-5" />
-              </a>
-              <a 
-                href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                title="LinkedIn"
-                className="text-sidebar-text/60 hover:text-sidebar-text transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-            </div>
-          )}
-
-          {/* Toggle button */}
-          <button
-            onClick={() => setIsCollapsed(!isCollapsed)}
-            className="flex items-center justify-center py-3 text-sidebar-text/60 hover:text-sidebar-text transition-colors"
-            aria-label={isCollapsed ? "Expand sidebar" : "Collapse sidebar"}
+    <div className="min-h-screen flex flex-col">
+      {/* Top Header — Le Labo style */}
+      <header className="fixed top-0 left-0 right-0 z-50 bg-background border-b border-foreground/15">
+        <div className="max-w-7xl mx-auto px-4 sm:px-8 py-4 flex items-center justify-between gap-6">
+          {/* Brand */}
+          <a
+            href="#home"
+            onClick={(e) => handleNavClick(e, '#home')}
+            className="flex flex-col leading-tight"
           >
-            {isCollapsed ? <ChevronRight className="w-5 h-5" /> : <ChevronLeft className="w-5 h-5" />}
-          </button>
-        </aside>
-      )}
+            <span className="text-lg sm:text-xl font-bold tracking-[0.2em] uppercase">
+              Lorraine Yuan
+            </span>
+            <span className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-foreground/60 mt-0.5">
+              Cornell Tech — New York
+            </span>
+          </a>
+
+          {/* Desktop nav */}
+          {!isMobile && (
+            <nav className="flex items-center gap-7 lg:gap-10">
+              {renderNavItems()}
+            </nav>
+          )}
+
+          {/* Mobile menu trigger */}
+          {isMobile && (
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
+              <SheetTrigger asChild>
+                <button className="p-2 hover:bg-foreground/5 transition-colors" aria-label="Open menu">
+                  <Menu className="w-6 h-6" />
+                </button>
+              </SheetTrigger>
+              <SheetContent side="right" className="bg-background text-foreground border-l border-foreground/15 w-72">
+                <div className="flex flex-col gap-1 mt-8 h-full">
+                  <div className="flex-1 flex flex-col">
+                    {renderNavItems(true)}
+                  </div>
+
+                  <div className="border-t border-foreground/15 pt-4 space-y-3 text-sm">
+                    <div className="flex items-start gap-2">
+                      <Mail className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
+                      <a href="mailto:hy557@cornell.edu" className="text-foreground/70 hover:text-foreground transition-colors break-all">
+                        hy557@cornell.edu
+                      </a>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <a
+                        href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-foreground/70 hover:text-foreground transition-colors"
+                      >
+                        <Linkedin className="w-4 h-4 flex-shrink-0" />
+                        <span>LinkedIn</span>
+                      </a>
+                    </div>
+                    <div className="flex items-start gap-2">
+                      <MapPin className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
+                      <p className="text-foreground/70">
+                        Cornell Tech<br />
+                        2 West Loop Road<br />
+                        New York, NY 10044
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </SheetContent>
+            </Sheet>
+          )}
+        </div>
+      </header>
 
       {/* Main content */}
-      <main className={cn(
-        "flex-1 bg-background transition-all duration-300",
-        isMobile ? "pt-16" : isCollapsed ? "ml-20" : "ml-64"
-      )}>
+      <main className="flex-1 bg-background pt-20 sm:pt-24">
         {children}
       </main>
+
+      {/* Footer with contact (desktop) */}
+      {!isMobile && (
+        <footer className="border-t border-foreground/15 bg-background mt-16">
+          <div className="max-w-7xl mx-auto px-8 py-10 grid grid-cols-3 gap-8 text-sm">
+            <div className="flex items-start gap-2">
+              <Mail className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
+              <a href="mailto:hy557@cornell.edu" className="text-foreground/70 hover:text-foreground transition-colors">
+                hy557@cornell.edu
+              </a>
+            </div>
+            <div className="flex items-start gap-2">
+              <Linkedin className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
+              <a
+                href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-foreground/70 hover:text-foreground transition-colors"
+              >
+                LinkedIn
+              </a>
+            </div>
+            <div className="flex items-start gap-2">
+              <MapPin className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
+              <p className="text-foreground/70 leading-relaxed">
+                Cornell Tech, 2 West Loop Road<br />
+                New York, NY 10044
+              </p>
+            </div>
+          </div>
+        </footer>
+      )}
     </div>
   );
 }
