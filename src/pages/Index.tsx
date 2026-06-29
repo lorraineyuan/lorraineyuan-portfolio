@@ -15,7 +15,7 @@ export default function Index() {
   return (
     <Layout>
       {/* Home Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-8 md:px-16 pt-16">
+      <section id="home" className="flex items-center justify-center px-4 sm:px-8 md:px-16 py-8 md:py-12">
         <div className="max-w-5xl mx-auto w-full">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-end mb-8">
             <div className="w-64 sm:w-80 md:w-96 flex-shrink-0">
