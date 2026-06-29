@@ -9,7 +9,7 @@ export default function About() {
             <h1 className="text-5xl font-bold mb-8">About Me</h1>
             <div className="space-y-6 text-lg leading-relaxed text-foreground">
               <p>
-                I am Lorraine Yuan, a final year PhD candidate in the Operations, Technology, and Information Management
+                I am Huaibing Yuan, a final year PhD candidate in the Operations, Technology, and Information Management
                 (OTIM) division of SC Johnson College of Business at Cornell Tech, where I am very fortunate to be
                 advised by Prof. Karan Girotra and Prof. Elena Belavina. I'm also a doctoral fellow at the Digital Life
                 Initiative.
@@ -31,7 +31,7 @@ export default function About() {
             </div>
           </div>
           <div className="w-80 flex-shrink-0">
-            <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg" />
+            <img src={headshot} alt="Huaibing Yuan" className="w-full rounded-lg shadow-lg" />
           </div>
         </div>
 
