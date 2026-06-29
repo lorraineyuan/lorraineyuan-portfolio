@@ -18,37 +18,10 @@ export default function Index() {
       <section id="home" className="flex items-center justify-center px-4 sm:px-8 md:px-16 py-16 md:py-24">
         <div className="max-w-5xl mx-auto w-full">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
-            <div className="w-44 sm:w-52 md:w-60 flex-shrink-0 flex flex-col gap-5">
+            <div className="w-44 sm:w-52 md:w-60 flex-shrink-0">
               <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg grayscale" />
-              <div className="space-y-2 text-sm text-foreground/80">
-                <div className="flex items-start gap-2">
-                  <Mail className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
-                  <a href="mailto:hy557@cornell.edu" className="hover:text-foreground transition-colors break-all">
-                    hy557@cornell.edu
-                  </a>
-                </div>
-                <div className="flex items-start gap-2">
-                  <Linkedin className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
-                  <a
-                    href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:text-foreground transition-colors"
-                  >
-                    LinkedIn
-                  </a>
-                </div>
-                <div className="flex items-start gap-2">
-                  <MapPin className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
-                  <p className="leading-relaxed">
-                    Cornell Tech<br />
-                    2 West Loop Road<br />
-                    New York, NY 10044
-                  </p>
-                </div>
-              </div>
             </div>
-            <div className="flex-1 flex flex-col justify-between text-center md:text-left">
+            <div className="flex-1 flex flex-col text-center md:text-left">
               <div>
                 <h1 className="text-4xl sm:text-5xl font-bold mb-4">
                   <div>Lorraine</div>
@@ -66,6 +39,31 @@ export default function Index() {
                   Cornell Tech, Cornell University
                 </p>
               </div>
+            </div>
+          </div>
+
+          {/* Contacts row */}
+          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-start gap-x-8 gap-y-3 text-sm text-foreground/80 border-t border-foreground/15 pt-6">
+            <div className="flex items-center gap-2">
+              <Mail className="w-4 h-4 text-foreground/60 flex-shrink-0" />
+              <a href="mailto:hy557@cornell.edu" className="hover:text-foreground transition-colors break-all">
+                hy557@cornell.edu
+              </a>
+            </div>
+            <div className="flex items-center gap-2">
+              <Linkedin className="w-4 h-4 text-foreground/60 flex-shrink-0" />
+              <a
+                href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground transition-colors"
+              >
+                LinkedIn
+              </a>
+            </div>
+            <div className="flex items-center gap-2">
+              <MapPin className="w-4 h-4 text-foreground/60 flex-shrink-0" />
+              <span>Cornell Tech, 2 West Loop Road, New York, NY 10044</span>
             </div>
           </div>
         </div>
