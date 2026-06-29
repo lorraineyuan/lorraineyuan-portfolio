@@ -3,7 +3,7 @@ import paper1 from "@/assets/paper1-new.jpg";
 import paper2 from "@/assets/paper2-new.jpg";
 import paper3 from "@/assets/paper3-new.png";
 import paper4 from "@/assets/paper4-new.png";
-import { ExternalLink, ChevronDown, Mail, MapPin, FileText } from "lucide-react";
+import { ExternalLink, ChevronDown, Mail, MapPin, FileText, Linkedin } from "lucide-react";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { useState } from "react";
 import Layout from "@/components/Layout";
@@ -17,11 +17,38 @@ export default function Index() {
       {/* Home Section */}
       <section id="home" className="flex items-center justify-center px-4 sm:px-8 md:px-16 py-16 md:py-24">
         <div className="max-w-5xl mx-auto w-full">
-          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-end mb-8">
-            <div className="w-64 sm:w-80 md:w-96 flex-shrink-0">
+          <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
+            <div className="w-44 sm:w-52 md:w-60 flex-shrink-0 flex flex-col gap-5">
               <img src={headshot} alt="Lorraine Yuan" className="w-full rounded-lg shadow-lg grayscale" />
+              <div className="space-y-2 text-sm text-foreground/80">
+                <div className="flex items-start gap-2">
+                  <Mail className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
+                  <a href="mailto:hy557@cornell.edu" className="hover:text-foreground transition-colors break-all">
+                    hy557@cornell.edu
+                  </a>
+                </div>
+                <div className="flex items-start gap-2">
+                  <Linkedin className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
+                  <a
+                    href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-foreground transition-colors"
+                  >
+                    LinkedIn
+                  </a>
+                </div>
+                <div className="flex items-start gap-2">
+                  <MapPin className="w-4 h-4 mt-0.5 text-foreground/60 flex-shrink-0" />
+                  <p className="leading-relaxed">
+                    Cornell Tech<br />
+                    2 West Loop Road<br />
+                    New York, NY 10044
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="flex-1 flex flex-col justify-between text-center md:text-left md:self-stretch">
+            <div className="flex-1 flex flex-col justify-between text-center md:text-left">
               <div>
                 <h1 className="text-4xl sm:text-5xl font-bold mb-4">
                   <div>Lorraine</div>
@@ -29,7 +56,7 @@ export default function Index() {
                 </h1>
                 <p className="text-base text-gray-400 -mt-2">She/Her/Hers</p>
               </div>
-              <div>
+              <div className="mt-6">
                 <h2 className="text-base sm:text-lg text-muted-foreground mb-4">
                   PhD Candidate in Operations, Technology, and Information Management
                 </h2>
