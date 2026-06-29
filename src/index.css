@@ -9,39 +9,40 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Le Labo inspired: cream paper background, ink black, typewriter */
-    --background: 40 20% 96%;
+    --background: 0 0% 99%;
     --foreground: 0 0% 8%;
 
-    --card: 40 20% 96%;
+    --card: 0 0% 99%;
     --card-foreground: 0 0% 8%;
 
-    --popover: 40 20% 96%;
+    --popover: 0 0% 99%;
     --popover-foreground: 0 0% 8%;
 
-    --primary: 0 0% 8%;
-    --primary-foreground: 40 20% 96%;
 
-    --secondary: 40 15% 92%;
+    --primary: 0 0% 8%;
+    --primary-foreground: 0 0% 99%;
+
+    --secondary: 0 0% 96%;
     --secondary-foreground: 0 0% 8%;
 
     --muted: 0 0% 40%;
     --muted-foreground: 0 0% 35%;
 
     --accent: 0 0% 8%;
-    --accent-foreground: 40 20% 96%;
+    --accent-foreground: 0 0% 99%;
 
     --destructive: 0 60% 40%;
-    --destructive-foreground: 40 20% 96%;
+    --destructive-foreground: 0 0% 99%;
 
-    --border: 0 0% 75%;
-    --input: 0 0% 75%;
+    --border: 0 0% 80%;
+    --input: 0 0% 80%;
     --ring: 0 0% 8%;
 
     --radius: 0rem;
 
-    /* Sidebar: same cream paper as page, ink text */
-    --sidebar-dark: 40 20% 96%;
+    --sidebar-dark: 0 0% 99%;
     --sidebar-text: 0 0% 8%;
+
     --sidebar-accent: 0 0% 8%;
 
     /* Decorative elements - muted neutrals */
