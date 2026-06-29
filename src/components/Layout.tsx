@@ -148,9 +148,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       {/* Desktop Sidebar */}
       {!isMobile && (
         <aside className={cn(
-          "fixed left-0 top-0 h-screen bg-sidebar-dark text-sidebar-text flex flex-col p-8 transition-all duration-300",
+          "fixed left-0 top-0 h-screen bg-sidebar-dark text-sidebar-text flex flex-col p-8 transition-all duration-300 border-r border-foreground/15",
           isCollapsed ? "w-20" : "w-64"
         )}>
+
           <div className="mb-12">
             {!isCollapsed && (
               <>
