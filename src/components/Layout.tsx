@@ -96,7 +96,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             className="flex flex-col leading-tight"
           >
             <span className="text-lg sm:text-xl font-bold tracking-[0.2em] uppercase">
-              Lorraine Yuan
+              Huaibing (Lorraine) Yuan
             </span>
             <span className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-foreground/60 mt-0.5">
               Cornell Tech — New York
