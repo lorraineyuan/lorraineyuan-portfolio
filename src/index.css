@@ -8,46 +8,46 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 0 0% 10%;
+    /* Le Labo inspired: cream paper background, ink black, typewriter */
+    --background: 40 20% 96%;
+    --foreground: 0 0% 8%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 10%;
+    --card: 40 20% 96%;
+    --card-foreground: 0 0% 8%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 10%;
+    --popover: 40 20% 96%;
+    --popover-foreground: 0 0% 8%;
 
-    --primary: 0 0% 10%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 0 0% 8%;
+    --primary-foreground: 40 20% 96%;
 
-    --secondary: 0 0% 96%;
-    --secondary-foreground: 0 0% 10%;
+    --secondary: 40 15% 92%;
+    --secondary-foreground: 0 0% 8%;
 
-    --muted: 0 0% 46%;
-    --muted-foreground: 0 0% 46%;
+    --muted: 0 0% 40%;
+    --muted-foreground: 0 0% 35%;
 
-    --accent: 0 84% 60%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 0 0% 8%;
+    --accent-foreground: 40 20% 96%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 60% 40%;
+    --destructive-foreground: 40 20% 96%;
 
-    --border: 0 0% 90%;
-    --input: 0 0% 90%;
-    --ring: 0 0% 10%;
+    --border: 0 0% 75%;
+    --input: 0 0% 75%;
+    --ring: 0 0% 8%;
 
-    --radius: 0.5rem;
+    --radius: 0rem;
 
-    /* Sidebar colors */
-    --sidebar-dark: 0 0% 8%;
-    --sidebar-text: 0 0% 98%;
-    --sidebar-accent: 0 84% 60%;
+    /* Sidebar: same cream paper as page, ink text */
+    --sidebar-dark: 40 20% 96%;
+    --sidebar-text: 0 0% 8%;
+    --sidebar-accent: 0 0% 8%;
 
-    /* Decorative elements */
-    --circle-gray-1: 0 0% 85%;
-    --circle-gray-2: 0 0% 75%;
+    /* Decorative elements - muted neutrals */
+    --circle-gray-1: 0 0% 88%;
+    --circle-gray-2: 0 0% 80%;
 
-    /* Rainbow gradient */
     --gradient-rainbow: linear-gradient(135deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
   }
 }
@@ -63,5 +63,18 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Courier Prime', 'Courier New', monospace;
+    font-feature-settings: "kern" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier Prime', 'Courier New', monospace;
+    letter-spacing: -0.01em;
+  }
+
+  a {
+    text-underline-offset: 3px;
   }
 }
+
