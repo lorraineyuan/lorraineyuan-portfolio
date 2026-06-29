@@ -405,6 +405,7 @@ export default function Index() {
                   inventory, or operational data; develops privacy-preserving learning mechanisms that trade off model
                   performance, coordination benefits, and information exposure.
                 </p>
+                <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Differential privacy, federated learning, stochastic optimization, game theory.</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-xl font-bold mb-2">Transfer Learning for Privacy-Aware Agentic AI</h3>
@@ -413,6 +414,7 @@ export default function Index() {
                   privacy constraints; characterizes when transfer improves decision quality and when it amplifies
                   privacy risks or model misspecification.
                 </p>
+                <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Transfer learning, differential privacy, online learning, statistical learning theory.</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-xl font-bold mb-2">AI Token Allocation in a Production Network</h3>
@@ -421,6 +423,7 @@ export default function Index() {
                   production network; develops models for prioritizing token budgets when AI assistance affects
                   downstream productivity and bottlenecks.
                 </p>
+                <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Network optimization, queueing theory, mechanism design, dynamic resource allocation.</p>
               </div>
               <div className="border-l-4 border-foreground pl-6 py-2">
                 <h3 className="text-xl font-bold mb-2">Pricing For EV Chargers Under Congestion</h3>
@@ -429,7 +432,9 @@ export default function Index() {
                   heterogeneous charging needs; designs congestion-aware prices that manage station utilization while
                   accounting for driver substitution and timing responses.
                 </p>
+                <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Dynamic pricing, queueing theory, stochastic modeling, choice modeling.</p>
               </div>
+
             </div>
           </div>
         </div>
