@@ -26,7 +26,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto w-full">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
             <div className="w-44 sm:w-52 md:w-60 flex-shrink-0">
-              <img src={headshot} alt="Huaibing Yuan" className="w-full rounded-lg shadow-lg grayscale" />
+              <img src={headshot} alt="Huaibing Yuan" className="w-full rounded-lg shadow-lg" />
             </div>
             <div className="flex-1 flex flex-col text-center md:text-left">
               <div>
