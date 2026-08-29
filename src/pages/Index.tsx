@@ -541,138 +541,73 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Teaching Section — Taxonomic grid (Le Labo dossier) */}
-      <section id="teaching" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-16">
-        <div className="max-w-5xl mx-auto">
+      {/* Teaching Section */}
+      <section id="teaching" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+        <div className="max-w-6xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Teaching</h1>
 
-          {/* Dossier container */}
-          <div className="border border-foreground p-6">
-            <div className="border-b border-foreground pb-4 mb-8">
-              <h2 className="text-lg sm:text-xl font-bold tracking-tight uppercase">Instruction & Pedagogy</h2>
-              <p className="text-xs mt-1 text-muted-foreground italic">Log of academic appointments and mentorship records.</p>
-            </div>
-
-            {/* Main grid */}
-            <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
-              {/* Left column: high-volume roles */}
-              <div className="md:col-span-7 flex flex-col gap-6">
-                {/* Teaching Assistant */}
-                <div className="border border-foreground p-4">
-                  <div className="flex justify-between items-end border-b border-foreground mb-3 pb-1">
-                    <h3 className="text-sm font-bold uppercase tracking-widest">Teaching Assistant</h3>
-                    <span className="text-[10px] text-muted-foreground">[05 RECORDS]</span>
-                  </div>
-                  <div className="space-y-3">
-                    <div className="flex justify-between items-start gap-4">
-                      <div className="text-xs">
-                        <span className="font-bold uppercase">Business Data Analysis with SQL</span>
-                        <br />
-                        <span className="text-muted-foreground">MBA Elective</span>
-                      </div>
-                      <div className="text-[10px] text-right shrink-0 font-bold uppercase">Summer 2024</div>
-                    </div>
-                    <div className="flex justify-between items-start gap-4">
-                      <div className="text-xs">
-                        <span className="font-bold uppercase">Generative AI for Business Transformation</span>
-                        <br />
-                        <span className="text-muted-foreground">eCornell Certificate Program</span>
-                      </div>
-                      <div className="text-[10px] text-right shrink-0 font-bold uppercase">Spring 2024</div>
-                    </div>
-                    <div className="flex justify-between items-start gap-4">
-                      <div className="text-xs">
-                        <span className="font-bold uppercase">Managing Operations</span>
-                        <br />
-                        <span className="text-muted-foreground">EMBA</span>
-                      </div>
-                      <div className="text-[10px] text-right shrink-0 font-bold uppercase">Fall 2023, Spring 2021</div>
-                    </div>
-                    <div className="flex justify-between items-start gap-4">
-                      <div className="text-xs">
-                        <span className="font-bold uppercase">Operations Management</span>
-                        <br />
-                        <span className="text-muted-foreground">Cornell–Peking MBA</span>
-                      </div>
-                      <div className="text-[10px] text-right shrink-0 font-bold uppercase">Spring 2023</div>
-                    </div>
-                    <div className="flex justify-between items-start gap-4">
-                      <div className="text-xs">
-                        <span className="font-bold uppercase">Innovation & New Venture Creation / The Customer Experience</span>
-                        <br />
-                        <span className="text-muted-foreground">MBA Elective</span>
-                      </div>
-                      <div className="text-[10px] text-right shrink-0 font-bold uppercase">Fall 2021</div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Paths Academics */}
-                <div className="border border-foreground p-4">
-                  <div className="flex justify-between items-end border-b border-foreground mb-3 pb-1">
-                    <h3 className="text-sm font-bold uppercase tracking-widest">Paths Academics</h3>
-                    <span className="text-[10px] text-muted-foreground">[OUTREACH]</span>
-                  </div>
-                  <div className="text-xs">
-                    <p className="text-muted-foreground italic">To be added.</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Right column: specialized & independent roles */}
-              <div className="md:col-span-5 flex flex-col gap-6">
-                {/* Co-instructor — highlighted */}
-                <div className="border border-foreground p-4 bg-secondary">
-                  <div className="flex justify-between items-end border-b border-foreground mb-3 pb-1">
-                    <h3 className="text-sm font-bold uppercase tracking-widest">Co-instructor</h3>
-                    <span className="text-[10px] font-bold">RATING: 4.9/5.0</span>
-                  </div>
-                  <div className="text-xs">
-                    <span className="font-bold uppercase">Managing Operations</span>
-                    <div className="text-[10px] text-muted-foreground mt-1">MBA Core • Weekly review sessions</div>
-                    <div className="mt-3 pt-3 border-t border-foreground border-dotted space-y-1">
-                      <div className="flex justify-between text-[10px] uppercase">
-                        <span className="text-muted-foreground">Spring 2023</span>
-                        <span className="font-bold">4.85/5.0 (n=26)</span>
-                      </div>
-                      <div className="flex justify-between text-[10px] uppercase">
-                        <span className="text-muted-foreground">Fall 2022</span>
-                        <span className="font-bold">4.95/5.0 (n=20)</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Independent Instruction */}
-                <div className="border border-foreground p-4">
-                  <div className="flex justify-between items-end border-b border-foreground mb-3 pb-1">
-                    <h3 className="text-sm font-bold uppercase tracking-widest">Independent Instruction</h3>
-                  </div>
-                  <div className="text-xs">
-                    <p className="text-muted-foreground italic">To be added.</p>
-                  </div>
-                </div>
-
-                {/* Directed Reading Mentor */}
-                <div className="border border-foreground p-4">
-                  <div className="flex justify-between items-end border-b border-foreground mb-3 pb-1">
-                    <h3 className="text-sm font-bold uppercase tracking-widest">Directed Reading Mentor</h3>
-                  </div>
-                  <div className="text-xs">
-                    <span className="font-bold uppercase">Cornell Tech MBA '23</span>
-                    <div className="text-[10px] text-muted-foreground mt-1">Mentee: 1 MBA Student</div>
-                    <div className="text-[10px] font-bold uppercase mt-1">Spring 2023</div>
-                  </div>
+          {/* Co-instructor */}
+          <section className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Co-instructor</h2>
+            <div className="space-y-8">
+              <div className="border border-foreground p-6">
+                <h3 className="text-xl font-bold mb-2">Managing Operations</h3>
+                <p className="text-muted-foreground mb-4">MBA Core, weekly review sessions</p>
+                <div className="space-y-3 text-foreground">
+                  <div>Spring 2023 (Rating: 4.85/5, Number of respondents: 26)</div>
+                  <div>Fall 2022 (Rating: 4.95/5, Number of respondents: 20)</div>
                 </div>
               </div>
             </div>
+          </section>
 
-            {/* Footer meta */}
-            <div className="mt-10 pt-4 border-t border-foreground flex justify-between items-center">
-              <span className="text-[9px] uppercase tracking-widest text-muted-foreground">End of Teaching Records</span>
-              <span className="text-[9px] uppercase text-muted-foreground">Cornell Tech</span>
+          {/* Independent Instruction */}
+          <section className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Independent Instruction</h2>
+            <p className="text-muted-foreground italic">To be added.</p>
+          </section>
+
+          {/* Teaching Assistant */}
+          <section className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Teaching Assistant</h2>
+            <div className="space-y-6">
+              <div className="border-l-4 border-primary pl-6 py-3">
+                <h3 className="text-lg font-bold">Business Data Analysis with SQL</h3>
+                <p className="text-muted-foreground">MBA Elective • Summer 2024</p>
+              </div>
+              <div className="border-l-4 border-primary pl-6 py-3">
+                <h3 className="text-lg font-bold">Generative AI for Business Transformation</h3>
+                <p className="text-muted-foreground">eCornell Certificate Program • Spring 2024</p>
+              </div>
+              <div className="border-l-4 border-primary pl-6 py-3">
+                <h3 className="text-lg font-bold">Managing Operations</h3>
+                <p className="text-muted-foreground">EMBA • Fall 2023, Spring 2021</p>
+              </div>
+              <div className="border-l-4 border-primary pl-6 py-3">
+                <h3 className="text-lg font-bold">Operations Management</h3>
+                <p className="text-muted-foreground">Cornell–Peking MBA • Spring 2023</p>
+              </div>
+              <div className="border-l-4 border-primary pl-6 py-3">
+                <h3 className="text-lg font-bold">Innovation & New Venture Creation / The Customer Experience</h3>
+                <p className="text-muted-foreground">MBA Elective • Fall 2021</p>
+              </div>
             </div>
-          </div>
+          </section>
+
+          {/* Directed Reading Mentor */}
+          <section className="mb-12 md:mb-16">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Directed Reading Mentor</h2>
+            <div className="border-l-4 border-primary pl-6 py-3">
+              <h3 className="text-lg font-bold">Cornell Tech MBA '23</h3>
+              <p className="text-muted-foreground">Mentee: 1 MBA Student • Spring 2023</p>
+            </div>
+          </section>
+
+          {/* Paths Academics */}
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Paths Academics</h2>
+            <p className="text-muted-foreground italic">To be added.</p>
+          </section>
         </div>
       </section>
 
