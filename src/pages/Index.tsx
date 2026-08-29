@@ -305,7 +305,7 @@ export default function Index() {
 
               {/* Paper 2 */}
               <div>
-                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
+                <div className="flex flex-col sm:flex-row-reverse gap-4 sm:gap-8 items-start mb-4">
                   <img
                     src={paper2}
                     alt="Governing Agentic AI Workflows"
@@ -368,7 +368,7 @@ export default function Index() {
 
               {/* Paper 4 */}
               <div>
-                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
+                <div className="flex flex-col sm:flex-row-reverse gap-4 sm:gap-8 items-start mb-4">
                   <img
                     src={paper4}
                     alt="Charging Before Empty"
