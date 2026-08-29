@@ -434,7 +434,7 @@ export default function Index() {
             </div>
           </div>
 
-          {/* Ongoing Projects Section */}
+          {/* Ongoing Projects Section — HIDDEN; uncomment to restore
           <div className="mt-16 md:mt-20">
             <h2 className="text-2xl sm:text-3xl font-bold mb-10 md:mb-12">Ongoing Projects</h2>
             <div className="space-y-8 md:space-y-10">
@@ -537,6 +537,7 @@ export default function Index() {
               </div>
             </div>
           </div>
+          */}
         </div>
       </section>
 
