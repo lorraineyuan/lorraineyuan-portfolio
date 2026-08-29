@@ -600,14 +600,14 @@ export default function Index() {
       </section>
 
       {/* Service & Awards Section */}
-      <section id="service-awards" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-16">
+      <section id="service-awards" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-16">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Service & Awards</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Service & Awards</h1>
 
           {/* Professional Service */}
-          <div className="mb-10 md:mb-14">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-5 md:mb-7">Professional Service</h2>
-            <ul className="space-y-3 text-base sm:text-lg list-none">
+          <div className="mb-6 md:mb-8">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 md:mb-4">Professional Service</h2>
+            <ul className="space-y-1 text-sm sm:text-base list-none">
               <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
                 <span className="font-medium flex-1">Reviewer for MSOM Annual Conference</span>
                 <span className="text-muted-foreground sm:w-32 sm:text-right">2025</span>
@@ -629,8 +629,8 @@ export default function Index() {
 
           {/* Honors & Awards */}
           <div>
-            <h2 className="text-2xl sm:text-3xl font-bold mb-5 md:mb-7">Honors & Awards</h2>
-            <ul className="space-y-3 text-base sm:text-lg list-none">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 md:mb-4">Honors & Awards</h2>
+            <ul className="space-y-1 text-sm sm:text-base list-none">
               <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
                 <span className="font-medium flex-1">Byron E. Grote Johnson Professional Scholarship, Cornell University</span>
                 <span className="text-muted-foreground sm:w-32 sm:text-right">2021, 2024</span>
