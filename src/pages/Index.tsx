@@ -23,7 +23,7 @@ export default function Index() {
     <Layout>
       {/* Home Section */}
       <section id="home" className="flex items-center justify-center px-4 sm:px-8 md:px-10 py-8 md:py-12 bg-[#FFFFFF]">
-        <div className="max-w-6xl mx-auto w-full">
+        <div className="max-w-7xl mx-auto w-full">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
             <div className="w-44 sm:w-52 md:w-60 flex-shrink-0">
               <img src={headshot} alt="Huaibing Yuan" className="w-full rounded-lg shadow-lg grayscale" />
@@ -79,7 +79,7 @@ export default function Index() {
 
       {/* About Section */}
       <section id="about" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">About Me</h1>
 
           <div className="space-y-6 text-base sm:text-lg leading-relaxed text-foreground mb-12 md:mb-16">
@@ -193,7 +193,7 @@ export default function Index() {
 
       {/* Research Section */}
       <section id="research" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#FFFFFF]">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Research</h1>
 
           {/* Working Papers Section */}
@@ -543,7 +543,7 @@ export default function Index() {
 
       {/* Teaching Section */}
       <section id="teaching" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Teaching</h1>
 
           {/* Co-instructor */}
@@ -613,7 +613,7 @@ export default function Index() {
 
       {/* Service & Awards Section */}
       <section id="service-awards" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#FFFFFF]">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Service & Awards</h1>
 
           {/* Professional Service */}
