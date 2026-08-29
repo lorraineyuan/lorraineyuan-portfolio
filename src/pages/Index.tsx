@@ -207,7 +207,7 @@ export default function Index() {
                   <img
                     src={paper1}
                     alt="Privacy-Preserving Data-Driven Inventory Management"
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-2xl shadow-md flex-shrink-0"
                   />
                   <div className="flex-1 flex flex-col justify-between h-full">
                     <div>
@@ -318,7 +318,7 @@ export default function Index() {
                   <img
                     src={paper2}
                     alt="Governing Agentic AI Workflows"
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-2xl shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -358,7 +358,7 @@ export default function Index() {
                   <img
                     src={paper3}
                     alt="Data-Driven Decisions in Supply Chains"
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-2xl shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -401,7 +401,7 @@ export default function Index() {
                   <img
                     src={paper4}
                     alt="Charging Before Empty"
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-2xl shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
@@ -447,7 +447,7 @@ export default function Index() {
                     loading="lazy"
                     width={1024}
                     height={768}
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-2xl shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h3 className="text-xl sm:text-2xl font-bold mb-2">Privacy-Preserving Collaborative Learning</h3>
@@ -472,7 +472,7 @@ export default function Index() {
                     loading="lazy"
                     width={1024}
                     height={768}
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-2xl shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h3 className="text-xl sm:text-2xl font-bold mb-2">Transfer Learning for Privacy-Aware Agentic AI</h3>
@@ -497,7 +497,7 @@ export default function Index() {
                     loading="lazy"
                     width={1024}
                     height={768}
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-2xl shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h3 className="text-xl sm:text-2xl font-bold mb-2">AI Token Allocation in a Production Network</h3>
@@ -522,7 +522,7 @@ export default function Index() {
                     loading="lazy"
                     width={1024}
                     height={768}
-                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-2xl shadow-md flex-shrink-0"
                   />
                   <div className="flex-1">
                     <h3 className="text-xl sm:text-2xl font-bold mb-2">Pricing For EV Chargers Under Congestion</h3>
