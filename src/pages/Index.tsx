@@ -307,7 +307,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <hr className="border-t border-border/30" />
+              <hr className="border-t border-border/60" />
 
               {/* Paper 2 */}
               <div>
@@ -339,7 +339,7 @@ export default function Index() {
                 </p>
               </div>
 
-              <hr className="border-t border-border/30" />
+              <hr className="border-t border-border/60" />
 
               {/* Paper 3 */}
               <div>
@@ -374,7 +374,7 @@ export default function Index() {
                 </p>
               </div>
 
-              <hr className="border-t border-border/30" />
+              <hr className="border-t border-border/60" />
 
               {/* Paper 4 */}
               <div>
@@ -434,7 +434,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <hr className="border-t border-border/30" />
+              <hr className="border-t border-border/60" />
 
               {/* Project 2 */}
               <div>
@@ -459,7 +459,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <hr className="border-t border-border/30" />
+              <hr className="border-t border-border/60" />
 
               {/* Project 3 */}
               <div>
@@ -484,7 +484,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <hr className="border-t border-border/30" />
+              <hr className="border-t border-border/60" />
 
               {/* Project 4 */}
               <div>
