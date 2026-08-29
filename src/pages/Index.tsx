@@ -216,7 +216,7 @@ export default function Index() {
                       </h2>
                       <p className="text-muted-foreground mb-3 text-base">with Elena Belavina</p>
                       <div className="flex flex-wrap gap-2 mb-2">
-                        <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-medium">
+                        <span className="inline-flex items-center justify-center bg-primary text-primary-foreground px-3 py-1 rounded text-sm font-bold text-center">
                           Major Revision at Management Science
                         </span>
                         <span
