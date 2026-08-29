@@ -197,7 +197,7 @@ export default function Index() {
           <div>
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Working Papers</h2>
 
-            <div className="space-y-12 md:space-y-16">
+            <div className="space-y-8 md:space-y-10">
               {/* Privacy-Preserving Data-Driven Inventory Management */}
               <div>
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
@@ -410,7 +410,7 @@ export default function Index() {
           {/* Ongoing Projects Section */}
           <div className="mt-16 md:mt-20">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Ongoing Projects</h2>
-            <div className="space-y-12 md:space-y-16">
+            <div className="space-y-8 md:space-y-10">
               {/* Project 1 */}
               <div>
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
