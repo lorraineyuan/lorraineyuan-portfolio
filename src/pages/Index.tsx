@@ -307,6 +307,8 @@ export default function Index() {
                 </div>
               </div>
 
+              <hr className="border-t border-border/30" />
+
               {/* Paper 2 */}
               <div>
                 <div className="flex flex-col sm:flex-row-reverse gap-4 sm:gap-8 items-start mb-4">
