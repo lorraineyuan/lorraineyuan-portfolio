@@ -438,7 +438,7 @@ export default function Index() {
           <div className="mt-16 md:mt-20">
             <h2 className="text-2xl sm:text-3xl font-bold mb-10 md:mb-12">Ongoing Projects</h2>
             <div className="space-y-8 md:space-y-10">
-              {/* Project 1 */}
+              
               <div>
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                   <img
@@ -463,7 +463,7 @@ export default function Index() {
 
               <hr className="border-t border-border/60" />
 
-              {/* Project 2 */}
+              
               <div>
                 <div className="flex flex-col sm:flex-row-reverse gap-4 sm:gap-8 items-start mb-4">
                   <img
@@ -488,7 +488,7 @@ export default function Index() {
 
               <hr className="border-t border-border/60" />
 
-              {/* Project 3 */}
+              
               <div>
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
                   <img
@@ -513,7 +513,7 @@ export default function Index() {
 
               <hr className="border-t border-border/60" />
 
-              {/* Project 4 */}
+              
               <div>
                 <div className="flex flex-col sm:flex-row-reverse gap-4 sm:gap-8 items-start mb-4">
                   <img
