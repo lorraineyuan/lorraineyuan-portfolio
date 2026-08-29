@@ -1,4 +1,4 @@
-import headshot from "@/assets/headshot.png";
+import headshot from "@/assets/headshot-new.jpeg";
 import paper1 from "@/assets/paper1-new.jpg";
 import paper2 from "@/assets/paper2-new.jpg";
 import paper3 from "@/assets/paper3-new.png";
