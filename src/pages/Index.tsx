@@ -307,6 +307,8 @@ export default function Index() {
                 </div>
               </div>
 
+              <hr className="border-t border-border/30" />
+
               {/* Paper 2 */}
               <div>
                 <div className="flex flex-col sm:flex-row-reverse gap-4 sm:gap-8 items-start mb-4">
@@ -336,6 +338,8 @@ export default function Index() {
                   and human moral hazard.
                 </p>
               </div>
+
+              <hr className="border-t border-border/30" />
 
               {/* Paper 3 */}
               <div>
@@ -369,6 +373,8 @@ export default function Index() {
                   across prevalent data-driven methods.
                 </p>
               </div>
+
+              <hr className="border-t border-border/30" />
 
               {/* Paper 4 */}
               <div>
