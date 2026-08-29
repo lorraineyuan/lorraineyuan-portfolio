@@ -335,18 +335,18 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
+                <p className="text-foreground leading-relaxed mb-4">
+                  Develops a stochastic model to study how to optimally place human feedback in agentic AI systems with
+                  multi-step workflows under a principal-agent framework, balancing uncertainty in AI jagged intelligence
+                  and human moral hazard.
+                </p>
+
                 <Collapsible open={isPaper2AbstractOpen} onOpenChange={setIsPaper2AbstractOpen}>
                   <CollapsibleTrigger className="flex items-center gap-2 text-lg font-semibold hover:text-sidebar-accent transition-colors">
                     <ChevronDown className={`w-5 h-5 transition-transform ${isPaper2AbstractOpen ? "rotate-180" : ""}`} />
                     Abstract
                   </CollapsibleTrigger>
-                  <CollapsibleContent className="pt-2">
-                    <p className="text-foreground leading-relaxed">
-                      Develops a stochastic model to study how to optimally place human feedback in agentic AI systems with
-                      multi-step workflows under a principal-agent framework, balancing uncertainty in AI jagged intelligence
-                      and human moral hazard.
-                    </p>
-                  </CollapsibleContent>
+                  <CollapsibleContent className="pt-2" />
                 </Collapsible>
               </div>
 
@@ -378,18 +378,18 @@ export default function Index() {
 
                   </div>
                 </div>
+                <p className="text-foreground leading-relaxed mb-4">
+                  Studies how learning algorithm choice interacts with classic coordinating contracts in multi-tier
+                  supply chains, showing that algorithmic bias and variance can reverse standard coordination results
+                  across prevalent data-driven methods.
+                </p>
+
                 <Collapsible open={isPaper3AbstractOpen} onOpenChange={setIsPaper3AbstractOpen}>
                   <CollapsibleTrigger className="flex items-center gap-2 text-lg font-semibold hover:text-sidebar-accent transition-colors">
                     <ChevronDown className={`w-5 h-5 transition-transform ${isPaper3AbstractOpen ? "rotate-180" : ""}`} />
                     Abstract
                   </CollapsibleTrigger>
-                  <CollapsibleContent className="pt-2">
-                    <p className="text-foreground leading-relaxed">
-                      Studies how learning algorithm choice interacts with classic coordinating contracts in multi-tier
-                      supply chains, showing that algorithmic bias and variance can reverse standard coordination results
-                      across prevalent data-driven methods.
-                    </p>
-                  </CollapsibleContent>
+                  <CollapsibleContent className="pt-2" />
                 </Collapsible>
               </div>
 
@@ -416,19 +416,19 @@ export default function Index() {
 
                   </div>
                 </div>
+                <p className="text-foreground leading-relaxed mb-4">
+                  Studies how EV drivers maintain private battery buffers by charging before their batteries are close to
+                  empty, and how these precautionary choices impose public burdens through congestion at shared charging
+                  stations; uses large-scale trip and charging data to estimate charging behavior and quantify its
+                  operational impact.
+                </p>
+
                 <Collapsible open={isPaper4AbstractOpen} onOpenChange={setIsPaper4AbstractOpen}>
                   <CollapsibleTrigger className="flex items-center gap-2 text-lg font-semibold hover:text-sidebar-accent transition-colors">
                     <ChevronDown className={`w-5 h-5 transition-transform ${isPaper4AbstractOpen ? "rotate-180" : ""}`} />
                     Abstract
                   </CollapsibleTrigger>
-                  <CollapsibleContent className="pt-2">
-                    <p className="text-foreground leading-relaxed">
-                      Studies how EV drivers maintain private battery buffers by charging before their batteries are close to
-                      empty, and how these precautionary choices impose public burdens through congestion at shared charging
-                      stations; uses large-scale trip and charging data to estimate charging behavior and quantify its
-                      operational impact.
-                    </p>
-                  </CollapsibleContent>
+                  <CollapsibleContent className="pt-2" />
                 </Collapsible>
               </div>
             </div>
