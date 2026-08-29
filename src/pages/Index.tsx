@@ -434,6 +434,8 @@ export default function Index() {
                 </div>
               </div>
 
+              <hr className="border-t border-border/30" />
+
               {/* Project 2 */}
               <div>
                 <div className="flex flex-col sm:flex-row-reverse gap-4 sm:gap-8 items-start mb-4">
@@ -457,6 +459,8 @@ export default function Index() {
                 </div>
               </div>
 
+              <hr className="border-t border-border/30" />
+
               {/* Project 3 */}
               <div>
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
@@ -479,6 +483,8 @@ export default function Index() {
                   </div>
                 </div>
               </div>
+
+              <hr className="border-t border-border/30" />
 
               {/* Project 4 */}
               <div>
