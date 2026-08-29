@@ -3,6 +3,10 @@ import paper1 from "@/assets/paper1-new.jpg";
 import paper2 from "@/assets/paper2-new.jpg";
 import paper3 from "@/assets/paper3-new.png";
 import paper4 from "@/assets/paper4-ev.png";
+import project1 from "@/assets/project1-privacy-collab.jpg";
+import project2 from "@/assets/project2-transfer-learning.jpg";
+import project3 from "@/assets/project3-token-allocation.jpg";
+import project4 from "@/assets/project4-ev-charging.jpg";
 import { ExternalLink, ChevronDown, Mail, MapPin, FileText, Linkedin } from "lucide-react";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { useState } from "react";
@@ -400,44 +404,98 @@ export default function Index() {
           {/* Ongoing Projects Section */}
           <div className="mt-16 md:mt-20">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Ongoing Projects</h2>
-            <div className="space-y-8">
-              <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-xl font-bold mb-2">Privacy-Preserving Collaborative Learning</h3>
-                <p className="text-foreground leading-relaxed">
-                  Studies how firms can jointly train predictive models while limiting the leakage of proprietary demand,
-                  inventory, or operational data; develops privacy-preserving learning mechanisms that trade off model
-                  performance, coordination benefits, and information exposure.
-                </p>
-                <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Differential privacy, federated learning, stochastic optimization, game theory.</p>
-              </div>
-              <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-xl font-bold mb-2">Transfer Learning for Privacy-Aware Agentic AI</h3>
-                <p className="text-foreground leading-relaxed">
-                  Studies how agentic AI systems can transfer knowledge across related tasks or users while respecting
-                  privacy constraints; characterizes when transfer improves decision quality and when it amplifies
-                  privacy risks or model misspecification.
-                </p>
-                <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Transfer learning, differential privacy, online learning, statistical learning theory.</p>
-              </div>
-              <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-xl font-bold mb-2">AI Token Allocation in a Production Network</h3>
-                <p className="text-foreground leading-relaxed">
-                  Studies how scarce AI inference capacity should be allocated across tasks, stages, and firms in a
-                  production network; develops models for prioritizing token budgets when AI assistance affects
-                  downstream productivity and bottlenecks.
-                </p>
-                <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Network optimization, queueing theory, mechanism design, dynamic resource allocation.</p>
-              </div>
-              <div className="border-l-4 border-foreground pl-6 py-2">
-                <h3 className="text-xl font-bold mb-2">Pricing For EV Chargers Under Congestion</h3>
-                <p className="text-foreground leading-relaxed">
-                  Studies dynamic pricing for electric vehicle charging stations when drivers face congestion and
-                  heterogeneous charging needs; designs congestion-aware prices that manage station utilization while
-                  accounting for driver substitution and timing responses.
-                </p>
-                <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Dynamic pricing, queueing theory, stochastic modeling, choice modeling.</p>
+            <div className="space-y-12 md:space-y-16">
+              {/* Project 1 */}
+              <div>
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
+                  <img
+                    src={project1}
+                    alt="Privacy-Preserving Collaborative Learning"
+                    loading="lazy"
+                    width={1024}
+                    height={768}
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl sm:text-2xl font-bold mb-2">Privacy-Preserving Collaborative Learning</h3>
+                    <p className="text-foreground leading-relaxed">
+                      Studies how firms can jointly train predictive models while limiting the leakage of proprietary demand,
+                      inventory, or operational data; develops privacy-preserving learning mechanisms that trade off model
+                      performance, coordination benefits, and information exposure.
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Differential privacy, federated learning, stochastic optimization, game theory.</p>
+                  </div>
+                </div>
               </div>
 
+              {/* Project 2 */}
+              <div>
+                <div className="flex flex-col sm:flex-row-reverse gap-4 sm:gap-8 items-start mb-4">
+                  <img
+                    src={project2}
+                    alt="Transfer Learning for Privacy-Aware Agentic AI"
+                    loading="lazy"
+                    width={1024}
+                    height={768}
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl sm:text-2xl font-bold mb-2">Transfer Learning for Privacy-Aware Agentic AI</h3>
+                    <p className="text-foreground leading-relaxed">
+                      Studies how agentic AI systems can transfer knowledge across related tasks or users while respecting
+                      privacy constraints; characterizes when transfer improves decision quality and when it amplifies
+                      privacy risks or model misspecification.
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Transfer learning, differential privacy, online learning, statistical learning theory.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Project 3 */}
+              <div>
+                <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 items-start mb-4">
+                  <img
+                    src={project3}
+                    alt="AI Token Allocation in a Production Network"
+                    loading="lazy"
+                    width={1024}
+                    height={768}
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl sm:text-2xl font-bold mb-2">AI Token Allocation in a Production Network</h3>
+                    <p className="text-foreground leading-relaxed">
+                      Studies how scarce AI inference capacity should be allocated across tasks, stages, and firms in a
+                      production network; develops models for prioritizing token budgets when AI assistance affects
+                      downstream productivity and bottlenecks.
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Network optimization, queueing theory, mechanism design, dynamic resource allocation.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Project 4 */}
+              <div>
+                <div className="flex flex-col sm:flex-row-reverse gap-4 sm:gap-8 items-start mb-4">
+                  <img
+                    src={project4}
+                    alt="Pricing For EV Chargers Under Congestion"
+                    loading="lazy"
+                    width={1024}
+                    height={768}
+                    className="w-full sm:w-80 h-64 sm:h-60 object-cover rounded-lg shadow-md flex-shrink-0"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl sm:text-2xl font-bold mb-2">Pricing For EV Chargers Under Congestion</h3>
+                    <p className="text-foreground leading-relaxed">
+                      Studies dynamic pricing for electric vehicle charging stations when drivers face congestion and
+                      heterogeneous charging needs; designs congestion-aware prices that manage station utilization while
+                      accounting for driver substitution and timing responses.
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-2"><span className="font-semibold">Methodologies:</span> Dynamic pricing, queueing theory, stochastic modeling, choice modeling.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
