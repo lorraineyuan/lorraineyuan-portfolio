@@ -14,6 +14,9 @@ import Layout from "@/components/Layout";
 
 export default function Index() {
   const [isAbstractOpen, setIsAbstractOpen] = useState(false);
+  const [isPaper2AbstractOpen, setIsPaper2AbstractOpen] = useState(false);
+  const [isPaper3AbstractOpen, setIsPaper3AbstractOpen] = useState(false);
+  const [isPaper4AbstractOpen, setIsPaper4AbstractOpen] = useState(false);
   const [isFlashTalkOpen, setIsFlashTalkOpen] = useState(false);
 
   return (
