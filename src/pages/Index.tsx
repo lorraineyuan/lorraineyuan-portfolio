@@ -587,10 +587,7 @@ export default function Index() {
                   <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Directed Reading Mentor</h3>
                   <div className="flex items-start gap-3 py-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
-                    <div>
-                      <p className="text-foreground text-sm font-bold mb-0.5">MBA Student Mentor</p>
-                      <p className="text-foreground text-sm">Guided MBA students in translating an academic paper's algorithm into an applied industry showcase.</p>
-                    </div>
+                    <p className="text-foreground text-sm">Guided MBA students in translating an academic paper's algorithm into an applied industry showcase.</p>
                   </div>
                 </div>
               </div>
