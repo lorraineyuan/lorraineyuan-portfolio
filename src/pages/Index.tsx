@@ -583,14 +583,19 @@ export default function Index() {
                 </div>
 
                 {/* Directed Reading Mentor */}
-                <div className="flex-1 flex flex-col justify-end">
+                <div>
                   <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Directed Reading Mentor</h3>
                   <div className="flex items-start gap-3 py-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-foreground/40 mt-[0.625rem] flex-shrink-0" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.625rem] flex-shrink-0" />
                     <p className="text-foreground text-sm">
                       Guided MBA students in translating an academic paper's algorithm into an applied industry showcase.
                     </p>
                   </div>
+                </div>
+
+                {/* MBA Student Mentor */}
+                <div>
+                  <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">MBA Student Mentor</h3>
                 </div>
               </div>
 
