@@ -554,7 +554,7 @@ export default function Index() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
               {/* Left column: Instructor + Directed Reading Mentor */}
-              <div className="flex flex-col gap-8 md:gap-10">
+              <div className="flex flex-col h-full justify-between md:gap-10">
                 {/* Instructor */}
                 <div>
                   <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Instructor</h3>
