@@ -729,7 +729,7 @@ export default function Index() {
           <div className="mb-6 md:mb-8">
             <div className="text-sm sm:text-base space-y-3">
               <p className="text-foreground">
-                In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰), with the family name first.
+                In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰), with the family name first. Roughly: <span className="italic">"Ywen Hwhy-bing"</span> — say "Ywen" (like "you" + "en"), "Hwhy" (like "why"), then "bing".
               </p>
             </div>
           </div>
@@ -739,10 +739,7 @@ export default function Index() {
             <h2 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">What My Name Means</h2>
             <div className="text-sm sm:text-base space-y-3">
               <p className="text-foreground">
-                The name <span className="font-bold">Huáibīng</span> (怀冰) literally means <span className="italic">"to hold ice within one's heart"</span> — a classical image for a clear mind and an unimpeachable character.
-              </p>
-              <p className="text-foreground">
-                Its most direct literary source is the Jin-dynasty writer Lu Ji, who praised an official as having <span className="italic">"a heart as if holding ice"</span> (心若怀冰). Ice within the breast served as a metaphor for moral clarity and integrity. In classical Chinese, ice is itself shorthand for purity, as in the idiom <span className="italic">"pure as ice, flawless as jade"</span> (冰清玉洁).
+                "Huaibing is a poetic Chinese name. 'Huai' means to hold or cherish, and 'bing' means ice, which traditionally symbolizes purity and integrity. So the name conveys the idea of keeping a pure and principled heart."
               </p>
             </div>
           </div>
