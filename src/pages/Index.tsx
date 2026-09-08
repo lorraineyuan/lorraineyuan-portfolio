@@ -405,7 +405,7 @@ export default function Index() {
                   />
                   <div className="flex-1">
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
-                      Charging Before Empty: Private Buffers and Public Burdens in Electric Vehicle Charging Behavior
+                      Charging Before Empty: Private Buffers and Public Burdens in Electric Vehicle Charging Behavior:{"\n\n"}
                     </h2>
                     <p className="text-muted-foreground mb-3 text-base">with Yu Nu</p>
                     <div className="flex flex-wrap gap-2">
