@@ -557,7 +557,7 @@ export default function Index() {
               <div className="flex-1 flex flex-col justify-between md:gap-10">
                 {/* Instructor */}
                 <div>
-                  <h3 className="text-base sm:text-lg font-bold mb-3 md:mb-4">Instructor</h3>
+                  <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Instructor</h3>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3 py-1">
                       <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
@@ -584,7 +584,7 @@ export default function Index() {
 
                 {/* Directed Reading Mentor */}
                 <div>
-                  <h3 className="text-base sm:text-lg font-bold mb-3 md:mb-4">Directed Reading Mentor</h3>
+                  <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Directed Reading Mentor</h3>
                   <div className="flex items-start gap-3 py-1">
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
                     <p className="text-foreground text-sm">Guided MBA students in translating an academic paper's algorithm into an applied industry showcase.</p>
@@ -594,7 +594,7 @@ export default function Index() {
 
               {/* Right column: Teaching Assistant */}
               <div className="flex-1 flex flex-col">
-                <h3 className="text-base sm:text-lg font-bold mb-3 md:mb-4">Teaching Assistant</h3>
+                <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Teaching Assistant</h3>
                 <div className="flex flex-col justify-between flex-1">
                   <div className="flex items-start gap-3 py-0.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
@@ -724,7 +724,7 @@ export default function Index() {
 
           {/* Pronouncing My Name */}
           <div className="mb-6 md:mb-8">
-            <div className="text-sm sm:text-base space-y-3">
+            <div className="text-base sm:text-lg space-y-3">
               <p className="text-foreground">
                 In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰). Huaibing is a poetic Chinese name. "Huai" means to hold or cherish, and "bing" means ice, which traditionally symbolizes purity and integrity. So the name conveys the idea of keeping a pure and principled heart.
               </p>
@@ -735,7 +735,7 @@ export default function Index() {
           </div>
 
           <div className="mb-6 md:mb-8">
-            <div className="text-sm sm:text-base space-y-3">
+            <div className="text-base sm:text-lg space-y-3">
               <p className="text-foreground"></p>
             </div>
           </div>
