@@ -606,7 +606,7 @@ export default function Index() {
             {/* Professional Service */}
             <div className="flex flex-col h-full">
               <h2 className="text-base sm:text-lg md:text-xl font-bold mb-2 md:mb-3">Professional Service</h2>
-              <ul className="space-y-3 md:space-y-4 text-xs sm:text-sm md:text-base list-none flex-1">
+              <ul className="text-xs sm:text-sm md:text-base list-none flex-1 flex flex-col justify-between">
                 <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
                   <span className="font-medium flex-1">Reviewer for MSOM Annual Conference</span>
                   <span className="text-muted-foreground sm:w-28 sm:text-right">2025</span>
