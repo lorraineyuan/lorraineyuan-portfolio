@@ -78,7 +78,7 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+      <section id="about" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E4E1D9]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">About Me</h1>
 
