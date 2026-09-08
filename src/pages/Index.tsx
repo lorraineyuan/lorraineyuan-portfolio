@@ -562,7 +562,7 @@ export default function Index() {
                     <div className="flex items-start gap-3 py-1">
                       <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
                       <div>
-                        <h4 className="text-base font-bold mb-1">Guest Lecturer, AI and Digital Transformations</h4>
+                        <h4 className="text-lg font-bold mb-1">Guest Lecturer, AI and Digital Transformations</h4>
                         <p className="text-muted-foreground text-base mb-1">MBA Elective</p>
                         <p className="text-foreground text-base">Presented on structuring human oversight of multi-step AI agent workflows</p>
                       </div>
@@ -570,7 +570,7 @@ export default function Index() {
                     <div className="flex items-start gap-3 py-1">
                       <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
                       <div>
-                        <h4 className="text-base font-bold mb-1">Co-instructor, Managing Operations</h4>
+                        <h4 className="text-lg font-bold mb-1">Co-instructor, Managing Operations</h4>
                         <p className="text-muted-foreground text-base mb-1">MBA Core</p>
                         <p className="text-foreground text-base mb-1">Evaluations:</p>
                         <div className="space-y-0.5 text-foreground text-base">
@@ -600,7 +600,7 @@ export default function Index() {
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
                     <div className="flex-1">
                       <div className="flex items-baseline justify-between gap-2">
-                        <h4 className="text-base font-bold">Business Data Analysis with SQL</h4>
+                        <h4 className="text-lg font-bold">Business Data Analysis with SQL</h4>
                         <span className="text-muted-foreground text-base whitespace-nowrap">Summer 2024</span>
                       </div>
                       <p className="text-muted-foreground text-base">MBA Elective</p>
@@ -610,7 +610,7 @@ export default function Index() {
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
                     <div className="flex-1">
                       <div className="flex items-baseline justify-between gap-2">
-                        <h4 className="text-base font-bold">Generative AI for Business Transformation</h4>
+                        <h4 className="text-lg font-bold">Generative AI for Business Transformation</h4>
                         <span className="text-muted-foreground text-base whitespace-nowrap">Spring 2024</span>
                       </div>
                       <p className="text-muted-foreground text-base">eCornell Certificate Program</p>
@@ -620,7 +620,7 @@ export default function Index() {
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
                     <div className="flex-1">
                       <div className="flex items-baseline justify-between gap-2">
-                        <h4 className="text-base font-bold">Managing Operations</h4>
+                        <h4 className="text-lg font-bold">Managing Operations</h4>
                         <span className="text-muted-foreground text-base whitespace-nowrap">Fall 2023, Spring 2021</span>
                       </div>
                       <p className="text-muted-foreground text-base">EMBA</p>
@@ -630,7 +630,7 @@ export default function Index() {
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
                     <div className="flex-1">
                       <div className="flex items-baseline justify-between gap-2">
-                        <h4 className="text-base font-bold">Operations Management</h4>
+                        <h4 className="text-lg font-bold">Operations Management</h4>
                         <span className="text-muted-foreground text-base whitespace-nowrap">Spring 2023</span>
                       </div>
                       <p className="text-muted-foreground text-base">Cornell-Peking MBA</p>
@@ -640,7 +640,7 @@ export default function Index() {
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
                     <div className="flex-1">
                       <div className="flex items-baseline justify-between gap-2">
-                        <h4 className="text-base font-bold">Innovation & New Venture Creation / The Customer Experience</h4>
+                        <h4 className="text-lg font-bold">Innovation & New Venture Creation / The Customer Experience</h4>
                         <span className="text-muted-foreground text-base whitespace-nowrap">Fall 2021</span>
                       </div>
                       <p className="text-muted-foreground text-base">MBA Elective</p>
