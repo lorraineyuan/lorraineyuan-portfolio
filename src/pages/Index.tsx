@@ -654,16 +654,6 @@ export default function Index() {
             </div>
           </section>
 
-          {/* Subsection 2: Independent Instruction, Paths Academics */}
-          <section className="border-t border-border/60 pt-8 md:pt-12">
-            <h2 className="text-xl sm:text-2xl font-bold mb-6 md:mb-8">Independent Instruction, Paths Academics</h2>
-            <div className="flex items-start gap-3 py-1">
-              <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
-              <p className="text-foreground text-sm sm:text-base">
-                Designed and taught applied curriculum in Python for Data Science and Comparative Economic Systems for over 200 undergraduate students; culminated in student projects and portfolios.
-              </p>
-            </div>
-          </section>
         </div>
       </section>
 
@@ -740,26 +730,6 @@ export default function Index() {
             <div className="text-sm sm:text-base space-y-3">
               <p className="text-foreground">
                 In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰), with the family name first.
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
-                <div className="bg-white/60 p-3 sm:p-4 border border-foreground/10">
-                  <p className="font-bold text-base sm:text-lg">Yuán</p>
-                  <p className="text-muted-foreground text-xs sm:text-sm">袁</p>
-                  <p className="text-xs sm:text-sm mt-1">Like saying <span className="italic">"you"</span> then <span className="italic">"on"</span> smoothly together — voice rises ↗</p>
-                </div>
-                <div className="bg-white/60 p-3 sm:p-4 border border-foreground/10">
-                  <p className="font-bold text-base sm:text-lg">Huái</p>
-                  <p className="text-muted-foreground text-xs sm:text-sm">怀</p>
-                  <p className="text-xs sm:text-sm mt-1">Like the word <span className="italic">"why"</span> but starting with a breathy <span className="italic">"h"</span> — voice rises ↗</p>
-                </div>
-                <div className="bg-white/60 p-3 sm:p-4 border border-foreground/10">
-                  <p className="font-bold text-base sm:text-lg">bīng</p>
-                  <p className="text-muted-foreground text-xs sm:text-sm">冰</p>
-                  <p className="text-xs sm:text-sm mt-1">Like <span className="italic">"bing"</span> (as in the search engine) — voice stays high →</p>
-                </div>
-              </div>
-              <p className="text-muted-foreground text-xs sm:text-sm">
-                Mandarin is tonal: ↗ = rising pitch (2nd tone), → = high level pitch (1st tone).
               </p>
             </div>
           </div>
