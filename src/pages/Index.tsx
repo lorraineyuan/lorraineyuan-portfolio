@@ -544,17 +544,26 @@ export default function Index() {
       {/* Teaching Section */}
       <section id="teaching" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Teaching</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 md:mb-3">Teaching</h1>
+          <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-8 md:mb-12">Johnson Graduate School of Management, Cornell University</p>
 
-          {/* Co-instructor */}
+          {/* Instructor */}
           <section className="mb-12 md:mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Co-instructor</h2>
-            <div className="border-l-4 border-primary pl-6 py-3">
-              <h3 className="text-lg font-bold mb-2">Managing Operations</h3>
-              <p className="text-muted-foreground mb-4">MBA Core, weekly review sessions</p>
-              <div className="space-y-3 text-foreground">
-                <div>Spring 2023 (Rating: 4.85/5, Number of respondents: 26)</div>
-                <div>Fall 2022 (Rating: 4.95/5, Number of respondents: 20)</div>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Instructor</h2>
+            <div className="space-y-6">
+              <div className="border-l-4 border-primary pl-6 py-3">
+                <h3 className="text-lg font-bold mb-1">Guest Lecturer, AI and Digital Transformations</h3>
+                <p className="text-muted-foreground mb-2">MBA Elective</p>
+                <p className="text-foreground">Presented on structuring human oversight of multi-step AI agent workflows</p>
+              </div>
+              <div className="border-l-4 border-primary pl-6 py-3">
+                <h3 className="text-lg font-bold mb-1">Co-instructor, Managing Operations</h3>
+                <p className="text-muted-foreground mb-2">MBA Core</p>
+                <p className="text-foreground mb-2">Evaluations:</p>
+                <div className="space-y-1 text-foreground">
+                  <div>Spring 2023: 4.85/5 (26 respondents)</div>
+                  <div>Fall 2022: 4.75/5 (20 respondents)</div>
+                </div>
               </div>
             </div>
           </section>
@@ -565,33 +574,40 @@ export default function Index() {
             <div className="space-y-6">
               <div className="border-l-4 border-primary pl-6 py-3">
                 <h3 className="text-lg font-bold">Business Data Analysis with SQL</h3>
-                <p className="text-muted-foreground">MBA Elective • Summer 2024</p>
+                <p className="text-muted-foreground">MBA Elective</p>
               </div>
               <div className="border-l-4 border-primary pl-6 py-3">
                 <h3 className="text-lg font-bold">Generative AI for Business Transformation</h3>
-                <p className="text-muted-foreground">eCornell Certificate Program • Spring 2024</p>
+                <p className="text-muted-foreground">eCornell Certificate Program</p>
               </div>
               <div className="border-l-4 border-primary pl-6 py-3">
                 <h3 className="text-lg font-bold">Managing Operations</h3>
-                <p className="text-muted-foreground">EMBA • Fall 2023, Spring 2021</p>
+                <p className="text-muted-foreground">EMBA</p>
               </div>
               <div className="border-l-4 border-primary pl-6 py-3">
                 <h3 className="text-lg font-bold">Operations Management</h3>
-                <p className="text-muted-foreground">Cornell–Peking MBA • Spring 2023</p>
+                <p className="text-muted-foreground">Cornell-Peking MBA</p>
               </div>
               <div className="border-l-4 border-primary pl-6 py-3">
                 <h3 className="text-lg font-bold">Innovation & New Venture Creation / The Customer Experience</h3>
-                <p className="text-muted-foreground">MBA Elective • Fall 2021</p>
+                <p className="text-muted-foreground">MBA Elective</p>
               </div>
             </div>
           </section>
 
           {/* Directed Reading Mentor */}
-          <section>
+          <section className="mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Directed Reading Mentor</h2>
             <div className="border-l-4 border-primary pl-6 py-3">
-              <h3 className="text-lg font-bold">Cornell Tech MBA '23</h3>
-              <p className="text-muted-foreground">Spring 2023</p>
+              <p className="text-foreground">Guided MBA students in translating an academic paper's algorithm into an applied industry showcase.</p>
+            </div>
+          </section>
+
+          {/* Independent Instruction, Paths Academics */}
+          <section>
+            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Independent Instruction, Paths Academics</h2>
+            <div className="border-l-4 border-primary pl-6 py-3">
+              <p className="text-foreground">Designed and taught applied curriculum in Python for Data Science and Comparative Economic Systems for over 200 undergraduate students; culminated in student projects and portfolios.</p>
             </div>
           </section>
         </div>
