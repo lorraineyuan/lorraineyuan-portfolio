@@ -734,7 +734,7 @@ export default function Index() {
           {/* What My Name Means */}
           <div className="mb-6 md:mb-8">
             <h2 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">What My Name Means</h2>
-            <div className="text-sm sm:text-base space-y-3">
+            <div className="text-base sm:text-lg space-y-3">
               <p className="text-foreground">
                 Huaibing is a poetic Chinese name. Huai means to hold or cherish, and bing means ice, which traditionally symbolizes purity and integrity. So the name conveys the idea of keeping a pure and principled heart.
               </p>
