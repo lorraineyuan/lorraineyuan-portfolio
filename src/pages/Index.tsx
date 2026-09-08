@@ -588,9 +588,9 @@ export default function Index() {
               </div>
 
               {/* Right column: Teaching Assistant */}
-              <div>
+              <div className="flex-1 flex flex-col">
                 <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Teaching Assistant</h3>
-                <div className="space-y-3">
+                <div className="flex flex-col justify-between flex-1">
                   <div className="border-l-4 border-primary pl-5 py-1.5">
                     <h4 className="text-base font-bold">Business Data Analysis with SQL</h4>
                     <p className="text-muted-foreground text-sm">MBA Elective</p>
