@@ -10,7 +10,7 @@ const navigation = [
   { name: "Research", hash: "#research" },
   { name: "Teaching", hash: "#teaching" },
   { name: "Service & Awards", hash: "#service-awards" },
-  { name: "Pronouncing My Name", hash: "#pronouncing-my-name" },
+  { name: "How to Pronounce My Name", hash: "#pronouncing-my-name" },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
