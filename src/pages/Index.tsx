@@ -132,10 +132,6 @@ export default function Index() {
               .
             </p>
             <p>
-              I obtained a B.S. in Mathematics and a B.A. in Economics from Renmin University of China. I also hold a
-              M.Eng. in Operations Research from Cornell Tech.
-            </p>
-            <p>
               My research interests center on <strong>responsible AI adoption</strong>, with a particular emphasis on{" "}
               <strong>privacy in data-driven decision making</strong> and the broader impact of{" "}
               <strong>AI adoption at scale</strong>.
