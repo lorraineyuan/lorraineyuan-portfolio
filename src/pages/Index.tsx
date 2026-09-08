@@ -417,10 +417,9 @@ export default function Index() {
                   </div>
                 </div>
                 <p className="text-lg text-foreground leading-relaxed mb-4">
-                  Studies how EV drivers maintain private battery buffers by charging before their batteries are close to
-                  empty, and how these precautionary choices impose public burdens through congestion at shared charging
-                  stations; uses large-scale trip and charging data to estimate charging behavior and quantify its
-                  operational impact.
+                  Collaborates with a large-scale EV data platform to model drivers' charging decisions as a sequence of
+                  mobility and charging events using a language-model paradigm, identifying key drivers of range anxiety
+                  and the precautionary battery buffers drivers maintain by charging well before batteries are empty.
                 </p>
 
                 <Collapsible open={isPaper4AbstractOpen} onOpenChange={setIsPaper4AbstractOpen}>
