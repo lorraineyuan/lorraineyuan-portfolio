@@ -726,18 +726,14 @@ export default function Index() {
           <div className="mb-6 md:mb-8">
             <div className="text-base sm:text-lg space-y-3">
               <p className="text-foreground">
-                In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰), with the family name first. Roughly: <span className="italic">"Ywen Hwhy-bing"</span> — say "Ywen" (like "you" + "en"), "Hwhy" (like "why"), then "bing".
+                In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰). Huaibing is a poetic Chinese name. Huai means to hold or cherish, and bing means ice, which traditionally symbolizes purity and integrity. So the name conveys the idea of keeping a pure and principled heart.
               </p>
             </div>
           </div>
 
-          {/* What My Name Means */}
           <div className="mb-6 md:mb-8">
-            <h2 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">What My Name Means</h2>
             <div className="text-base sm:text-lg space-y-3">
-              <p className="text-foreground">
-                Huaibing is a poetic Chinese name. Huai means to hold or cherish, and bing means ice, which traditionally symbolizes purity and integrity. So the name conveys the idea of keeping a pure and principled heart.
-              </p>
+              <p className="text-foreground"></p>
             </div>
           </div>
         </div>
