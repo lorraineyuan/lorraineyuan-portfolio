@@ -22,7 +22,7 @@ export default function Index() {
   return (
     <Layout>
       {/* Home Section */}
-      <section id="home" className="flex items-center justify-center px-4 sm:px-8 md:px-10 py-8 md:py-12 bg-[#FFFFFF]">
+      <section id="home" className="flex items-center justify-center px-4 sm:px-8 md:px-10 py-8 md:py-12 bg-[#FFFDF7]">
         <div className="max-w-7xl mx-auto w-full">
           <div className="flex flex-col md:flex-row gap-8 md:gap-16 items-center md:items-start mb-8">
             <div className="w-44 sm:w-52 md:w-60 flex-shrink-0">
@@ -78,7 +78,7 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+      <section id="about" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E4E1D9]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">About Me</h1>
 
@@ -192,7 +192,7 @@ export default function Index() {
       </section>
 
       {/* Research Section */}
-      <section id="research" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#FFFFFF]">
+      <section id="research" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#FFFDF7]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Research</h1>
 
@@ -542,7 +542,7 @@ export default function Index() {
       </section>
 
       {/* Teaching Section */}
-      <section id="teaching" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+      <section id="teaching" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E4E1D9]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Teaching</h1>
 
@@ -655,7 +655,7 @@ export default function Index() {
       </section>
 
       {/* Service & Awards Section */}
-      <section id="service-awards" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#FFFFFF]">
+      <section id="service-awards" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#FFFDF7]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Service & Awards</h1>
 
@@ -718,7 +718,7 @@ export default function Index() {
       </section>
 
       {/* Pronouncing My Name Section */}
-      <section id="pronouncing-my-name" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+      <section id="pronouncing-my-name" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E4E1D9]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">How to Pronounce My Name</h1>
 
