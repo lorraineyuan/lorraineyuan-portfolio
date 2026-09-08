@@ -594,7 +594,7 @@ export default function Index() {
 
               {/* Right column: Teaching Assistant */}
               <div className="flex-1 flex flex-col">
-                <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Teaching Assistant</h3>
+                <h3 className="text-base sm:text-lg font-bold mb-3 md:mb-4">Teaching Assistant</h3>
                 <div className="flex flex-col justify-between flex-1">
                   <div className="flex items-start gap-3 py-0.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
