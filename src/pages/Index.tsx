@@ -255,7 +255,7 @@ export default function Index() {
                       Abstract
                     </CollapsibleTrigger>
                     <CollapsibleContent className="pt-2">
-                      <p className="text-foreground leading-relaxed">
+                      <p className="text-lg text-foreground leading-relaxed">
                         Firms today have access to increasing amounts of customer data that can facilitate better demand
                         prediction and inventory management. However, security researchers have long demonstrated that
                         attackers can exploit these decision pipelines to recover sensitive data by combining data-driven
