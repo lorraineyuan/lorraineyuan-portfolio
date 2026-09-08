@@ -655,7 +655,7 @@ export default function Index() {
       </section>
 
       {/* Service & Awards Section */}
-      <section id="service-awards" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#FFFFFF]">
+      <section id="service-awards" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#FFFDF7]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Service & Awards</h1>
 
