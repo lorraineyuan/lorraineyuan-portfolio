@@ -735,7 +735,7 @@ export default function Index() {
           </div>
 
           <div className="mb-6 md:mb-8">
-            <div className="text-base sm:text-lg space-y-3">
+            <div className="text-sm sm:text-base space-y-3">
               <p className="text-foreground"></p>
             </div>
           </div>
