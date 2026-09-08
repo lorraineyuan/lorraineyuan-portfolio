@@ -157,7 +157,7 @@ export default function Index() {
               <div>
                 <h3 className="font-semibold mb-2">Methodologies</h3>
                 <p className="text-foreground">
-                  Data-Driven Optimization, Economic and Statistical Modelling, Empirical OM, Causal Inference
+                  Data-Driven Optimization, Mechanism Design, Empirical OM, Transformer Model
                 </p>
               </div>
             </div>
