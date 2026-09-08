@@ -552,9 +552,9 @@ export default function Index() {
               Johnson Graduate School of Management, Cornell University
             </h2>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            <div className="flex flex-col md:flex-row md:items-stretch gap-8 md:gap-12">
               {/* Left column: Instructor + Directed Reading Mentor */}
-              <div className="flex flex-col h-full justify-between md:gap-10">
+              <div className="flex-1 flex flex-col justify-between md:gap-10">
                 {/* Instructor */}
                 <div>
                   <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Instructor</h3>
