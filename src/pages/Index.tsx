@@ -138,10 +138,10 @@ export default function Index() {
               production networks and organizations.
             </p>
             <p>
-              I develop privacy-preserving data-driven algorithms and explore their impact for adoption at scale in
-              inventory management to enhance profitability maintaining customer privacy. More recently, my work applies
-              computational and statistical methods to design Human-AI copilot strategies for agentic AI within
-              production networks.
+              I develop algorithmic tools and analytical models to study how privacy, incentives, and workflow design
+              determine whether these technologies improve decision quality and operational performance. In a
+              complementary empirical stream, I apply transformer models to a large-scale real-world data to evaluate the
+              operational and societal consequences of emerging technology adoption such as electric vehicles.
             </p>
           </div>
 
