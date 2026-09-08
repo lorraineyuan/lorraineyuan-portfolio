@@ -550,7 +550,7 @@ export default function Index() {
           <section className="mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Co-instructor</h2>
             <div className="space-y-8">
-              <div className="border border-foreground p-6">
+              <div className="bg-card p-6 rounded-lg border border-border">
                 <h3 className="text-xl font-bold mb-2">Managing Operations</h3>
                 <p className="text-muted-foreground mb-4">MBA Core, weekly review sessions</p>
                 <div className="space-y-3 text-foreground">
@@ -559,12 +559,6 @@ export default function Index() {
                 </div>
               </div>
             </div>
-          </section>
-
-          {/* Independent Instruction */}
-          <section className="mb-12 md:mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Independent Instruction</h2>
-            <p className="text-muted-foreground italic">To be added.</p>
           </section>
 
           {/* Teaching Assistant */}
@@ -595,18 +589,12 @@ export default function Index() {
           </section>
 
           {/* Directed Reading Mentor */}
-          <section className="mb-12 md:mb-16">
+          <section>
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Directed Reading Mentor</h2>
             <div className="border-l-4 border-primary pl-6 py-3">
               <h3 className="text-lg font-bold">Cornell Tech MBA '23</h3>
-              <p className="text-muted-foreground">Mentee: 1 MBA Student • Spring 2023</p>
+              <p className="text-muted-foreground">Spring 2023</p>
             </div>
-          </section>
-
-          {/* Paths Academics */}
-          <section>
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Paths Academics</h2>
-            <p className="text-muted-foreground italic">To be added.</p>
           </section>
         </div>
       </section>
