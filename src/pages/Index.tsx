@@ -730,14 +730,13 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Miscellaneous Section */}
-      <section id="miscellaneous" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+      {/* Pronouncing My Name Section */}
+      <section id="pronouncing-my-name" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Miscellaneous</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Pronouncing My Name</h1>
 
           {/* Pronouncing My Name */}
           <div className="mb-6 md:mb-8">
-            <h2 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Pronouncing My Name</h2>
             <div className="text-sm sm:text-base space-y-3">
               <p className="text-foreground">
                 In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰), with the family name first.
