@@ -51,26 +51,26 @@ export default function Index() {
           </div>
 
           {/* Contacts row */}
-          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-start gap-x-8 gap-y-3 text-base sm:text-lg text-foreground/80 border-t border-foreground/15 pt-6">
+          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-start gap-x-8 gap-y-3 text-sm sm:text-base text-foreground/80 border-t border-foreground/15 pt-6">
             <div className="flex items-center gap-2">
-              <Mail className="w-5 h-5 text-foreground/60 flex-shrink-0" />
-              <a href="mailto:hy557@cornell.edu" className="underline underline-offset-4 hover:text-foreground hover:font-medium transition-colors break-all">
+              <Mail className="w-4 h-4 text-foreground/60 flex-shrink-0" />
+              <a href="mailto:hy557@cornell.edu" className="hover:text-blue-600 transition-colors break-all">
                 hy557@cornell.edu
               </a>
             </div>
             <div className="flex items-center gap-2">
-              <Linkedin className="w-5 h-5 text-foreground/60 flex-shrink-0" />
+              <Linkedin className="w-4 h-4 text-foreground/60 flex-shrink-0" />
               <a
                 href="https://www.linkedin.com/in/huaibing-lorraine-yuan-cornell"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="underline underline-offset-4 hover:text-foreground hover:font-medium transition-colors"
+                className="hover:text-blue-600 transition-colors"
               >
                 LinkedIn
               </a>
             </div>
             <div className="flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-foreground/60 flex-shrink-0" />
+              <MapPin className="w-4 h-4 text-foreground/60 flex-shrink-0" />
               <span>Cornell Tech, 2 West Loop Road, New York, NY 10044</span>
             </div>
           </div>
