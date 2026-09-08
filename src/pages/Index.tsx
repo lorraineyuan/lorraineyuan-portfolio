@@ -173,6 +173,9 @@ export default function Index() {
                 <li>
                   2026 AI in Business Conference at Ohio State's Max M. Fisher College of Business — <em>October 14–16</em>
                 </li>
+                <li>
+                  2026 INFORMS Annual Meeting, San Francisco
+                </li>
               </ul>
             </div>
           </div>
