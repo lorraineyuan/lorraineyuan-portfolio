@@ -724,7 +724,7 @@ export default function Index() {
 
           {/* Pronouncing My Name */}
           <div className="mb-6 md:mb-8">
-            <div className="text-sm sm:text-base space-y-3">
+            <div className="text-base sm:text-lg space-y-3">
               <p className="text-foreground">
                 In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰), with the family name first. Roughly: <span className="italic">"Ywen Hwhy-bing"</span> — say "Ywen" (like "you" + "en"), "Hwhy" (like "why"), then "bing".
               </p>
