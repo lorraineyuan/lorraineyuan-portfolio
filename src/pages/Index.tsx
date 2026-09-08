@@ -133,7 +133,7 @@ export default function Index() {
             </p>
             <p>
               My research interests center on{" "}
-              <span className="bg-black text-white px-1.5 py-0.5 rounded-sm">responsible AI governance</span>, with a
+              <strong>responsible AI governance</strong>, with a
               particular emphasis on&nbsp;how data-driven technology and generative AI reshape operational systems across
               production networks and organizations.
             </p>
