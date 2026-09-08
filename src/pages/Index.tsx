@@ -746,21 +746,34 @@ export default function Index() {
                 <div className="bg-white/60 p-3 sm:p-4 border border-foreground/10">
                   <p className="font-bold text-base sm:text-lg">Yuán</p>
                   <p className="text-muted-foreground text-xs sm:text-sm">袁</p>
-                  <p className="text-xs sm:text-sm mt-1">Sounds like <span className="italic">"you-ahn"</span> — voice rises ↗</p>
+                  <p className="text-xs sm:text-sm mt-1">Like saying <span className="italic">"you"</span> then <span className="italic">"on"</span> smoothly together — voice rises ↗</p>
                 </div>
                 <div className="bg-white/60 p-3 sm:p-4 border border-foreground/10">
                   <p className="font-bold text-base sm:text-lg">Huái</p>
                   <p className="text-muted-foreground text-xs sm:text-sm">怀</p>
-                  <p className="text-xs sm:text-sm mt-1">Sounds like <span className="italic">"hwhy"</span> — voice rises ↗</p>
+                  <p className="text-xs sm:text-sm mt-1">Like the word <span className="italic">"why"</span> but starting with a breathy <span className="italic">"h"</span> — voice rises ↗</p>
                 </div>
                 <div className="bg-white/60 p-3 sm:p-4 border border-foreground/10">
                   <p className="font-bold text-base sm:text-lg">bīng</p>
                   <p className="text-muted-foreground text-xs sm:text-sm">冰</p>
-                  <p className="text-xs sm:text-sm mt-1">Sounds like <span className="italic">"bing"</span> — voice stays high →</p>
+                  <p className="text-xs sm:text-sm mt-1">Like <span className="italic">"bing"</span> (as in the search engine) — voice stays high →</p>
                 </div>
               </div>
               <p className="text-muted-foreground text-xs sm:text-sm">
-                The numbers in pinyin indicate tones: ↗ = rising (2nd tone), → = high level (1st tone).
+                Mandarin is tonal: ↗ = rising pitch (2nd tone), → = high level pitch (1st tone).
+              </p>
+            </div>
+          </div>
+
+          {/* What My Name Means */}
+          <div className="mb-6 md:mb-8">
+            <h2 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">What My Name Means</h2>
+            <div className="text-sm sm:text-base space-y-3">
+              <p className="text-foreground">
+                The name <span className="font-bold">Huáibīng</span> (怀冰) literally means <span className="italic">"to hold ice within one's heart"</span> — a classical image for a clear mind and an unimpeachable character.
+              </p>
+              <p className="text-foreground">
+                Its most direct literary source is the Jin-dynasty writer Lu Ji, who praised an official as having <span className="italic">"a heart as if holding ice"</span> (心若怀冰). Ice within the breast served as a metaphor for moral clarity and integrity. In classical Chinese, ice is itself shorthand for purity, as in the idiom <span className="italic">"pure as ice, flawless as jade"</span> (冰清玉洁).
               </p>
             </div>
           </div>
