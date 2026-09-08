@@ -151,7 +151,7 @@ export default function Index() {
               <div>
                 <h3 className="font-semibold mb-2">Topics</h3>
                 <p className="text-foreground">
-                  Privacy-Aware Analytics, AI with Human-in-the-Loop, Supply Chain Management, Sustainable Transportation
+                  Privacy-Aware AI, AI Orchestration, Supply Chain Management, Sustainable Transportation
                 </p>
               </div>
               <div>
