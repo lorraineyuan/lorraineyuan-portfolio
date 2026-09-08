@@ -544,70 +544,85 @@ export default function Index() {
       {/* Teaching Section */}
       <section id="teaching" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2 md:mb-3">Teaching</h1>
-          <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-8 md:mb-12">Johnson Graduate School of Management, Cornell University</p>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Teaching</h1>
 
-          {/* Instructor */}
+          {/* Subsection 1: Johnson Graduate School of Management, Cornell University */}
           <section className="mb-12 md:mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Instructor</h2>
-            <div className="space-y-6">
-              <div className="border-l-4 border-primary pl-6 py-3">
-                <h3 className="text-lg font-bold mb-1">Guest Lecturer, AI and Digital Transformations</h3>
-                <p className="text-muted-foreground mb-2">MBA Elective</p>
-                <p className="text-foreground">Presented on structuring human oversight of multi-step AI agent workflows</p>
+            <h2 className="text-xl sm:text-2xl font-bold mb-6 md:mb-8">
+              Johnson Graduate School of Management, Cornell University
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+              {/* Left column: Instructor + Directed Reading Mentor */}
+              <div className="flex flex-col gap-8 md:gap-10">
+                {/* Instructor */}
+                <div>
+                  <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Instructor</h3>
+                  <div className="space-y-4">
+                    <div className="border-l-4 border-primary pl-5 py-2">
+                      <h4 className="text-base font-bold mb-1">Guest Lecturer, AI and Digital Transformations</h4>
+                      <p className="text-muted-foreground text-sm mb-1">MBA Elective</p>
+                      <p className="text-foreground text-sm">Presented on structuring human oversight of multi-step AI agent workflows</p>
+                    </div>
+                    <div className="border-l-4 border-primary pl-5 py-2">
+                      <h4 className="text-base font-bold mb-1">Co-instructor, Managing Operations</h4>
+                      <p className="text-muted-foreground text-sm mb-1">MBA Core</p>
+                      <p className="text-foreground text-sm mb-1">Evaluations:</p>
+                      <div className="space-y-0.5 text-foreground text-sm">
+                        <div>Spring 2023: 4.85/5 (26 respondents)</div>
+                        <div>Fall 2022: 4.75/5 (20 respondents)</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Directed Reading Mentor */}
+                <div className="flex-1 flex flex-col justify-end">
+                  <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Directed Reading Mentor</h3>
+                  <div className="border-l-4 border-primary pl-5 py-2">
+                    <p className="text-foreground text-sm">
+                      Guided MBA students in translating an academic paper's algorithm into an applied industry showcase.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="border-l-4 border-primary pl-6 py-3">
-                <h3 className="text-lg font-bold mb-1">Co-instructor, Managing Operations</h3>
-                <p className="text-muted-foreground mb-2">MBA Core</p>
-                <p className="text-foreground mb-2">Evaluations:</p>
-                <div className="space-y-1 text-foreground">
-                  <div>Spring 2023: 4.85/5 (26 respondents)</div>
-                  <div>Fall 2022: 4.75/5 (20 respondents)</div>
+
+              {/* Right column: Teaching Assistant */}
+              <div>
+                <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Teaching Assistant</h3>
+                <div className="space-y-3">
+                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                    <h4 className="text-base font-bold">Business Data Analysis with SQL</h4>
+                    <p className="text-muted-foreground text-sm">MBA Elective</p>
+                  </div>
+                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                    <h4 className="text-base font-bold">Generative AI for Business Transformation</h4>
+                    <p className="text-muted-foreground text-sm">eCornell Certificate Program</p>
+                  </div>
+                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                    <h4 className="text-base font-bold">Managing Operations</h4>
+                    <p className="text-muted-foreground text-sm">EMBA</p>
+                  </div>
+                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                    <h4 className="text-base font-bold">Operations Management</h4>
+                    <p className="text-muted-foreground text-sm">Cornell-Peking MBA</p>
+                  </div>
+                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                    <h4 className="text-base font-bold">Innovation & New Venture Creation / The Customer Experience</h4>
+                    <p className="text-muted-foreground text-sm">MBA Elective</p>
+                  </div>
                 </div>
               </div>
             </div>
           </section>
 
-          {/* Teaching Assistant */}
-          <section className="mb-12 md:mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Teaching Assistant</h2>
-            <div className="space-y-6">
-              <div className="border-l-4 border-primary pl-6 py-3">
-                <h3 className="text-lg font-bold">Business Data Analysis with SQL</h3>
-                <p className="text-muted-foreground">MBA Elective</p>
-              </div>
-              <div className="border-l-4 border-primary pl-6 py-3">
-                <h3 className="text-lg font-bold">Generative AI for Business Transformation</h3>
-                <p className="text-muted-foreground">eCornell Certificate Program</p>
-              </div>
-              <div className="border-l-4 border-primary pl-6 py-3">
-                <h3 className="text-lg font-bold">Managing Operations</h3>
-                <p className="text-muted-foreground">EMBA</p>
-              </div>
-              <div className="border-l-4 border-primary pl-6 py-3">
-                <h3 className="text-lg font-bold">Operations Management</h3>
-                <p className="text-muted-foreground">Cornell-Peking MBA</p>
-              </div>
-              <div className="border-l-4 border-primary pl-6 py-3">
-                <h3 className="text-lg font-bold">Innovation & New Venture Creation / The Customer Experience</h3>
-                <p className="text-muted-foreground">MBA Elective</p>
-              </div>
-            </div>
-          </section>
-
-          {/* Directed Reading Mentor */}
-          <section className="mb-12 md:mb-16">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Directed Reading Mentor</h2>
-            <div className="border-l-4 border-primary pl-6 py-3">
-              <p className="text-foreground">Guided MBA students in translating an academic paper's algorithm into an applied industry showcase.</p>
-            </div>
-          </section>
-
-          {/* Independent Instruction, Paths Academics */}
+          {/* Subsection 2: Independent Instruction, Paths Academics */}
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Independent Instruction, Paths Academics</h2>
-            <div className="border-l-4 border-primary pl-6 py-3">
-              <p className="text-foreground">Designed and taught applied curriculum in Python for Data Science and Comparative Economic Systems for over 200 undergraduate students; culminated in student projects and portfolios.</p>
+            <h2 className="text-xl sm:text-2xl font-bold mb-6 md:mb-8">Independent Instruction, Paths Academics</h2>
+            <div className="border-l-4 border-primary pl-5 py-2">
+              <p className="text-foreground text-sm sm:text-base">
+                Designed and taught applied curriculum in Python for Data Science and Comparative Economic Systems for over 200 undergraduate students; culminated in student projects and portfolios.
+              </p>
             </div>
           </section>
         </div>
