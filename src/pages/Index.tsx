@@ -640,7 +640,7 @@ export default function Index() {
           </section>
 
           {/* Subsection 2: Independent Instruction, Paths Academics */}
-          <section>
+          <section className="border-t border-border/60 pt-8 md:pt-12">
             <h2 className="text-xl sm:text-2xl font-bold mb-6 md:mb-8">Independent Instruction, Paths Academics</h2>
             <div className="flex items-center gap-3 py-1">
               <span className="w-1.5 h-1.5 rounded-full bg-black flex-shrink-0" />
