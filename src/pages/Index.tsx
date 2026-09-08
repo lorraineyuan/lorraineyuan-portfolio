@@ -82,7 +82,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">About Me</h1>
 
-          <div className="space-y-6 text-base sm:text-lg leading-relaxed text-foreground mb-12 md:mb-16">
+          <div className="space-y-6 text-lg sm:text-xl leading-relaxed text-foreground mb-12 md:mb-16">
             <p>
               I am Huaibing Yuan, a postdoctoral fellow at{"\u00a0"}
               <a
