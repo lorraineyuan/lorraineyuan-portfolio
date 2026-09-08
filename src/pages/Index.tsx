@@ -734,9 +734,36 @@ export default function Index() {
       <section id="miscellaneous" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Miscellaneous</h1>
-          <p className="text-foreground text-sm sm:text-base">
-            Content to be added.
-          </p>
+
+          {/* Pronouncing My Name */}
+          <div className="mb-6 md:mb-8">
+            <h2 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Pronouncing My Name</h2>
+            <div className="text-sm sm:text-base space-y-3">
+              <p className="text-foreground">
+                In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰), with the family name first.
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
+                <div className="bg-white/60 p-3 sm:p-4 border border-foreground/10">
+                  <p className="font-bold text-base sm:text-lg">Yuán</p>
+                  <p className="text-muted-foreground text-xs sm:text-sm">袁</p>
+                  <p className="text-xs sm:text-sm mt-1">Sounds like <span className="italic">"you-ahn"</span> — voice rises ↗</p>
+                </div>
+                <div className="bg-white/60 p-3 sm:p-4 border border-foreground/10">
+                  <p className="font-bold text-base sm:text-lg">Huái</p>
+                  <p className="text-muted-foreground text-xs sm:text-sm">怀</p>
+                  <p className="text-xs sm:text-sm mt-1">Sounds like <span className="italic">"hwhy"</span> — voice rises ↗</p>
+                </div>
+                <div className="bg-white/60 p-3 sm:p-4 border border-foreground/10">
+                  <p className="font-bold text-base sm:text-lg">bīng</p>
+                  <p className="text-muted-foreground text-xs sm:text-sm">冰</p>
+                  <p className="text-xs sm:text-sm mt-1">Sounds like <span className="italic">"bing"</span> — voice stays high →</p>
+                </div>
+              </div>
+              <p className="text-muted-foreground text-xs sm:text-sm">
+                The numbers in pinyin indicate tones: ↗ = rising (2nd tone), → = high level (1st tone).
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </Layout>
