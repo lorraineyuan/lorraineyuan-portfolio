@@ -726,7 +726,7 @@ export default function Index() {
           <div className="mb-6 md:mb-8">
             <div className="text-base sm:text-lg space-y-3">
               <p className="text-foreground">
-                In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰). Huaibing is a poetic Chinese name. Huai means to hold or cherish, and bing means ice, which traditionally symbolizes purity and integrity. So the name conveys the idea of keeping a pure and principled heart.
+                In Mandarin, my name is <span className="font-bold">Yuán Huáibīng</span> (袁怀冰). Huaibing is a poetic Chinese name. "Huai" means to hold or cherish, and "bing" means ice, which traditionally symbolizes purity and integrity. So the name conveys the idea of keeping a pure and principled heart.
               </p>
               <p className="text-foreground">
                 It's pronounced "why-bing" — huai rhymes with "why," followed by bing as in the English word.
