@@ -542,12 +542,12 @@ export default function Index() {
       </section>
 
       {/* Teaching Section */}
-      <section id="teaching" className="py-12 sm:py-16 md:py-20 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+      <section id="teaching" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Teaching</h1>
 
           {/* Subsection 1: Johnson Graduate School of Management, Cornell University */}
-          <section className="mb-12 md:mb-16">
+          <section className="mb-4 md:mb-6">
             <h2 className="text-xl sm:text-2xl font-bold mb-6 md:mb-8">
               Johnson Graduate School of Management, Cornell University
             </h2>
@@ -736,7 +736,7 @@ export default function Index() {
             <h2 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">What My Name Means</h2>
             <div className="text-sm sm:text-base space-y-3">
               <p className="text-foreground">
-                "Huaibing is a poetic Chinese name. 'Huai' means to hold or cherish, and 'bing' means ice, which traditionally symbolizes purity and integrity. So the name conveys the idea of keeping a pure and principled heart."
+                Huaibing is a poetic Chinese name. Huai means to hold or cherish, and bing means ice, which traditionally symbolizes purity and integrity. So the name conveys the idea of keeping a pure and principled heart.
               </p>
             </div>
           </div>
