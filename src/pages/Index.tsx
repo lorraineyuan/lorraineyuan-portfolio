@@ -601,36 +601,51 @@ export default function Index() {
                 <div className="flex flex-col justify-between flex-1">
                   <div className="flex items-start gap-3 py-0.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-bold">Business Data Analysis with SQL</h4>
+                    <div className="flex-1">
+                      <div className="flex items-baseline justify-between gap-2">
+                        <h4 className="text-base font-bold">Business Data Analysis with SQL</h4>
+                        <span className="text-muted-foreground text-sm whitespace-nowrap">Summer 2024</span>
+                      </div>
                       <p className="text-muted-foreground text-sm">MBA Elective</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 py-0.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-bold">Generative AI for Business Transformation</h4>
+                    <div className="flex-1">
+                      <div className="flex items-baseline justify-between gap-2">
+                        <h4 className="text-base font-bold">Generative AI for Business Transformation</h4>
+                        <span className="text-muted-foreground text-sm whitespace-nowrap">Spring 2024</span>
+                      </div>
                       <p className="text-muted-foreground text-sm">eCornell Certificate Program</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 py-0.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-bold">Managing Operations</h4>
+                    <div className="flex-1">
+                      <div className="flex items-baseline justify-between gap-2">
+                        <h4 className="text-base font-bold">Managing Operations</h4>
+                        <span className="text-muted-foreground text-sm whitespace-nowrap">Fall 2023, Spring 2021</span>
+                      </div>
                       <p className="text-muted-foreground text-sm">EMBA</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 py-0.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-bold">Operations Management</h4>
+                    <div className="flex-1">
+                      <div className="flex items-baseline justify-between gap-2">
+                        <h4 className="text-base font-bold">Operations Management</h4>
+                        <span className="text-muted-foreground text-sm whitespace-nowrap">Spring 2023</span>
+                      </div>
                       <p className="text-muted-foreground text-sm">Cornell-Peking MBA</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3 py-0.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
-                    <div>
-                      <h4 className="text-base font-bold">Innovation & New Venture Creation / The Customer Experience</h4>
+                    <div className="flex-1">
+                      <div className="flex items-baseline justify-between gap-2">
+                        <h4 className="text-base font-bold">Innovation & New Venture Creation / The Customer Experience</h4>
+                        <span className="text-muted-foreground text-sm whitespace-nowrap">Fall 2021</span>
+                      </div>
                       <p className="text-muted-foreground text-sm">MBA Elective</p>
                     </div>
                   </div>
