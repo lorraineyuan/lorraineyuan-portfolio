@@ -542,7 +542,7 @@ export default function Index() {
       </section>
 
       {/* Teaching Section */}
-      <section id="teaching" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+      <section id="teaching" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E4E1D9]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">Teaching</h1>
 
