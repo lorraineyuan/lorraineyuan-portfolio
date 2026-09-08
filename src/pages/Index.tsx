@@ -132,9 +132,9 @@ export default function Index() {
               .
             </p>
             <p>
-              My research interests center on <strong>responsible AI adoption</strong>, with a particular emphasis on{" "}
-              <strong>privacy in data-driven decision making</strong> and the broader impact of{" "}
-              <strong>AI adoption at scale</strong>.
+              My research interests center on responsible AI governance, with a particular emphasis on&nbsp;how
+              data-driven technology and generative AI reshape operational systems across production networks and
+              organizations.
             </p>
             <p>
               I develop privacy-preserving data-driven algorithms and explore their impact for adoption at scale in
