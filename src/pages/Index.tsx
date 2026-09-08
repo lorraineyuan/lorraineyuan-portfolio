@@ -427,7 +427,11 @@ export default function Index() {
                     <ChevronDown className={`w-5 h-5 transition-transform ${isPaper4AbstractOpen ? "rotate-180" : ""}`} />
                     Abstract
                   </CollapsibleTrigger>
-                  <CollapsibleContent className="pt-2" />
+                  <CollapsibleContent className="pt-2">
+                    <p className="text-base text-foreground leading-relaxed">
+                      Electric-vehicle (EV) charging is a sequential decision problem in which drivers' choices depend on an evolving mobility context that is challenging to observe or specify ex ante. We study whether the pretraining paradigm behind language models can recover this context from mobility trajectories, and how the recovered context shapes charging behavior. Using large-scale vehicle-level trip and charging data, we adapt a pretrained language model to mobility trajectories, extract its learned representations as latent mobility states, and incorporate these states into structural estimation of charging-location preferences. The learned representations improve charging prediction relative to contemporaneous-information and Transformer benchmarks and reveal distinct mobility states characterized by battery level, recent travel, time, and spatial context. More importantly, drivers' revealed preferences vary sharply across these states: distance sensitivity differs by more than threefold, and preferences for workplace, residential, amenity, and charging-dense environments can reverse sign across states. Our findings show how language-model paradigms can recover behaviorally meaningful state representations that enrich OR models of sequential decision making.
+                    </p>
+                  </CollapsibleContent>
                 </Collapsible>
               </div>
             </div>
