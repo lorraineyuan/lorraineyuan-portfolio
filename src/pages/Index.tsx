@@ -559,12 +559,12 @@ export default function Index() {
                 <div>
                   <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Instructor</h3>
                   <div className="space-y-4">
-                    <div className="border-l-4 border-primary pl-5 py-2">
+                    <div className="pl-6 py-2 relative before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-foreground/40">
                       <h4 className="text-base font-bold mb-1">Guest Lecturer, AI and Digital Transformations</h4>
                       <p className="text-muted-foreground text-sm mb-1">MBA Elective</p>
                       <p className="text-foreground text-sm">Presented on structuring human oversight of multi-step AI agent workflows</p>
                     </div>
-                    <div className="border-l-4 border-primary pl-5 py-2">
+                    <div className="pl-6 py-2 relative before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-foreground/40">
                       <h4 className="text-base font-bold mb-1">Co-instructor, Managing Operations</h4>
                       <p className="text-muted-foreground text-sm mb-1">MBA Core</p>
                       <p className="text-foreground text-sm mb-1">Evaluations:</p>
@@ -579,7 +579,7 @@ export default function Index() {
                 {/* Directed Reading Mentor */}
                 <div className="flex-1 flex flex-col justify-end">
                   <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Directed Reading Mentor</h3>
-                  <div className="border-l-4 border-primary pl-5 py-2">
+                  <div className="pl-6 py-2 relative before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-foreground/40">
                     <p className="text-foreground text-sm">
                       Guided MBA students in translating an academic paper's algorithm into an applied industry showcase.
                     </p>
@@ -591,23 +591,23 @@ export default function Index() {
               <div className="flex-1 flex flex-col">
                 <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Teaching Assistant</h3>
                 <div className="flex flex-col justify-between flex-1">
-                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                  <div className="pl-6 py-1.5 relative before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-foreground/40">
                     <h4 className="text-base font-bold">Business Data Analysis with SQL</h4>
                     <p className="text-muted-foreground text-sm">MBA Elective</p>
                   </div>
-                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                  <div className="pl-6 py-1.5 relative before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-foreground/40">
                     <h4 className="text-base font-bold">Generative AI for Business Transformation</h4>
                     <p className="text-muted-foreground text-sm">eCornell Certificate Program</p>
                   </div>
-                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                  <div className="pl-6 py-1.5 relative before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-foreground/40">
                     <h4 className="text-base font-bold">Managing Operations</h4>
                     <p className="text-muted-foreground text-sm">EMBA</p>
                   </div>
-                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                  <div className="pl-6 py-1.5 relative before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-foreground/40">
                     <h4 className="text-base font-bold">Operations Management</h4>
                     <p className="text-muted-foreground text-sm">Cornell-Peking MBA</p>
                   </div>
-                  <div className="border-l-4 border-primary pl-5 py-1.5">
+                  <div className="pl-6 py-1.5 relative before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-foreground/40">
                     <h4 className="text-base font-bold">Innovation & New Venture Creation / The Customer Experience</h4>
                     <p className="text-muted-foreground text-sm">MBA Elective</p>
                   </div>
@@ -619,7 +619,7 @@ export default function Index() {
           {/* Subsection 2: Independent Instruction, Paths Academics */}
           <section>
             <h2 className="text-xl sm:text-2xl font-bold mb-6 md:mb-8">Independent Instruction, Paths Academics</h2>
-            <div className="border-l-4 border-primary pl-5 py-2">
+            <div className="pl-6 py-2 relative before:content-[""] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1.5 before:h-1.5 before:rounded-full before:bg-foreground/40">
               <p className="text-foreground text-sm sm:text-base">
                 Designed and taught applied curriculum in Python for Data Science and Comparative Economic Systems for over 200 undergraduate students; culminated in student projects and portfolios.
               </p>
