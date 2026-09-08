@@ -167,8 +167,13 @@ export default function Index() {
             <h2 className="text-2xl sm:text-3xl font-bold mb-6 md:mb-8">Recent News</h2>
             <div className="space-y-4 text-base sm:text-lg text-foreground">
               <p>
-                I will present my latest work on "Governing Agentic AI Workflows" at the 2026 AI in Business Conference at Ohio State's Max M. Fisher College of Business, <em>October 14–16</em>.
+                I will present my latest work on "Governing Agentic AI Workflows" at
               </p>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>
+                  2026 AI in Business Conference at Ohio State's Max M. Fisher College of Business — <em>October 14–16</em>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
