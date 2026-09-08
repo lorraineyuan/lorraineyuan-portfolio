@@ -84,16 +84,7 @@ export default function Index() {
 
           <div className="space-y-6 text-base sm:text-lg leading-relaxed text-foreground mb-12 md:mb-16">
             <p>
-              I am Huaibing Yuan, a final year PhD candidate in the{" "}
-              <a
-                href="https://www.johnson.cornell.edu/programs/phd-program/operations-technology-information-management/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-900 hover:underline"
-              >
-                Operations, Technology, and Information Management (OTIM)
-              </a>{" "}
-              division of SC Johnson College of Business at{" "}
+              I am Huaibing Yuan, a postdoctoral fellow at{"\u00a0"}
               <a
                 href="https://tech.cornell.edu/"
                 target="_blank"
@@ -102,7 +93,16 @@ export default function Index() {
               >
                 Cornell Tech
               </a>
-              , where I am very fortunate to be advised by{" "}
+              . I obtained my PhD degree in the{" "}
+              <a
+                href="https://www.johnson.cornell.edu/programs/phd-program/operations-technology-information-management/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-900 hover:underline"
+              >
+                Operations, Technology, and Information Management (OTIM)
+              </a>{" "}
+              from SC Johnson College of Business, Cornell University, where I am very fortunate to be advised by{" "}
               <a
                 href="https://tech.cornell.edu/people/karan-girotra/"
                 target="_blank"
