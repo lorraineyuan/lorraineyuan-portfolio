@@ -557,7 +557,7 @@ export default function Index() {
               <div className="flex-1 flex flex-col justify-between md:gap-10">
                 {/* Instructor */}
                 <div>
-                  <h3 className="text-lg sm:text-xl font-bold mb-3 md:mb-4">Instructor</h3>
+                  <h3 className="text-base sm:text-lg font-bold mb-3 md:mb-4">Instructor</h3>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3 py-1">
                       <span className="w-1.5 h-1.5 rounded-full bg-black mt-[0.4375rem] flex-shrink-0" />
