@@ -389,7 +389,11 @@ export default function Index() {
                     <ChevronDown className={`w-5 h-5 transition-transform ${isPaper3AbstractOpen ? "rotate-180" : ""}`} />
                     Abstract
                   </CollapsibleTrigger>
-                  <CollapsibleContent className="pt-2" />
+                  <CollapsibleContent className="pt-2">
+                    <p className="text-base text-foreground leading-relaxed">
+                      We study the performance of revenue sharing and wholesale price contracts in supply chains where firms make data-driven inventory/pricing decisions. In these supply chains, each tier uses historical and contemporaneous data on demand and demand-relevant covariates to directly arrive at their optimal decisions, as opposed to the traditional paradigm where demand estimates are first exogenously specified, followed by a separate optimization stage. Our analysis shows that when there are several covariates that tend to have positive skew and exhibit high variance, or there is a lot of historical data, wholesale-price contracts tend to unexpectedly yield higher supply chain profits than revenue-sharing contracts—a stark contrast with well-known findings in the supply chain literature.
+                    </p>
+                  </CollapsibleContent>
                 </Collapsible>
               </div>
 
