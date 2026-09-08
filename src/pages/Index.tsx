@@ -718,7 +718,7 @@ export default function Index() {
       </section>
 
       {/* Pronouncing My Name Section */}
-      <section id="pronouncing-my-name" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+      <section id="pronouncing-my-name" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E4E1D9]">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">How to Pronounce My Name</h1>
 
