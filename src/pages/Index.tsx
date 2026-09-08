@@ -729,6 +729,16 @@ export default function Index() {
           </div>
         </div>
       </section>
+
+      {/* Miscellaneous Section */}
+      <section id="miscellaneous" className="py-8 sm:py-10 md:py-12 px-4 sm:px-8 md:px-10 bg-[#E5E5E5]">
+        <div className="max-w-7xl mx-auto">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Miscellaneous</h1>
+          <p className="text-foreground text-sm sm:text-base">
+            Content to be added.
+          </p>
+        </div>
+      </section>
     </Layout>
   );
 }
