@@ -315,7 +315,7 @@ export default function Index() {
                     <h2 className="text-2xl sm:text-3xl font-bold mb-2">
                       Governing Agentic AI Workflows: Oversight with Agentic and Assistive Designs
                     </h2>
-                    <p className="text-muted-foreground mb-3 text-base">with Karan Girotra</p>
+                    <p className="text-muted-foreground mb-3 text-base">with Elena Belavina and Karan Girotra</p>
                     <div className="flex flex-wrap gap-2">
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
                         In Preparation for Submission to Management Science
