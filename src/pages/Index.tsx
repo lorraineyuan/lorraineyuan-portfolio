@@ -602,58 +602,60 @@ export default function Index() {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">Service & Awards</h1>
 
-          {/* Professional Service */}
-          <div className="mb-6 md:mb-8">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 md:mb-4">Professional Service</h2>
-            <ul className="space-y-1 text-sm sm:text-base list-none">
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">Reviewer for MSOM Annual Conference</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2025</span>
-              </li>
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">Doctoral Fellow, Digital Life Initiative, Cornell University</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2024 - 2025</span>
-              </li>
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">Co-chair, OTIM PhD Forum, Cornell University</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2022 - 2023</span>
-              </li>
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">Session Co-chair, 2022 INFORMS Annual Conference</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2022</span>
-              </li>
-            </ul>
-          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+            {/* Professional Service */}
+            <div>
+              <h2 className="text-base sm:text-lg md:text-xl font-bold mb-2 md:mb-3">Professional Service</h2>
+              <ul className="space-y-1 text-xs sm:text-sm md:text-base list-none">
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">Reviewer for MSOM Annual Conference</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2025</span>
+                </li>
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">Doctoral Fellow, Digital Life Initiative, Cornell University</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2024 - 2025</span>
+                </li>
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">Co-chair, OTIM PhD Forum, Cornell University</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2022 - 2023</span>
+                </li>
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">Session Co-chair, 2022 INFORMS Annual Conference</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2022</span>
+                </li>
+              </ul>
+            </div>
 
-          {/* Honors & Awards */}
-          <div>
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 md:mb-4">Honors & Awards</h2>
-            <ul className="space-y-1 text-sm sm:text-base list-none">
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">Byron E. Grote Johnson Professional Scholarship, Cornell University</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2021, 2024</span>
-              </li>
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">Digital Life Initiative Doctoral Fellowship, Cornell University</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2024</span>
-              </li>
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">Cornell University Doctoral Fellowship</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2020 - 2026</span>
-              </li>
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">Noel Croucher Graduate Fellowship ($20,000), Cornell University</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2019</span>
-              </li>
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">Lester B. Knight Scholarship ($40,000), Cornell University</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2019</span>
-              </li>
-              <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4">
-                <span className="font-medium flex-1">First Class Study Scholarship, Renmin University of China</span>
-                <span className="text-muted-foreground sm:w-32 sm:text-right">2018</span>
-              </li>
-            </ul>
+            {/* Honors & Awards */}
+            <div>
+              <h2 className="text-base sm:text-lg md:text-xl font-bold mb-2 md:mb-3">Honors & Awards</h2>
+              <ul className="space-y-1 text-xs sm:text-sm md:text-base list-none">
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">Byron E. Grote Johnson Professional Scholarship, Cornell University</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2021, 2024</span>
+                </li>
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">Digital Life Initiative Doctoral Fellowship, Cornell University</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2024</span>
+                </li>
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">Cornell University Doctoral Fellowship</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2020 - 2026</span>
+                </li>
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">Noel Croucher Graduate Fellowship ($20,000), Cornell University</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2019</span>
+                </li>
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">Lester B. Knight Scholarship ($40,000), Cornell University</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2019</span>
+                </li>
+                <li className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                  <span className="font-medium flex-1">First Class Study Scholarship, Renmin University of China</span>
+                  <span className="text-muted-foreground sm:w-28 sm:text-right">2018</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
