@@ -335,7 +335,7 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
-                <p className="text-foreground leading-relaxed mb-4">
+                <p className="text-lg text-foreground leading-relaxed mb-4">
                   Develops a stochastic model to study how to optimally place human feedback in agentic AI systems with
                   multi-step workflows under a principal-agent framework, balancing uncertainty in AI jagged intelligence
                   and human moral hazard.
@@ -378,7 +378,7 @@ export default function Index() {
 
                   </div>
                 </div>
-                <p className="text-foreground leading-relaxed mb-4">
+                <p className="text-lg text-foreground leading-relaxed mb-4">
                   Studies how learning algorithm choice interacts with classic coordinating contracts in multi-tier
                   supply chains, showing that algorithmic bias and variance can reverse standard coordination results
                   across prevalent data-driven methods.
@@ -416,7 +416,7 @@ export default function Index() {
 
                   </div>
                 </div>
-                <p className="text-foreground leading-relaxed mb-4">
+                <p className="text-lg text-foreground leading-relaxed mb-4">
                   Studies how EV drivers maintain private battery buffers by charging before their batteries are close to
                   empty, and how these precautionary choices impose public burdens through congestion at shared charging
                   stations; uses large-scale trip and charging data to estimate charging behavior and quantify its
