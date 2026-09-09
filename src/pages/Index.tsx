@@ -39,7 +39,7 @@ export default function Index() {
               </div>
               <div className="mt-6">
                 <h2 className="text-base sm:text-lg text-muted-foreground mb-4">
-                  Postdoctoral fellow
+                  Postdoctoral Fellow
                 </h2>
                 <p className="text-base sm:text-lg text-muted-foreground">
                   Johnson College of Business
