@@ -337,7 +337,17 @@ export default function Index() {
                     <ChevronDown className={`w-5 h-5 transition-transform ${isPaper2AbstractOpen ? "rotate-180" : ""}`} />
                     Abstract
                   </CollapsibleTrigger>
-                  <CollapsibleContent className="pt-2" />
+                  <CollapsibleContent className="pt-2">
+                    <p className="text-base text-foreground leading-relaxed">
+                      Modern AI models can perform many discrete knowledge-work tasks accurately, yet their performance often deteriorates in multi-step workflows. In such settings, the central governance challenge is not simply whether to keep humans in the loop, but where to position them and how to incentivize their engagement when intermediate verification is costly and difficult to observe. We study optimal checkpoint placement—the frequency of human-AI engagement—in two workflow designs: an <em>agentic design</em>, in which AI executes and a human checks, and an <em>assistive design</em>, in which a human executes and AI checks.
+                    </p>
+                    <p className="text-base text-foreground leading-relaxed mt-4">
+                      We first establish the optimal checkpoint policy when engagement is observable and show that oversight is most valuable for tasks of intermediate difficulty. We then study how firms can implement this policy when checkpoint placement is hidden and AI exhibits jagged intelligence—that is, uneven performance across seemingly similar tasks. Our central result is that workflow design changes how informative final performance is about hidden human engagement. In the assistive design, workers bear more of the consequences of their own mistakes and are therefore better aligned with the firm. However, noise in AI-generated checks can make human engagement difficult to infer and costly to incentivize. In the agentic design, by contrast, exceptionally good outcomes can provide strong evidence of sufficient human oversight, allowing the firm to concentrate rewards on highly informative outcomes. Agentic workflows can therefore be less costly to govern despite weaker alignment between the worker's and the firm's interests.
+                    </p>
+                    <p className="text-base text-foreground leading-relaxed mt-4">
+                      We characterize the optimal incentive contract and workflow design and show how they depend on task difficulty, AI jaggedness, and human risk preferences. Practically, our results imply that firms should choose human–AI workflows not only for their production performance or perceived reliability, but also for how effectively their outcomes reveal and incentivize hidden human engagement.
+                    </p>
+                  </CollapsibleContent>
                 </Collapsible>
               </div>
 
