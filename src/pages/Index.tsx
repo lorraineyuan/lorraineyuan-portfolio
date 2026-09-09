@@ -139,9 +139,9 @@ export default function Index() {
             </p>
             <p>
               I develop algorithmic tools and analytical models to study how privacy, incentives, and workflow design
-              determine whether these technologies improve decision quality and operational performance.{"\u00a0"}
+               determine whether these technologies improve decision quality and operational performance.{"\u00a0"}{"\n"}
               In a complementary empirical stream, I apply transformer models to a large-scale real-world data to evaluate the
-              operational and societal consequences of emerging technology adoption such as electric vehicles.
+               operational and societal consequences of emerging technology adoption such as electric vehicles.{"\n"}
             </p>
           </div>
 
