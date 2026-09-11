@@ -64,10 +64,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Courier Prime', 'Courier New', monospace;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
     font-feature-settings: "kern" 1;
     -webkit-font-smoothing: antialiased;
-    line-height: 1.35;
+    line-height: 1.6;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -76,8 +76,13 @@ All colors MUST be HSL.
     line-height: 1.15;
   }
 
+  /* Keep badges and tabular tags in the typewriter face */
+  .font-typewriter {
+    font-family: 'Courier Prime', 'Courier New', monospace;
+  }
+
   p {
-    line-height: 1.35;
+    line-height: 1.6;
   }
 
   a {
