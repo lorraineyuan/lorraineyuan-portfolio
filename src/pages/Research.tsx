@@ -34,10 +34,10 @@ export default function Research() {
                     with Karan Girotra and Elena Belavina
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs font-typewriter">
                       Working Paper
                     </span>
-                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs font-typewriter">
                       Draft Upon Request
                     </span>
                   </div>
@@ -64,10 +64,10 @@ export default function Research() {
                     with Xiaoyue Yan, Karan Girotra and Elena Belavina
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs font-typewriter">
                       Working Paper
                     </span>
-                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs font-typewriter">
                       Draft Upon Request
                     </span>
                   </div>
@@ -94,7 +94,7 @@ export default function Research() {
                     with Karan Girotra and Elena Belavina
                   </p>
                   <div>
-                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs font-typewriter">
                       Work In Progress
                     </span>
                   </div>
@@ -122,10 +122,10 @@ export default function Research() {
                     with Elena Belavina
                   </p>
                   <div className="flex flex-wrap gap-2 mb-2">
-                    <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-xs font-medium">
+                    <span className="inline-block bg-primary text-primary-foreground px-3 py-1 rounded text-xs font-medium font-typewriter">
                       Major Revision at Management Science
                     </span>
-                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs">
+                    <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-xs font-typewriter">
                       Accepted to NYC Privacy Day at Google
                     </span>
                   </div>

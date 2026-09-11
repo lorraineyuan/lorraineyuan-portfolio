@@ -319,10 +319,10 @@ export default function Index() {
                     </h2>
                     <p className="text-muted-foreground mb-3 text-base">with Elena Belavina and Karan Girotra</p>
                     <div className="flex flex-wrap gap-2">
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm font-typewriter">
                         In Preparation for Submission to Management Science
                       </span>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm font-typewriter">
                         Draft Available Upon Request
                       </span>
                     </div>
@@ -371,10 +371,10 @@ export default function Index() {
                       with Elena Belavina, Karan Girotra and Xiaoyue Yan
                     </p>
                     <div className="flex flex-wrap gap-2">
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm font-typewriter">
                         In Preparation for Submission to Management Science
                       </span>
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm font-typewriter">
                         Draft Available Upon Request
                       </span>
                     </div>
@@ -416,7 +416,7 @@ export default function Index() {
                     </h2>
                     <p className="text-muted-foreground mb-3 text-base">with Yu Nu</p>
                     <div className="flex flex-wrap gap-2">
-                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm">
+                      <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm font-typewriter">
                         Working Paper
                       </span>
                     </div>
