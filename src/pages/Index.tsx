@@ -38,10 +38,10 @@ export default function Index() {
                 <p className="text-base text-gray-400 -mt-2">She/Her/Hers</p>
               </div>
               <div className="mt-6">
-                <h2 className="text-base sm:text-lg text-muted-foreground mb-4">
+                <h2 className="text-base sm:text-lg text-muted-foreground mb-4 font-typewriter">
                   Postdoctoral Fellow
                 </h2>
-                <p className="text-base sm:text-lg text-muted-foreground">
+                <p className="text-base sm:text-lg text-muted-foreground font-typewriter">
                   Johnson College of Business
                   <br />
                   Cornell Tech, Cornell University
