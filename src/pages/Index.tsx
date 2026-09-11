@@ -35,7 +35,7 @@ export default function Index() {
                   <div>Yuan</div>
 
                 </h1>
-                <p className="text-base text-gray-400 -mt-2">She/Her/Hers</p>
+                <p className="text-base text-gray-400 -mt-2 font-typewriter">She/Her/Hers</p>
               </div>
               <div className="mt-6">
                 <h2 className="text-base sm:text-lg text-muted-foreground mb-4 font-typewriter">

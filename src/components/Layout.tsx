@@ -88,7 +88,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Top Header — Le Labo style */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-background border-b border-foreground/15">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-background border-b border-foreground/15 font-typewriter">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 py-4 flex items-center justify-between gap-6">
           {/* Brand */}
           <a
@@ -119,7 +119,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   <Menu className="w-6 h-6" />
                 </button>
               </SheetTrigger>
-              <SheetContent side="right" className="bg-background text-foreground border-l border-foreground/15 w-72">
+              <SheetContent side="right" className="bg-background text-foreground border-l border-foreground/15 w-72 font-typewriter">
                 <div className="flex flex-col gap-1 mt-8 h-full">
                   <div className="flex-1 flex flex-col">
                     {renderNavItems(true)}
