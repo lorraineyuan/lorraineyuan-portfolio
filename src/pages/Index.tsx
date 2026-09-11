@@ -38,10 +38,10 @@ export default function Index() {
                 <p className="text-base text-gray-400 -mt-2">She/Her/Hers</p>
               </div>
               <div className="mt-6">
-                <h2 className="text-base sm:text-lg text-muted-foreground mb-4">
+                <h2 className="text-base sm:text-lg text-muted-foreground mb-4 font-typewriter">
                   Postdoctoral Fellow
                 </h2>
-                <p className="text-base sm:text-lg text-muted-foreground">
+                <p className="text-base sm:text-lg text-muted-foreground font-typewriter">
                   Johnson College of Business
                   <br />
                   Cornell Tech, Cornell University
@@ -51,7 +51,7 @@ export default function Index() {
           </div>
 
           {/* Contacts row */}
-          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-start gap-x-8 gap-y-3 text-sm sm:text-base text-foreground/80 border-t border-foreground/15 pt-6">
+          <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center md:justify-start gap-x-8 gap-y-3 text-sm sm:text-base text-foreground/80 border-t border-foreground/15 pt-6 font-typewriter">
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-foreground/60 flex-shrink-0" />
               <a href="mailto:hy557@cornell.edu" className="hover:text-blue-600 transition-colors break-all">
