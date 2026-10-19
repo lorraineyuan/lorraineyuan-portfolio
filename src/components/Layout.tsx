@@ -4,12 +4,15 @@ import { useState, useEffect } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
-const navigation = [
+type NavItem = { name: string; hash?: string; href?: string };
+
+const navigation: NavItem[] = [
   { name: "Home", hash: "#home" },
   { name: "About", hash: "#about" },
   { name: "Research", hash: "#research" },
   { name: "Teaching", hash: "#teaching" },
   { name: "Service & Awards", hash: "#service-awards" },
+  { name: "CV", href: "/cv.pdf" },
   { name: "How to Pronounce My Name", hash: "#pronouncing-my-name" },
 ];
 
