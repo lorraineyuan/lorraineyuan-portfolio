@@ -4,12 +4,15 @@ import { useState, useEffect } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
-const navigation = [
+type NavItem = { name: string; hash?: string; href?: string };
+
+const navigation: NavItem[] = [
   { name: "Home", hash: "#home" },
   { name: "About", hash: "#about" },
   { name: "Research", hash: "#research" },
   { name: "Teaching", hash: "#teaching" },
   { name: "Service & Awards", hash: "#service-awards" },
+  { name: "CV", href: "/cv.pdf" },
   { name: "How to Pronounce My Name", hash: "#pronouncing-my-name" },
 ];
 
@@ -61,6 +64,23 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const renderNavItems = (vertical = false) => (
     <>
       {navigation.map((item) => {
+        if (item.href) {
+          return (
+            <a
+              key={item.href}
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={cn(
+                "uppercase tracking-[0.15em] text-xs sm:text-sm transition-colors relative whitespace-nowrap",
+                vertical ? "py-3 text-base" : "py-2",
+                "text-foreground/55 hover:text-foreground"
+              )}
+            >
+              {item.name}
+            </a>
+          );
+        }
         const isActive = activeSection === item.hash;
         return (
           <a
@@ -82,18 +102,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </a>
         );
       })}
-      <a
-        href="/cv.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className={cn(
-          "uppercase tracking-[0.15em] text-xs sm:text-sm transition-colors relative whitespace-nowrap",
-          vertical ? "py-3 text-base" : "py-2",
-          "text-foreground/55 hover:text-foreground"
-        )}
-      >
-        CV
-      </a>
     </>
   );
 
