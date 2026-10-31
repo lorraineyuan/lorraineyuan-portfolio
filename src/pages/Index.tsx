@@ -177,6 +177,14 @@ export default function Index() {
                 </li>
                 <li>
                   2026 INFORMS Annual Meeting, San Francisco
+                  <ul className="list-[circle] list-inside space-y-1 ml-5 mt-2 text-base">
+                    <li>
+                      Nov 2nd, 11:00 AM–12:15 PM, Moscone South-204
+                    </li>
+                    <li>
+                      Nov 3rd, 3:45 PM–4:00 PM, Moscone South-70
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
