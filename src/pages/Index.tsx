@@ -425,7 +425,7 @@ export default function Index() {
                     <p className="text-muted-foreground mb-3 text-base">with Yu Nu</p>
                     <div className="flex flex-wrap gap-2">
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm font-typewriter">
-                        Working Paper
+                        Accepted to NeurIPS ML×OR Workshop
                       </span>
                       <a
                         href="https://openreview.net/forum?id=QiNWmowjma"
