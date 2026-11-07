@@ -433,8 +433,7 @@ export default function Index() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1 bg-background border border-border text-foreground px-3 py-1 rounded text-sm font-typewriter hover:text-blue-600 transition-colors"
                       >
-                        <ExternalLink className="w-3 h-3" />
-                        <span>[link]</span>
+                        <span>OpenReview</span>
                       </a>
                     </div>
 
