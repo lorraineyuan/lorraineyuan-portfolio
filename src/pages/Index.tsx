@@ -7,7 +7,7 @@ import project1 from "@/assets/project1-privacy-collab.jpg";
 import project2 from "@/assets/project2-transfer-learning.jpg";
 import project3 from "@/assets/project3-token-allocation.jpg";
 import project4 from "@/assets/project4-ev-charging.jpg";
-import { ExternalLink, ChevronDown, Mail, MapPin, FileText, Linkedin } from "lucide-react";
+import { ChevronDown, Mail, MapPin, FileText, Linkedin } from "lucide-react";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { useState } from "react";
 import Layout from "@/components/Layout";
