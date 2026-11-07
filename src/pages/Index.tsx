@@ -427,6 +427,15 @@ export default function Index() {
                       <span className="inline-block bg-background border border-border text-foreground px-3 py-1 rounded text-sm font-typewriter">
                         Working Paper
                       </span>
+                      <a
+                        href="https://openreview.net/forum?id=QiNWmowjma"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-base text-muted-foreground hover:text-blue-600 transition-colors"
+                      >
+                        <ExternalLink className="w-3 h-3" />
+                        <span>[link]</span>
+                      </a>
                     </div>
 
                   </div>
