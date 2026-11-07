@@ -7,7 +7,7 @@ import project1 from "@/assets/project1-privacy-collab.jpg";
 import project2 from "@/assets/project2-transfer-learning.jpg";
 import project3 from "@/assets/project3-token-allocation.jpg";
 import project4 from "@/assets/project4-ev-charging.jpg";
-import { ExternalLink, ChevronDown, Mail, MapPin, FileText, Linkedin } from "lucide-react";
+import { ChevronDown, Mail, MapPin, FileText, Linkedin } from "lucide-react";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "@/components/ui/collapsible";
 import { useState } from "react";
 import Layout from "@/components/Layout";
@@ -433,8 +433,7 @@ export default function Index() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1 bg-background border border-border text-foreground px-3 py-1 rounded text-sm font-typewriter hover:text-blue-600 transition-colors"
                       >
-                        <ExternalLink className="w-3 h-3" />
-                        <span>[link]</span>
+                        <span>OpenReview</span>
                       </a>
                     </div>
 
